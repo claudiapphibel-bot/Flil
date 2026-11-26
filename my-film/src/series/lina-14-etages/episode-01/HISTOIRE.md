@@ -271,3 +271,46 @@ Les vraies voix sont plus longues que le minutage prévu. Pour garder 90 s, un p
 - **Répliques coupées** (générées mais non utilisées) : « Madame Iris ? », « C'est pas possible. », « Qui ça, elle ? », « Euh… vos poignets… ils brillent. », « Venez avec moi. Vite. », « Elle a… ta voix. ».
 - **Nouveau calage** (battements) : immeuble 0–8 · yeux 8–14 · salon 14–22 · télé 22–26 · couloir/Iris 26–53 · pelote 53–55 · chaise vide 55–59 · montage ascenseur 59–67 · Noé 67–85 · porte de l'escalier 85–95 · **pause sur la poignée 95–99** · révélation 99–105 · l'Autre / Lina 105–121 · **pic (fils) 123** · Iris 129–137 · porte 15 + voix 137–149 · lucarne 149–152 · retour à l'immeuble 152–156 · titre et vote 156–180.
 - Le pic tombe à 61,5 s (68 % du film). La dernière image est identique à la première (boucle vérifiée).
+
+---
+
+# Version 2 : découpage en scènes Seedance (à valider, rien n'est généré)
+Méthode : Seedance 2.5, 720p, voix et lèvres générées avec l'animation (voir `CLAUDE.md`). Les répliques coupées dans la version 1 sont remises.
+
+## Structure de l'épisode (87 s, 120 BPM)
+| Temps | Battements | Contenu | Fait par |
+|---|---|---|---|
+| 0–2 s | b0–4 | Accroche : l'immeuble, zoom rapide vers la seule fenêtre allumée | Remotion (image fixe, boucle) |
+| 2–74 s | b4–148 | **8 scènes Seedance** (72 s) | Seedance 2.5 |
+| 74–76 s | b148–152 | Retour à l'immeuble (zoom arrière jusqu'à l'image de départ) | Remotion |
+| 76–87 s | b152–174 | Titre, carte de vote, LIKE / ABONNE-TOI, narrateur | Remotion |
+
+Musique d'ambiance mystérieuse (ElevenLabs Music, instrumentale) sous tout l'épisode, volume bas.
+
+## Les 8 scènes
+Raccord : ⛓ = la scène prolonge la précédente (elle part de sa dernière image) ; ✂ = coupe franche sur un battement.
+
+| # | Durée | Raccord | Lieu | Ce qui se passe | Répliques |
+|---|---|---|---|---|---|
+| 1 | 8 s | ✂ | Salon | Très gros plan : les yeux de Lina s'ouvrent (réveil 04:44). Elle se redresse, cartons dans l'ombre. Elle appelle. Fin : son reflet dans la télé cligne en retard. | LINA : « Maman ? » … « Y a quelqu'un ? » |
+| 2 | 10 s | ✂ | Couloir du 14ᵉ | Lina entre dans le couloir, découvre Iris qui tricote. Plan large, puis gros plans. | IRIS : « Encore debout à 4 h 44, ma puce ? » · LINA : « Comment ça, « encore » ? » · IRIS : « Surtout, ne prends pas l'escalier. » |
+| 3 | 6 s | ⛓ 2 | Couloir | Lina se tourne vers l'ascenseur… se retourne : la chaise est vide, une aiguille se balance. Gros plan sur la pelote turquoise posée. | LINA : « Madame Iris ? » |
+| 4 | 12 s | ✂ | Palier de l'ascenseur | Montage rapide : le doigt appuie, l'écran reste sur « 14 », ding. Les portes s'ouvrent sur Noé et sa lampe. | NOÉ : « Enfin quelqu'un ! J'appuie sur tous les boutons depuis des heures ! Partout, c'est le quatorze ! » · LINA : « C'est pas possible. » |
+| 5 | 8 s | ⛓ 4 | Bout du couloir | Noé braque sa lampe sur la porte de l'escalier : une silhouette derrière le hublot. Gros plan sur la main de Lina sur la poignée, **silence** (pause avant la révélation). | NOÉ : « Elle, elle t'attend depuis hier. » · LINA : « Qui ça, « elle » ? » |
+| 6 | 10 s | ✂ | Cage d'escalier | La porte s'ouvre : l'Autre, la cerise jumelle bordeaux. Courant d'air dans leurs feuilles. Champ / contrechamp. | L'AUTRE : « T'en as mis, du temps. » · LINA : « Pourquoi t'as mon visage ? » · L'AUTRE : « Tu poses toujours la même question. » |
+| 7 | 8 s | ⛓ 6 | Cage d'escalier | **PIC** : les fils s'illuminent, se tendent et s'unissent dans un éclair. Le fil remonte jusqu'à Iris, dans l'encadrement de la porte. | NOÉ (hors champ) : « Euh… vos poignets… ils brillent. » · IRIS : « Je vous avais dit de ne jamais vous croiser ! » |
+| 8 | 10 s | ⛓ 7 | Cage d'escalier | Une porte « 15 » apparaît en haut des marches. Trois coups. Une voix étouffée, la voix de Lina. Noé terrifié. Lina lève les yeux vers la lucarne (fin, enchaîne sur l'immeuble). | IRIS : « Venez avec moi. Vite ! » · VOIX : « Lina… c'est moi. Ouvre-moi. » · NOÉ : « Elle a… ta voix ! » |
+
+## Ordre de fabrication (pour les raccords et les voix)
+1. **Vague 1** (en parallèle) : scènes 1, 2, 4 et 6. → je vérifie, surtout les **deux jumelles** de la scène 6.
+2. **Vague 2** (prolongements) : scènes 3 (depuis 2), 5 (depuis 4), 7 (depuis 6), puis 8 (depuis 7).
+3. Voix : Iris et Lina reprennent les voix du test validé ; Noé et l'Autre gardent les voix de leur première scène (4 et 6), données en référence aux scènes suivantes. Narrateur de fin réenregistré avec ElevenLabs (plus naturel).
+
+## Devis
+| Poste | Crédits |
+|---|---|
+| 8 scènes Seedance 2.5, 720p, 72 s | ≈ 504 |
+| Musique ElevenLabs (≈ 87 s) | ≈ 3 à 5 |
+| Narrateur ElevenLabs | ≈ 0,5 |
+| **Total estimé** | **≈ 510** (plafond : 550) |
+Une scène ratée n'est refaite qu'avec votre accord (≈ 42 à 84 crédits selon sa durée).
