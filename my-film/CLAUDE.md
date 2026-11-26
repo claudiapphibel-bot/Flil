@@ -40,7 +40,7 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 ## FORMAT
 - Composition de **1080 × 1920** (vertical TikTok), **60 images par seconde**.
 - **Fines bandes noires en haut et en bas** (60 px chacune) : image utile de 1080 × 1800, rapport **6:10**.
-- Durée : **de 1 min à 1 min 30** (3 600 à 5 400 images).
+- Durée : **de 61 s à 75 s** (un peu plus d'une minute : nécessaire pour la rémunération TikTok, et assez court pour tenir le budget d'un épisode par jour).
 - **Pas de voix off pendant l'histoire** : seuls les personnages parlent, entre eux.
 - **Narrateur pour l'appel à l'action uniquement** : à la fin, pendant la carte de vote, une voix de narrateur énergique (toujours la même pour la chaîne) lit les choix, demande d'écrire la réponse en commentaire, de **liker** et de **s'abonner**. La carte affiche aussi les boutons « LIKE » et « ABONNE-TOI ». Le titre s'affiche alors plus vite (un quart de battement par lettre) pour laisser au narrateur le temps de parler.
 - **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA).
@@ -58,6 +58,7 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 - **Palette vive et appétissante** : rouges, verts, jaunes, oranges saturés pour les personnages ; décors un peu plus neutres et chauds (inox, bois, crème) pour qu'ils ressortent.
 
 ## PERSONNAGES : les fruits humains
+- **Tous les personnages principaux sont des adultes** (ou n'ont pas d'âge dit). **Jamais d'enfant ni d'adolescent**, ni dans le présent ni en souvenir : les règles de TikTok interdisent toute ressemblance avec un mineur en contenu IA, et les filtres de Seedance bloquent ces scènes. Un souvenir d'enfance se montre par des objets, des lieux ou des ombres, jamais par une version enfant d'un personnage.
 - **Tête = un fruit ou un légume entier**, immédiatement reconnaissable par sa forme, sa couleur et sa texture. Sa queue, ses feuilles ou son pédoncule servent de « coiffure ».
 - **Corps humain** aux proportions de dessin animé : épaules, bras, mains (souvent gantées), jambes. La peau visible (cou, bras) a **la couleur du fruit**.
 - **Tenue liée au rôle** : veste de chef et tablier, blouse, uniforme, pyjama, toque, casquette…
@@ -70,7 +71,8 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 
 ## TEXTE (le moins possible)
 - **Pas de sous-titres, pas de mots-chocs, pas d'afficheur ni d'interface de jeu** : l'histoire passe par l'image et les voix.
-- Seuls textes à l'écran : le **titre de fin** et la **carte de vote**.
+- Seuls textes à l'écran : **une phrase d'accroche** dans les 1,5 premières secondes (sobre, avec un mot-clé recherché sur TikTok), le **titre de fin** et la **carte de vote**.
+- **Zone sûre TikTok** : l'interface de TikTok cache le bas de l'image (description) et le bord droit (boutons). Tout texte et tout élément important reste dans la zone **x 60–960 px, y 150–1450 px** (sur 1080 × 1920).
 - **Polices** (fichiers locaux dans `public/fonts/`, chargés avec `@remotion/fonts`) : **Playfair Display** (titre, question du vote) et **Inter** (texte du vote). Style sobre et élégant, jamais « jouet ».
 
 ## ANIMATION
@@ -136,7 +138,7 @@ Bibliothèque actuelle :
 
 ## IA (Higgsfield) : quand et comment
 **Méthode retenue (validée sur test) : Seedance 2.5 en mode « omni_reference »**, comme les mini-séries Higgsfield (« Short Drama »). Pour chaque scène de 6 à 12 s, Seedance génère **en une seule passe** l'animation, les **voix**, les **lèvres synchronisées** et le découpage en plans (plan large, gros plans), à partir des **images de référence** des personnages et du décor.
-- **Budget : environ 550 crédits par épisode** (Seedance 2.5 en 720p ≈ 7 crédits par seconde de film). Avant chaque lot : estimer le coût, puis tenir à jour le tableau « Crédits » dans `HISTOIRE.md`. Si le budget risque d'être dépassé, s'arrêter et demander.
+- **Budget : environ 400 crédits par épisode** (Seedance 2.5 en 720p ≈ 7 crédits par seconde de film, voir PUBLICATION). Avant chaque lot : estimer le coût, puis tenir à jour le tableau « Crédits » dans `HISTOIRE.md`. Si le budget risque d'être dépassé, s'arrêter et demander.
 - **Rien n'est généré sans feu vert** sur `HISTOIRE.md` et sur le découpage en scènes Seedance.
 - **Économiser** : tester une scène avant tout l'épisode ; réutiliser les fiches de référence de la série ; ne jamais régénérer « pour voir ». Une scène ratée n'est refaite qu'après accord.
 - **Images de référence** : une fiche par personnage (déjà générées pour la série) + une image du décor de la scène. Elles sont passées dans `medias` et désignées dans le prompt (« image 2 », « image 3 »…).
@@ -159,6 +161,24 @@ Une série se range dans `src/series/<nom-de-la-serie>/`.
 - **Rappel au début des épisodes 2 et suivants** : pendant le premier plan, un petit encart en haut, du type « Épisode précédent : vous avez choisi B ». Il s'affiche **par-dessus** l'image de départ, pour ne pas casser la boucle.
 - **Habillage commun** à tous les épisodes : même titre de série, même générique de fin, mêmes personnages et décors. Seuls changent le numéro, le nom de l'épisode et l'appel à l'action.
 - **Personnages, décors et voix récurrents créés une seule fois** (code dans `src/series/<nom>/commun/`, fichiers dans `public/ia/<nom>/`) et réutilisés tels quels par chaque épisode.
+
+## PUBLICATION ET CHAÎNE TIKTOK (@lunenoire.studio)
+Décisions validées, à appliquer à chaque épisode (source : plan de lancement marketing).
+- **Rythme** : **un épisode par jour**, à heure fixe entre **18 h et 20 h** (heure de Paris), plus des **bonus** (« Qui a raison ? », « Quel fruit es-tu ? », « Choisis ta porte », réponses en vidéo aux commentaires) faits **dans Remotion à partir des images et scènes existantes, sans crédit**.
+- **Vote** : toujours **deux choix, A ou B**. Le vote se ferme **18 h après la publication** ; l'épisode suivant sort le lendemain à la même heure et **annonce le résultat** en ouverture (par exemple « 62 % ont choisi B »).
+- **Production en deux temps** (pour tenir un épisode par jour) : seule la **scène d'ouverture** d'un épisode dépend du vote (≈ 10 s). Tout le reste de l'épisode est produit **à l'avance** ; la scène d'ouverture est produite **après la fermeture du vote**, dans les quelques heures avant la publication. Garder plusieurs jours d'épisodes « communs » d'avance.
+- **Budget** : ≈ **400 crédits par épisode** (≈ 65 s en Seedance 720p). L'utilisatrice recharge les crédits pour finir la saison ; prévenir avant chaque lot si le solde ne suffit pas.
+- **À chaque publication** :
+  - étiquette **« Contenu généré par IA »** activée ;
+  - **sous-titres automatiques TikTok** activés (les vidéos n'ont pas de sous-titres incrustés) ;
+  - **couverture** avec le titre de l'épisode et un mot-clé ;
+  - **légende** avec mots-clés (« fruit IA », « histoire fruit », « tu choisis ») et 3 à 5 hashtags : `#fruitIA #histoirefruit #fruitdrama #lina14etages #tuchoisis` ;
+  - **commentaire épinglé** « A ou B ? » ;
+  - ajout à la **playlist** « Saison 1 — Lina, les 14 étages » ;
+  - republication sur **YouTube Shorts** et **Instagram Reels** (même nom de chaîne).
+- **Profil** : compte **personnel** (pas professionnel). Nom affiché avec le nom de la série, photo = le personnage principal en gros plan dans le style actuel, bio avec « fruit » et l'heure de sortie. Vidéos épinglées : épisode 1, « Comment ça marche », meilleure vidéo. Les anciennes vidéos d'un autre style passent en privé.
+- **Ton** : du suspense et de l'humour, **jamais de sexualisation ni de stéréotypes** (origine, genre) : c'est ce qui attire les signalements. Jamais d'achat d'abonnés ou de likes.
+- **Suivi chaque semaine** : visionnage complet (cible ≥ 50 %), commentaires pour 1 000 vues (≥ 20), partages pour 1 000 vues (≥ 5), abonnés gagnés par vidéo, vidéos supprimées (0).
 
 ## Organisation technique
 - Un film seul = un dossier `src/films/<nom-du-film>/`. Un épisode de série = un dossier `src/series/<nom>/episode-NN/`. Chacun a sa propre `<Composition>` (1080 × 1920, 60 i/s) enregistrée dans `src/Root.tsx`. Les épisodes d'une même série sont rangés dans un `<Folder>` à son nom.

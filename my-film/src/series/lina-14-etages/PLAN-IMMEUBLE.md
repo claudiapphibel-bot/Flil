@@ -37,14 +37,14 @@ Numéros : l'étage x a les appartements x01 (Lina côté rue), x02 (en face), x
 | Palier du « 15 » | Vert + filet blanc sous la porte | Porte « 15 » |
 | Extérieur | Ciel violet, ville éteinte | Une seule fenêtre allumée (sauf au final : aube, toutes allumées) |
 - **Heure** : 4 h 44 du matin pendant toute la série ; l'aube n'arrive qu'à l'épisode 14.
-- Chaque étage garde ce plan, mais **son décor reflète l'âge de Lina** (étage n = Lina à n ans) : objets, papier peint, jouets, selon la bible.
+- Chaque étage garde ce plan, mais **son décor reflète une année de Lina dans l'immeuble** (étage n = sa n-ième année) : objets, papier peint, jouets, selon la bible. Jamais de Lina enfant à l'image.
 
 ## 4. Règles de mouvement et de cadrage
 1. **Axe du couloir** : la caméra regarde **vers l'est** (vers l'escalier) pour les plans larges du couloir. L'ascenseur est derrière la caméra, l'escalier au fond.
 2. **Sens de l'aventure** : avancer dans l'histoire = aller **vers l'est puis vers le bas**. À l'écran, on se déplace **de gauche à droite**, ou on **s'éloigne de la caméra** dans le couloir. Revenir en arrière (vers l'ascenseur) = de droite à gauche.
 3. **Face-à-face** (règle des 180°) : **Lina à gauche de l'image**, son interlocuteur **à droite**. L'Autre est toujours à droite (elle est le miroir de Lina).
 4. **Entrées** : Noé arrive **par l'ascenseur (gauche/ouest)**. Iris apparaît **par une porte** ou l'encadrement d'une porte, côté droit ; elle disparaît **hors champ**, jamais à l'image.
-5. **Tailles relatives** : Lina = l'Autre (même taille) ; Noé ≈ 70 % de Lina ; Iris un peu plus petite que Lina, voûtée.
+5. **Tailles relatives** : Lina = l'Autre (même taille) ; Noé, adulte, à peu près de la même taille que Lina, un peu plus rond ; Iris un peu plus petite que Lina, voûtée.
 6. **Accessoires et poignets** (vérifier sur chaque image) : fil turquoise au **poignet droit de Lina**, au **poignet gauche de l'Autre** ; lampe jaune de Noé (allumée la nuit) ; pelote turquoise et deux aiguilles d'Iris.
 7. **Costumes** : Lina = pull crème, pantalon bleu nuit, chaussettes grises ; l'Autre = pull bleu nuit, pantalon bleu nuit ; Noé = pyjama **bleu ciel à fusées**, chaussettes blanches ; Iris = gilet mauve, jupe longue grise, chaussons beiges, lunettes rondes.
 8. **Raccord d'une scène à l'autre** : chaque scène commence là où la précédente laisse les personnages (positions ci-dessous). Même lieu = prolongement Seedance ; changement de lieu = coupe franche.
