@@ -16,7 +16,7 @@ const IMG = (n: string) => `ia/lina-14-etages/plans/${n}.jpg`;
 const FENETRE: [number, number] = [0.546, 0.333];
 
 // Scènes dans l'ordre, avec leur durée en secondes. prolonge = raccord continu avec la précédente.
-export const AVEC_SCENE_3 = false;
+export const AVEC_SCENE_3 = true;
 const LISTE: { n: number; duree: number; prolonge?: boolean }[] = [
   { n: 1, duree: 8 },
   { n: 2, duree: 10 },
