@@ -1,10 +1,10 @@
 # Lina — Les 14 étages · Épisode 1 (14ᵉ étage) : « La porte de l'escalier »
 
-Statut : **histoire à valider, rien n'est animé.**
+Statut : **histoire à valider, rien n'est animé.** Style : fruits humains (voir `CLAUDE.md`).
 Série de 14 épisodes : voir `../BIBLE.md` pour les personnages, les secrets et le journal des votes.
 
 ## 1. Pitch
-Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut comprendre ce qui se passe. Mais chaque personne qu'elle croise en sait plus qu'elle, et derrière la porte de l'escalier l'attend une fille qui a son visage.
+Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut comprendre ce qui se passe. Mais chaque personne qu'elle croise en sait plus qu'elle, et derrière la porte de l'escalier l'attend une cerise qui a son visage.
 
 ## Fiche du film
 - **Ambiance.** 4 h 44 du matin, fin d'automne, ciel violet sans lune, immeuble des années 80 avec couloirs carrelés, néons et moquette usée.
@@ -26,11 +26,11 @@ Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut
 
 | | Apparence | Façon de parler | Nom en sous-titre | Voix (babil) |
 |---|---|---|---|---|
-| **LINA** | Adolescente. Carré brun prune, mèche anguleuse sur l'œil droit, yeux ambre. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Se mord la lèvre quand elle a peur. | Pêche `#F2C4A0` | `voix-lina` : hauteur moyenne, claire |
-| **L'AUTRE** | Le visage de Lina **en miroir** : mèche sur l'œil gauche, pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | `voix-autre` : la voix de Lina inversée et légèrement désaccordée |
-| **MADAME IRIS** | Voisine du 1402, environ 80 ans. Chignon gris, lunettes rondes, gilet mauve, chaussons. Tricote **une pelote turquoise**. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. | Rose fané `#C98A9A` | `voix-iris` : grave, lente, chevrotante |
-| **NOÉ** | Garçon d'environ 9 ans, pyjama moutarde à fusées, grosse lampe de poche, épis dans les cheveux. | Parle vite, s'exclame, exagère. | Ocre `#E0A85A` | `voix-noe` : aiguë et rapide |
-| **???** | On ne la voit pas : une voix derrière la porte du 15ᵉ. | Murmure. | Blanc `???` | `voix-lina` étouffée, comme à travers une porte |
+| **LINA** | **Cerise** rouge vif et brillante. Sa queue verte porte une feuille qui retombe sur l'œil droit, comme une mèche. Yeux ambre, peau des bras rouge cerise. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Quand elle a peur, sa feuille se recroqueville et elle se mord la lèvre. | Rose cerise `#FF5A6E` | `voix-lina` : hauteur moyenne, claire |
+| **L'AUTRE** | **Cerise jumelle**, d'un rouge bordeaux plus sombre et plus mat. Feuille et queue **en miroir**, du côté gauche. Pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | `voix-autre` : la voix de Lina inversée et désaccordée |
+| **MADAME IRIS** | **Figue** violette ridée et un peu fendue, sa petite tige en guise de chignon. Lunettes rondes, gilet mauve, chaussons. Tricote une pelote turquoise. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. Adore les proverbes. | Mauve `#C98AC0` | `voix-iris` : grave, lente, chevrotante |
+| **NOÉ** | **Mandarine** orange et ronde, avec une petite feuille toujours dressée sur le dessus. Pyjama bleu ciel à fusées, grosse lampe de poche. Peau granuleuse et brillante. | Parle vite, s'exclame, exagère. Quand il s'excite, un peu de jus gicle de sa peau. | Orange `#FF9F1C` | `voix-noe` : aiguë et rapide |
+| **???** | On ne la voit pas : une voix derrière la porte du 15ᵉ. | Murmure. | Blanc | `voix-lina` étouffée, comme à travers une porte |
 
 ## 2. Séquencier (une ligne par scène, en battements)
 🔀 = rebondissement · 🌱 = détail qui le prépare
@@ -44,7 +44,7 @@ Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut
 7. **b52–60** · Montage (4 × 2 battements) : l'ascenseur, l'écran bloqué sur « 14 », puis le *ding*.
 8. **b60–76** · 🔀 **2 : dans l'ascenseur, Noé.** Il monte depuis des heures, et tous les étages sont le 14ᵉ.
 9. **b76–88** · Noé montre la porte de l'escalier : « Elle t'attend depuis hier. » **Pause sur la poignée** (b84–88).
-10. **b88–100** · 🔀 **3 : l'Autre**, une fille qui a le visage de Lina (préparé par le reflet).
+10. **b88–100** · 🔀 **3 : l'Autre**, une cerise jumelle qui a le visage de Lina (préparé par le reflet).
 11. **b100–112** · Champ / contrechamp entre les deux filles. Noé remarque que leurs poignets brillent.
 12. **b112–128** · 🔀 **4, le PIC (b120) :** les fils s'unissent. Le fil remonte jusqu'à la pelote d'Iris, qui surgit : c'est elle qui les a tricotés (préparé par la pelote et l'interdiction de l'escalier).
 13. **b128–144** · 🔀 **5, cliffhanger :** une porte « 15 » apparaît. On frappe trois coups, et une voix qui a la voix de Lina dit « Ouvre-moi. »
@@ -94,7 +94,7 @@ Très gros plan. Deux yeux ambre s'ouvrent d'un coup.
 Un réveil rouge s'y reflète : 04:44.
 
 3. INT. SALON DE LINA — CONTINU                              b18
-LINA se redresse sur le canapé, cheveux en bataille.
+LINA, une cerise, se redresse sur le canapé, la feuille de travers.
 Dans la pénombre, des cartons empilés contre le mur.
 
                     LINA
@@ -106,8 +106,8 @@ Dans l'écran noir de la télé, son reflet cligne des yeux.
 Une image trop tard.                                        b28
 
 4. INT. COULOIR DU 14ᵉ — NUIT                                b30
-Néon ocre qui grésille. Devant la porte 1402, MADAME IRIS
-tricote sur une chaise, sans lever les yeux.
+Néon ocre qui grésille. Devant la porte 1402, MADAME IRIS,
+une vieille figue, tricote sur une chaise, sans lever les yeux.
 
                     IRIS
           Encore debout à 4 h 44, ma puce ?
@@ -131,7 +131,7 @@ La chaise est vide. Une aiguille se balance encore.
 — Son doigt, plus fort.           — « 14 ». Ding.
 
 8. INT. ASCENSEUR — CONTINU                                  b60
-Les portes s'ouvrent. NOÉ, en pyjama à fusées,
+Les portes s'ouvrent. NOÉ, une petite mandarine en pyjama à fusées,
 accroupi, sa lampe braquée sur Lina.
 
                     NOÉ
@@ -153,8 +153,8 @@ Derrière le hublot : une silhouette immobile.
 Gros plan : sa main sur la poignée. Plus un bruit.         b84
 
 10. INT. CAGE D'ESCALIER — CONTINU                           b88
-La porte s'ouvre. Sur le palier : une fille. Le visage
-de Lina, en miroir. Un courant d'air soulève leurs cheveux.
+La porte s'ouvre. Sur le palier : une cerise bordeaux. Le visage
+de Lina, en miroir. Un courant d'air agite leurs deux feuilles.
 
                     L'AUTRE
           T'en as mis, du temps.

@@ -12,12 +12,12 @@ Lina descend l'immeuble **un étage par épisode**. Chaque étage est différent
 **Titre de chaque épisode.** « LINA — LES 14 ÉTAGES », puis « Épisode N · Xᵉ étage ».
 
 ## La vraie fin (fixée, ne change pas avec les votes)
-À l'aube, dans le hall, Lina **noue son fil à celui de l'Autre** : elle accepte de partir. Les deux filles n'en font plus qu'une. Elle pousse la porte de l'immeuble. Pour la première fois de la série, **les lumières de la ville se rallument** et le jour se lève. Un camion de déménagement attend. Noé lui fait signe depuis la voiture de ses parents. À la fenêtre du 14ᵉ, Iris range ses aiguilles. Le dernier plan est l'immeuble à l'aube, toutes fenêtres allumées. Il reprend le cadrage du premier plan de l'épisode 1, mais avec la lumière inversée : c'est la fin de la boucle.
+À l'aube, dans le hall, Lina **noue son fil à celui de l'Autre** : elle accepte de partir. Leurs deux queues se rejoignent en une seule : elles forment enfin **une paire de cerises**. Elle pousse la porte de l'immeuble. Pour la première fois de la série, **les lumières de la ville se rallument** et le jour se lève. Un camion de déménagement attend. Noé lui fait signe depuis la voiture de ses parents. À la fenêtre du 14ᵉ, Iris range ses aiguilles. Le dernier plan est l'immeuble à l'aube, toutes fenêtres allumées. Il reprend le cadrage du premier plan de l'épisode 1, mais avec la lumière inversée : c'est la fin de la boucle.
 
 ## SECRET : ce qui se passe vraiment
 - **Lina a 14 ans. Chaque étage garde une année de sa vie** : le 14ᵉ, c'est aujourd'hui ; le 1ᵉʳ, c'est sa première année dans l'immeuble. Descendre, c'est remonter ses souvenirs. *(Révélation : épisode 5.)*
 - **Demain, la famille de Lina déménage** dans une autre ville. Lina refuse de partir. Cette nuit-là, l'immeuble l'a gardée : la nuit recommence à 4 h 44 tant qu'elle n'a pas choisi. *(Indice discret dès l'épisode 1 : des cartons dans le salon. Révélation : épisode 7.)*
-- **L'Autre est la part de Lina qui a déjà accepté de partir.** Elle est en miroir parce qu'elle regarde dans l'autre direction : l'avenir. *(Révélation : épisode 8.)*
+- **L'Autre est la part de Lina qui a déjà accepté de partir.** C'est sa **cerise jumelle**, détachée de la même queue. Elle est en miroir parce qu'elle regarde dans l'autre direction : l'avenir. *(Révélation : épisode 8.)*
 - **Le fil turquoise** relie ce qu'on a été à ce qu'on va devenir. S'il casse avant le rez-de-chaussée, Lina restera dans la nuit pour toujours. Si les deux moitiés se croisent trop tôt, l'immeuble se dérègle : c'est pour ça qu'Iris l'avait interdit. *(Révélation : épisode 11.)*
 - **Madame Iris** est la gardienne de l'immeuble. Elle tricote un fil pour chaque habitant qui doit partir. Il y a longtemps, elle-même n'a jamais osé partir, et elle est restée prisonnière. Elle aide Lina pour qu'elle ne fasse pas la même erreur, mais elle ment parfois pour la protéger. *(Révélation : épisode 10.)*
 - **Noé** habite au 3ᵉ. Sa famille déménage aussi demain, et il est coincé dans la même nuit. Il découvre son propre fil à l'épisode 6. Il devra partir le premier. *(Adieu : épisode 12.)*
@@ -26,14 +26,15 @@ Lina descend l'immeuble **un étage par épisode**. Chaque étage est différent
 ## Les personnages
 | | Apparence | Façon de parler | Nom en sous-titre | Voix (babil) |
 |---|---|---|---|---|
-| **LINA** (14 ans) | Carré brun prune, mèche anguleuse sur l'œil droit, yeux ambre. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Se mord la lèvre quand elle a peur. | Pêche `#F2C4A0` | `voix-lina` : hauteur moyenne, claire |
-| **L'AUTRE** | Le visage de Lina en miroir : mèche sur l'œil gauche, pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | `voix-autre` : la voix de Lina inversée et désaccordée |
-| **MADAME IRIS** (environ 80 ans) | Chignon gris, lunettes rondes, gilet mauve, chaussons. Tricote une pelote turquoise. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. Adore les proverbes. | Rose fané `#C98A9A` | `voix-iris` : grave, lente, chevrotante |
-| **NOÉ** (9 ans) | Pyjama moutarde à fusées, grosse lampe de poche, épis dans les cheveux. | Parle vite, s'exclame, exagère. | Ocre `#E0A85A` | `voix-noe` : aiguë et rapide |
+| **LINA** (14 ans) | **Cerise** rouge vif et brillante. Sa queue verte porte une feuille qui retombe sur l'œil droit, comme une mèche. Yeux ambre, peau des bras rouge cerise. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Quand elle a peur, sa feuille se recroqueville et elle se mord la lèvre. | Rose cerise `#FF5A6E` | `voix-lina` : hauteur moyenne, claire |
+| **L'AUTRE** | **Cerise jumelle**, d'un rouge bordeaux plus sombre et plus mat. Feuille et queue **en miroir**, du côté gauche. Pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | `voix-autre` : la voix de Lina inversée et désaccordée |
+| **MADAME IRIS** (environ 80 ans) | **Figue** violette ridée et un peu fendue, sa petite tige en guise de chignon. Lunettes rondes, gilet mauve, chaussons. Tricote une pelote turquoise. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. Adore les proverbes. | Mauve `#C98AC0` | `voix-iris` : grave, lente, chevrotante |
+| **NOÉ** (9 ans) | **Mandarine** orange et ronde, avec une petite feuille toujours dressée sur le dessus. Pyjama bleu ciel à fusées, grosse lampe de poche. Peau granuleuse et brillante. | Parle vite, s'exclame, exagère. Quand il s'excite, un peu de jus gicle de sa peau. | Orange `#FF9F1C` | `voix-noe` : aiguë et rapide |
 | **LA VOIX DU 15ᵉ** | Invisible, derrière une porte. | Murmure, appelle Lina par son prénom. | Blanc `???` | `voix-lina` étouffée |
 
 ## Les lieux et la palette
 - **L'immeuble.** Années 80, 14 étages, couloirs carrelés, néons ocre, moquette usée, ascenseur à afficheur orange, cage d'escalier à lumière verte de secours, lucarnes. La ville autour reste noire jusqu'à l'épisode 14.
+- **Les personnages sont des fruits humains** (voir `CLAUDE.md`) : la cerise Lina, sa jumelle l'Autre, la figue Iris et la mandarine Noé. Les fruits sont vifs, brillants et juteux ; l'immeuble est nocturne et plus neutre, pour qu'ils ressortent.
 - **Palette de la série.** Bleu nuit `#1E2440`, violet du soir `#4A3A66`, rose fané `#C98A9A`, pêche `#F2C4A0`, crème `#F4E9D8`, ocre `#E0A85A`, avec l'**accent turquoise `#2EC4B6`**. Chaque étage ajoute une couleur dominante qui lui est propre.
 
 ## L'arc des 14 épisodes
