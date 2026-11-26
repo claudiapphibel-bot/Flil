@@ -314,3 +314,9 @@ Raccord : ⛓ = la scène prolonge la précédente (elle part de sa dernière im
 | Narrateur ElevenLabs | ≈ 0,5 |
 | **Total estimé** | **≈ 510** (plafond : 550) |
 Une scène ratée n'est refaite qu'avec votre accord (≈ 42 à 84 crédits selon sa durée).
+
+## Version 2 : production réalisée
+- Rendu : `out/lina-episode-01-v2.mp4` (82 s), composition « Lina-Episode-01 » (la version 1 reste en « Lina-Episode-01-v1 »).
+- Scènes Seedance produites : 1, 2, 4, 5, 6, 7, 8. **Scène 3 bloquée deux fois par le filtre Higgsfield** (fausse alerte probable) : le montage coupe directement de la scène 2 à la scène 4.
+- Texte « LOBBY 4 » du panneau d'ascenseur flouté au montage.
+- Crédits version 2 (tests Seedance/ElevenLabs, 7 scènes, musique, narrateur) : solde 1 495,73 → 995,27, soit **≈ 500 crédits** (plafond 550).
