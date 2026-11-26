@@ -175,13 +175,13 @@ export const Episode01: React.FC = () => {
       {/* Un « whoosh » sur chaque coupe (sauf le montage de l'ascenseur et la boucle) */}
       {PLANS.slice(1).filter((p) => !["10-bouton", "11-ecran"].includes(p.img) && p.de !== 147).map((p) => <Son key={p.de} b={p.de - 0.25} nom="whoosh" vol={0.22} />)}
       {/* Rebondissements et tension */}
-      <Son b={24} nom="boum" vol={0.7} />
-      <Son b={62} nom="boum" vol={0.7} />
-      <Son b={90} nom="boum" vol={0.55} />
-      <Son b={109} nom="montee" vol={0.5} />
-      <Son b={113} nom="boum" vol={0.8} />
+      <Son b={24} nom="boum" vol={0.55} />
+      <Son b={62} nom="boum" vol={0.55} />
+      <Son b={90} nom="boum" vol={0.45} />
+      <Son b={109} nom="montee" vol={0.35} />
+      <Son b={113} nom="boum" vol={0.45} />
       <Son b={127} nom="montee" vol={0.45} />
-      <Son b={129} nom="boum" vol={0.75} />
+      <Son b={129} nom="boum" vol={0.55} />
       <Son b={0} nom="ambiance-nuit" vol={0.35} duree={10} />
       <Son b={4} nom="reveil" vol={0.45} />
       <Son b={10} nom="tic-compteur" vol={0.4} />
@@ -199,8 +199,8 @@ export const Episode01: React.FC = () => {
       <Son b={91.5} nom="battement" vol={0.8} />
       <Son b={96} nom="ombre-nappe" vol={0.28} duree={15} boucle />
       <Son b={111} nom="scintillement" vol={0.6} />
-      <Son b={112} nom="whoosh" vol={0.6} />
-      <Son b={113} nom="impact" vol={0.75} />
+      <Son b={112} nom="whoosh" vol={0.4} />
+      <Son b={113} nom="impact" vol={0.5} />
       <Son b={113} nom="flash" vol={0.35} />
       <Son b={119} nom="ombre-voix" vol={0.35} />
       <Son b={129} nom="ombre-nappe" vol={0.45} duree={15} boucle />
