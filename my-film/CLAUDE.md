@@ -5,7 +5,7 @@ Claude est le réalisateur et l'animateur de cette chaîne. **Chaque film de ce 
 Avant de commencer un film, charger la compétence `remotion-best-practices` (dans `.agents/skills/`).
 
 ## ÉCRITURE : dans cet ordre, avant toute animation
-Chaque film commence par un fichier `src/films/<nom>/HISTOIRE.md`. **On n'anime rien avant le feu vert de l'utilisatrice ou de l'utilisateur sur ce fichier.**
+Chaque film ou épisode commence par un fichier `HISTOIRE.md` dans son dossier. **On n'anime rien avant le feu vert de l'utilisatrice ou de l'utilisateur sur ce fichier.**
 1. **Pitch.** Résumer l'histoire en **une phrase** qui contient le personnage, son objectif et son obstacle.
 2. **Séquencier.** Lister les scènes dans l'ordre, **une ligne par scène**, avant d'écrire les dialogues.
 3. **Rebondissements.** Chaque épisode en contient **au moins trois** : des surprises qui changent ce que le héros (et le public) croyait savoir.
@@ -130,10 +130,23 @@ Bibliothèque actuelle :
 | `trait-ligne` | Trait ondulé et lignes du titre de fin |
 | `titre-carillon` | Fin du titre, avant le fondu au noir |
 
+## SÉRIES (histoires en plusieurs épisodes)
+Une série se range dans `src/series/<nom-de-la-serie>/`.
+- **Bible de la série** : `BIBLE.md`. C'est la référence unique pour tout ce qui ne change pas d'un épisode à l'autre :
+  - le nombre d'épisodes et l'arc complet jusqu'à la **vraie fin**, décidée dès le départ ;
+  - les personnages (design, couleurs, voix, façon de parler), les lieux et les règles du monde ;
+  - les **mystères et leurs réponses secrètes**, avec l'épisode où chaque réponse peut être révélée.
+- **Avant d'écrire un épisode**, relire la bible et le **journal des votes**. Ne jamais contredire un épisode déjà publié.
+- **Vote à la fin de chaque épisode.** Les deux choix proposés doivent tous deux mener vers la vraie fin. Le vote change le **chemin** : la scène d'ouverture de l'épisode suivant, qui accompagne le héros, quels indices on obtient, le ton. Il ne change pas la **destination**, fixée dans la bible.
+- **Journal des votes** dans la bible : pour chaque épisode, les deux choix, le choix gagnant (rempli par l'utilisatrice ou l'utilisateur) et ses conséquences à respecter dans la suite.
+- **Rappel au début des épisodes 2 et suivants** : pendant le premier plan, un petit encart en haut, du type « Épisode précédent : vous avez choisi B ». Il s'affiche **par-dessus** l'image de départ, pour ne pas casser la boucle.
+- **Habillage commun** à tous les épisodes : même titre de série, même générique de fin, mêmes personnages et décors. Seuls changent le numéro, le sous-titre de l'épisode et l'appel à l'action.
+- **Personnages et décors récurrents dessinés une seule fois**, dans `src/series/<nom>/commun/`, et réutilisés tels quels par chaque épisode.
+
 ## Organisation technique
-- Un film = un dossier `src/films/<nom-du-film>/` avec sa propre `<Composition>` (1080 × 1920, 60 i/s) enregistrée dans `src/Root.tsx`.
+- Un film seul = un dossier `src/films/<nom-du-film>/`. Un épisode de série = un dossier `src/series/<nom>/episode-NN/`. Chacun a sa propre `<Composition>` (1080 × 1920, 60 i/s) enregistrée dans `src/Root.tsx`. Les épisodes d'une même série sont rangés dans un `<Folder>` à son nom.
 - Ce qui sert à tous les films va dans `src/components/` et doit être réutilisé : bandes noires, patine rétro (grain, vignettage, aberration, lignes VHS), sous-titres, titre de fin, lignes de vitesse, image d'impact, éclats, ciels peints, composant `<Sfx>`.
-- Ce qui est propre à une histoire (personnages, décors particuliers) va dans le dossier du film.
+- Ce qui est propre à une histoire va dans le dossier du film, ou dans `commun/` pour une série.
 - Le rendu final se fait en MP4 dans `out/`.
 - Dans l'environnement cloud, rendre avec : `npx remotion render <Id> out/<nom>.mp4 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell` (sur un ordinateur personnel, `npx remotion render <Id>` suffit).
 - Avant de livrer : vérifier des images extraites de chaque plan et les niveaux sonores.

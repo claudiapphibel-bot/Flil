@@ -1,6 +1,7 @@
-# Lina — Les 14 étages · Épisode 1 : « La porte de l'escalier »
+# Lina — Les 14 étages · Épisode 1 (14ᵉ étage) : « La porte de l'escalier »
 
 Statut : **histoire à valider, rien n'est animé.**
+Série de 14 épisodes : voir `../BIBLE.md` pour les personnages, les secrets et le journal des votes.
 
 ## 1. Pitch
 Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut comprendre ce qui se passe. Mais chaque personne qu'elle croise en sait plus qu'elle, et derrière la porte de l'escalier l'attend une fille qui a son visage.
@@ -36,7 +37,7 @@ Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut
 
 1. **b0–10** · EXT. Immeuble : la ville est éteinte, une seule fenêtre est allumée au 14ᵉ.
 2. **b10–18** · Très gros plan : les yeux de Lina s'ouvrent, un réveil rouge affiche 04:44.
-3. **b18–30** · Salon vide, Lina appelle sa mère. 🌱 Dans l'écran noir de la télé, son reflet cligne des yeux en retard.
+3. **b18–30** · Salon vide, Lina appelle sa mère. 🌱 Dans l'écran noir de la télé, son reflet cligne des yeux en retard. 🌱 (pour la série) Au fond, des cartons fermés, à peine visibles.
 4. **b30–42** · 🔀 **1 : elle n'est pas seule.** Madame Iris tricote dans le couloir et lui dit « Encore debout ? ». Elle lui interdit l'escalier.
 5. **b42–44** · Insert 🌱 : la pelote turquoise d'Iris.
 6. **b44–52** · Lina se retourne : la chaise d'Iris est vide, et une aiguille à tricoter se balance encore.
@@ -94,6 +95,7 @@ Un réveil rouge s'y reflète : 04:44.
 
 3. INT. SALON DE LINA — CONTINU                              b18
 LINA se redresse sur le canapé, cheveux en bataille.
+Dans la pénombre, des cartons empilés contre le mur.
 
                     LINA
           Maman ?
@@ -196,7 +198,7 @@ et sa seule fenêtre allumée.
 15. EXT. IMMEUBLE — NUIT (même image qu'en 1)              b156
 Titre, lettre par lettre : LINA — LES 14 ÉTAGES.
 Trait ondulé turquoise. Ligne blanche. Petite ligne turquoise.
-« Épisode 1 ».
+« Épisode 1 · 14ᵉ étage ».
 Carte de vote :                                            b168
      QUI DOIT-ELLE CROIRE ?
      A — Ouvrir la porte du 15ᵉ
@@ -220,6 +222,6 @@ Tout s'efface. L'image est celle du tout début.            b180
   - **voix** : `voix-lina`, `voix-autre`, `voix-iris`, `voix-noe` (babil d'une syllabe par voix) ;
   - **effets** : `reveil`, `ding-ascenseur`, `porte` (grincement), `toc` (coup sourd contre une porte), `aiguilles` (cliquetis de tricot), `scintillement`, `vote`.
 
-## Pistes pour l'épisode 2 (selon le vote)
-- **A, ouvrir le 15ᵉ.** Derrière la porte, une troisième Lina, plus âgée, qui porte deux fils au poignet.
-- **B, suivre Iris.** Dans le 1402, des centaines de pelotes turquoise, chacune avec une étiquette : un prénom, et une date qui n'est pas encore arrivée.
+## Habillage de la série
+- Afficheur d'ascenseur rétro en haut à gauche, sur « 14 » pendant tout l'épisode. Il apparaît avec un *ding* et un léger ressort au battement 18.
+- Après le vote, l'épisode 2 se passera au 13ᵉ étage, quel que soit le choix (voir le journal des votes dans la bible).
