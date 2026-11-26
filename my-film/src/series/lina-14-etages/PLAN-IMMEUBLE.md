@@ -65,6 +65,6 @@ Numéros : l'étage x a les appartements x01 (Lina côté rue), x02 (en face), x
 - Vote **A** (ouvrir le 15ᵉ) : ils montent la volée ; la porte s'ouvre sur… le couloir du **13ᵉ** (la porte 15 « ment »).
 - Vote **B** (suivre Iris) : Iris les fait passer par un **escalier de service** derrière la cabine de l'ascenseur (ouest) jusqu'au 13ᵉ.
 
-## 6. Points de cohérence à corriger dans la bible
-- **Épisode 5 « Le 1402 » au 10ᵉ étage** : le 1402 est au 14ᵉ. Solution proposée : au 10ᵉ, la porte qui devrait être le **1002 porte le numéro 1402** ; l'appartement d'Iris « suit » Lina d'étage en étage (rebondissement).
+## 6. Points de cohérence (décidés)
+- **Épisode 5 « Le 1402 » au 10ᵉ étage** (validé) : au 10ᵉ, la porte qui devrait être le **1002 porte le numéro 1402**. L'appartement d'Iris « suit » Lina d'étage en étage. Dans le décor : même porte, même chaise devant, au même emplacement (côté nord, à 6 m de l'ascenseur).
 - **Noé au 302** : son épisode d'adieu (12, 3ᵉ étage) se passe donc **devant sa propre porte**, ce qui est cohérent.

@@ -19,6 +19,7 @@ Lina descend l'immeuble **un étage par épisode**. Chaque étage est différent
 - **Demain, la famille de Lina déménage** dans une autre ville. Lina refuse de partir. Cette nuit-là, l'immeuble l'a gardée : la nuit recommence à 4 h 44 tant qu'elle n'a pas choisi. *(Indice discret dès l'épisode 1 : des cartons dans le salon. Révélation : épisode 7.)*
 - **L'Autre est la part de Lina qui a déjà accepté de partir.** C'est sa **cerise jumelle**, détachée de la même queue. Elle est en miroir parce qu'elle regarde dans l'autre direction : l'avenir. *(Révélation : épisode 8.)*
 - **Le fil turquoise** relie ce qu'on a été à ce qu'on va devenir. S'il casse avant le rez-de-chaussée, Lina restera dans la nuit pour toujours. Si les deux moitiés se croisent trop tôt, l'immeuble se dérègle : c'est pour ça qu'Iris l'avait interdit. *(Révélation : épisode 11.)*
+- **L'appartement d'Iris (1402) n'a pas d'étage fixe** : il apparaît là où Lina en a besoin (révélé à l'épisode 5, au 10ᵉ, à la place du 1002). Aux autres étages, le x02 est un appartement normal.
 - **Madame Iris** est la gardienne de l'immeuble. Elle tricote un fil pour chaque habitant qui doit partir. Il y a longtemps, elle-même n'a jamais osé partir, et elle est restée prisonnière. Elle aide Lina pour qu'elle ne fasse pas la même erreur, mais elle ment parfois pour la protéger. *(Révélation : épisode 10.)*
 - **Noé** habite au 3ᵉ. Sa famille déménage aussi demain, et il est coincé dans la même nuit. Il découvre son propre fil à l'épisode 6. Il devra partir le premier. *(Adieu : épisode 12.)*
 - **La porte du 15ᵉ** mène à l'avenir. La voix derrière est celle de Lina à 15 ans. Elle appelle Lina, mais elle ne peut s'ouvrir qu'**à la toute fin**, de l'intérieur. Les apparitions de cette porte sont une épreuve de patience. *(Révélation : épisode 13.)*
@@ -52,7 +53,7 @@ La colonne « Étage » fixe le lieu. Les votes changent le chemin pour y arrive
 | 2 | 13ᵉ | L'appartement d'avant | Un appartement identique au sien, mais décoré comme il y a un an. | Dans la chambre, un calendrier arrêté sur demain. |
 | 3 | 12ᵉ | Le couloir des reflets | L'Autre ne peut pas franchir certains seuils, seule Lina le peut. | Le reflet de Noé ne bouge plus. |
 | 4 | 11ᵉ | La fête figée | Un anniversaire immobile : celui de ses 11 ans. Les invités sont des silhouettes de papier. | Une invitée de papier tourne la tête. |
-| 5 | 10ᵉ | Le 1402 | Chez Iris : des centaines de pelotes, chacune avec un prénom et une date. **Chaque étage = une année de Lina.** | L'étiquette de Lina porte la date de demain. |
+| 5 | 10ᵉ | Le 1402 | 🔀 Au 10ᵉ, la porte qui devrait être le 1002 porte le numéro **1402** : l'appartement d'Iris suit Lina d'étage en étage. À l'intérieur : des centaines de pelotes, chacune avec un prénom et une date. **Chaque étage = une année de Lina.** | L'étiquette de Lina porte la date de demain. |
 | 6 | 9ᵉ | Il pleut dedans | Un souvenir triste : il pleut dans le couloir. Noé découvre **son propre fil**. | Le fil de Noé est déjà effiloché. |
 | 7 | 8ᵉ | Les cartons | **Révélation : Lina déménage demain** et refuse de partir. C'est elle qui retient la nuit. | La voix du 15ᵉ : « Iris te ment. » |
 | 8 | 7ᵉ | Celle qui a dit oui | **Révélation : l'Autre est la part de Lina qui veut partir.** | L'Autre commence à s'effacer. |
