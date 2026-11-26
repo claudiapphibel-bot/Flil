@@ -225,3 +225,13 @@ Tout s'efface. L'image est celle du tout début.            b180
 ## Habillage de la série
 - Afficheur d'ascenseur rétro en haut à gauche, sur « 14 » pendant tout l'épisode. Il apparaît avec un *ding* et un léger ressort au battement 18.
 - Après le vote, l'épisode 2 se passera au 13ᵉ étage, quel que soit le choix (voir le journal des votes dans la bible).
+
+## Crédits Higgsfield (budget : 500 par épisode)
+Les personnages, décors et voix de la série sont créés une seule fois et serviront aux 14 épisodes.
+
+| Quoi | Crédits | Total |
+|---|---|---|
+| *(rien de généré pour l'instant)* | 0 | 0 |
+
+## Pistes pour l'épisode 2 (selon le vote)
+Voir le journal des votes dans `../BIBLE.md` : **A** (ouvrir la 15) ou **B** (suivre Iris), dans les deux cas l'épisode 2 se passe au 13ᵉ étage.
