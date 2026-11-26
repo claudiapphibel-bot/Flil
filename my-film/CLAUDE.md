@@ -164,7 +164,7 @@ Une série se range dans `src/series/<nom-de-la-serie>/`.
 
 ## PUBLICATION ET CHAÎNE TIKTOK (@lunenoire.studio)
 Décisions validées, à appliquer à chaque épisode (source : plan de lancement marketing).
-- **Rythme** : **un épisode par jour**, à heure fixe entre **18 h et 20 h** (heure de Paris), plus des **bonus** (« Qui a raison ? », « Quel fruit es-tu ? », « Choisis ta porte », réponses en vidéo aux commentaires) faits **dans Remotion à partir des images et scènes existantes, sans crédit**.
+- **Rythme** : **un épisode par jour**, à heure fixe : **19 h** (heure de Paris), plus des **bonus** (« Qui a raison ? », « Quel fruit es-tu ? », « Choisis ta porte », réponses en vidéo aux commentaires) faits **dans Remotion à partir des images et scènes existantes, sans crédit**.
 - **Vote** : toujours **deux choix, A ou B**. Le vote se ferme **18 h après la publication** ; l'épisode suivant sort le lendemain à la même heure et **annonce le résultat** en ouverture (par exemple « 62 % ont choisi B »).
 - **Production en deux temps** (pour tenir un épisode par jour) : seule la **scène d'ouverture** d'un épisode dépend du vote (≈ 10 s). Tout le reste de l'épisode est produit **à l'avance** ; la scène d'ouverture est produite **après la fermeture du vote**, dans les quelques heures avant la publication. Garder plusieurs jours d'épisodes « communs » d'avance.
 - **Budget** : ≈ **400 crédits par épisode** (≈ 65 s en Seedance 720p). L'utilisatrice recharge les crédits pour finir la saison ; prévenir avant chaque lot si le solde ne suffit pas.

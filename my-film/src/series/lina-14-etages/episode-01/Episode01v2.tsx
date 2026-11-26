@@ -3,7 +3,7 @@ import { Audio } from "@remotion/media";
 import { AbsoluteFill, Easing, Sequence, staticFile } from "remotion";
 import { Letterbox } from "../../../components/Overlay";
 import { Plan } from "../../../components/fruit/Plan";
-import { Etalonnage, TitreSobre } from "../../../components/fruit/Cinema";
+import { Accroche, Etalonnage, TitreSobre } from "../../../components/fruit/Cinema";
 
 // Lina — Les 14 étages · Épisode 1, version 2 : scènes Seedance 2.5 (animation, voix et lèvres
 // générées ensemble). Montage « cinéma » sobre : coupes franches, étalonnage léger (vignettage, grain),
@@ -65,13 +65,18 @@ export const Episode01v2: React.FC = () => {
 
       <Etalonnage />
 
+      {/* Phrase d'accroche (zone sûre TikTok), pendant la première avancée vers la fenêtre */}
+      <Sequence from={0} durationInFrames={INTRO * B} name="Accroche · texte">
+        <Accroche ligne={"Il est 4 h 44.\nCet immeuble n'a que 14 étages."} sousLigne="Une histoire dont tu choisis la suite" accent={ACCENT} duree={INTRO * B} />
+      </Sequence>
+
       <Sequence from={TITRE * B} durationInFrames={24 * B} name="Titre de fin">
         <TitreSobre
           titre="LINA — LES 14 ÉTAGES"
           sousTitre="Épisode 1 · 14ᵉ étage"
           accent={ACCENT}
           voteA={1}
-          vote={{ question: "Qui doit-elle croire ?", a: "Ouvrir la porte du 15ᵉ", b: "Suivre Madame Iris", consigne: "Réponds A ou B en commentaire · like · abonne-toi" }}
+          vote={{ question: "Qui doit-elle croire ?", a: "Ouvrir la porte du 15ᵉ", b: "Suivre Madame Iris", consigne: "Réponds A ou B en commentaire\nLike · abonne-toi", suite: "Épisode 2 · demain 19 h" }}
         />
       </Sequence>
       <Letterbox />
@@ -86,8 +91,8 @@ export const Episode01v2: React.FC = () => {
       <Sequence from={0} durationInFrames={TOTAL_BATTEMENTS_V2 * B} layout="none" name="♪ musique">
         <Audio src={staticFile("ia/lina-14-etages/v2/musique-cinema.mp3")} volume={0.12} />
       </Sequence>
-      <Sequence from={(TITRE + 1) * B} layout="none" name="🎙 narrateur">
-        <Audio src={staticFile("ia/lina-14-etages/v2/narrateur.mp3")} volume={1} />
+      <Sequence from={TITRE * B} layout="none" name="🎙 narrateur">
+        <Audio src={staticFile("ia/lina-14-etages/v2/narrateur-tiktok.mp3")} volume={1} />
       </Sequence>
     </AbsoluteFill>
   );

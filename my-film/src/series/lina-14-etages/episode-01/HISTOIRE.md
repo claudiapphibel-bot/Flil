@@ -320,3 +320,9 @@ Une scène ratée n'est refaite qu'avec votre accord (≈ 42 à 84 crédits selo
 - Scènes Seedance produites : 1, 2, 4, 5, 6, 7, 8. **Scène 3 bloquée deux fois par le filtre Higgsfield** (fausse alerte probable) : le montage coupe directement de la scène 2 à la scène 4.
 - Texte « LOBBY 4 » du panneau d'ascenseur flouté au montage.
 - Crédits version 2 (tests Seedance/ElevenLabs, 7 scènes, musique, narrateur) : solde 1 495,73 → 995,27, soit **≈ 500 crédits** (plafond 550).
+
+## Version TikTok (publiée)
+- Rendu : `out/lina-episode-01-tiktok.mp4` (88 s), même montage que la version validée.
+- Ajouts : phrase d'accroche au début (« Il est 4 h 44. Cet immeuble n'a que 14 étages. »), carte de vote plus grande dans la zone sûre TikTok, annonce « Épisode 2 · demain 19 h », nouveau narrateur (ElevenLabs, même voix) qui annonce l'heure de l'épisode 2, couverture.
+- Crédits : photo de profil 2 + narrateur 0,92 = **2,92 crédits** (solde avant : 940,91).
+- Légende, hashtags et commentaire épinglé : `PUBLICATION.md`.
