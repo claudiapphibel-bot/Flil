@@ -36,6 +36,8 @@ Lina descend l'immeuble **un étage par épisode**. Chaque étage est différent
 
 **Réglages des voix (Seed Audio)** : narrateur de la chaîne (appel à l'action seulement) = *Dylan*, débit +15 ; Lina = *Evie*, débit +15 à +20 ; l'Autre = *Evie*, débit +5, grave −2 ; Iris = *Vera*, débit +10 à +20, grave −2 ; Noé = *Pixie*, débit +20 à +30, aigu +3 ; voix du 15ᵉ = *Evie*, débit +5, étouffée au montage.
 
+**Plan de l'immeuble, décors et règles de mouvement** : voir `PLAN-IMMEUBLE.md` (et sa version visuelle `plan-immeuble.html`).
+
 ## Les lieux et la palette
 - **L'immeuble.** Années 80, 14 étages, couloirs carrelés, néons ocre, moquette usée, ascenseur à afficheur orange, cage d'escalier à lumière verte de secours, lucarnes. La ville autour reste noire jusqu'à l'épisode 14.
 - **Les personnages sont des fruits humains** (voir `CLAUDE.md`) : la cerise Lina, sa jumelle l'Autre, la figue Iris et la mandarine Noé. Les fruits sont vifs, brillants et juteux ; l'immeuble est nocturne et plus neutre, pour qu'ils ressortent.

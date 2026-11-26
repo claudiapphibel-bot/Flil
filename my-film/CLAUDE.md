@@ -152,7 +152,8 @@ Une série se range dans `src/series/<nom-de-la-serie>/`.
   - le nombre d'épisodes et l'arc complet jusqu'à la **vraie fin**, décidée dès le départ ;
   - les personnages (design, couleurs, voix, façon de parler), les lieux et les règles du monde ;
   - les **mystères et leurs réponses secrètes**, avec l'épisode où chaque réponse peut être révélée.
-- **Avant d'écrire un épisode**, relire la bible et le **journal des votes**. Ne jamais contredire un épisode déjà publié.
+- **Plan des lieux** : chaque série a un document `PLAN-<lieu>.md` (plan du bâtiment ou des lieux, décors, lumières, règles de mouvement et de cadrage, blocage de chaque épisode et positions de fin d'épisode). Chaque prompt Seedance doit le respecter.
+- **Avant d'écrire un épisode**, relire la bible, le **plan des lieux** et le **journal des votes**. Ne jamais contredire un épisode déjà publié.
 - **Vote à la fin de chaque épisode.** Les deux choix proposés doivent tous deux mener vers la vraie fin. Le vote change le **chemin** : la scène d'ouverture de l'épisode suivant, qui accompagne le héros, quels indices on obtient, le ton. Il ne change pas la **destination**, fixée dans la bible.
 - **Journal des votes** dans la bible : pour chaque épisode, les deux choix, le choix gagnant (rempli par l'utilisatrice ou l'utilisateur) et ses conséquences à respecter dans la suite.
 - **Rappel au début des épisodes 2 et suivants** : pendant le premier plan, un petit encart en haut, du type « Épisode précédent : vous avez choisi B ». Il s'affiche **par-dessus** l'image de départ, pour ne pas casser la boucle.
