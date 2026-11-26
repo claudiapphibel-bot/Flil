@@ -285,6 +285,28 @@ const sounds = {
       return s;
     }), 0.3),
 
+  // Montée de tension (avant une révélation) : souffle + note qui grimpent
+  montee: () => {
+    const n = noiseGen(13), bp = biquad("bandpass", 3);
+    let ph = 0;
+    const d = 2;
+    return fadeOut(render(d, (t) => {
+      const p = t / d;
+      ph += (110 + 330 * p * p) / SR;
+      return (bp(n(), 400 + 5000 * p * p) * 0.9 + saw(ph) * 0.25) * Math.pow(p, 1.6);
+    }), 0.01);
+  },
+
+  // Boum grave sur un rebondissement (sous-basse qui tombe)
+  boum: () => {
+    let ph = 0;
+    const n = noiseGen(14), lp = biquad("lowpass");
+    return fadeOut(render(1.2, (t) => {
+      ph += (30 + 70 * expDecay(t, 0.08)) / SR;
+      return Math.tanh(Math.sin(TAU * ph) * expDecay(t, 0.45) * 2.5) + lp(n(), 200) * expDecay(t, 0.03) * 0.8;
+    }), 0.1);
+  },
+
   // Jingle du vote : 3 notes qui montent
   vote: () =>
     fadeOut(render(1.4, (t) => {

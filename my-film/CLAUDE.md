@@ -82,11 +82,18 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 - **Compression et étirement** très marqués : la tête-fruit s'écrase et rebondit sur les chocs, les surprises et les rires.
 - **Procédés à doser selon l'histoire** : zoom éclair sur une réaction, lignes de vitesse pendant l'action, éclaboussures de jus, étoiles et cœurs pour les émotions, goutte de sueur.
 
+## CAPTER L'ATTENTION (montage dynamique)
+- **Accroche en 2 secondes** : le premier plan est court (environ 4 battements) et bouge vite (zoom accéléré) ; on entre dans l'action tout de suite.
+- **Ça bouge tout le temps** : chaque plan entre avec un petit « snap » (il arrive légèrement zoomé puis se pose), la caméra donne un **coup de zoom** au début de chaque réplique, et jamais de plan figé.
+- **Un « whoosh » discret sur chaque coupe** ; un **boum grave** et un **flash bref** sur chaque rebondissement ; une **montée** sonore juste avant les grandes révélations et le pic.
+- **Plans courts** : les plans parlés durent la longueur de la réplique, pas plus ; une coupe toutes les 2 à 4 secondes en moyenne.
+- **Aucun blanc** entre les répliques (un demi-battement maximum), sauf la pause voulue juste avant une révélation (règle 8).
+
 ## CAMÉRA ET MONTAGE
 - Vocabulaire de plans : **plan d'ensemble** pour situer le lieu, **plan de groupe** (2 ou 3 personnages), **plan taille**, **gros plan** sur un visage, **insert** sur un objet (un plat, une main, un indice).
 - **Caméra fixe** par défaut ; **lents travellings avant** sur les moments forts ; **coupes franches** pour passer au gros plan ; léger **flottement** de caméra (quelques pixels) pour donner de la vie.
 - **Profondeur de champ** : l'arrière-plan reste flou ; sur un gros plan, il est encore plus flou.
-- Rythme : **plans calmes de 4 à 8 secondes** (8 à 16 battements), **plans de montage rapides d'environ 1 seconde** (2 battements) pendant l'action.
+- Rythme : **plans calmes de 2 à 5 secondes** (4 à 10 battements), **plans de montage rapides d'environ 1 seconde** (2 battements) pendant l'action.
 - Transitions autorisées : coupe franche, **fondu au blanc**, **zoom-coupe** (zoom rapide qui enchaîne sur le plan suivant), **volet** (effacement latéral).
 
 ## TITRE DE FIN (les 12 dernières secondes, soit 24 battements)
