@@ -1,5 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Easing, Img, interpolate, staticFile, useCurrentFrame } from "remotion";
+import { Video } from "@remotion/media";
 import { HEIGHT, WIDTH } from "../theme";
 
 // Plan fixe animé à partir d'une image (générée ou non) : travelling lent,
@@ -13,6 +14,7 @@ const IMG_RATIO = 1935 / 1080; // images 1080 × 1935 (9:16 de Higgsfield)
 
 type Props = {
   src: string; // chemin dans public/
+  video?: string; // clip animé (Higgsfield) qui remplace l'image ; muet, le son vient du montage
   duree: number; // durée du plan en images
   zoom?: [number, number]; // zoom au début et à la fin du plan
   focus?: [number, number]; // point visé par le zoom (0–1)
@@ -35,7 +37,7 @@ const boucheOuverte = (voix: Voix, f: number) => {
 };
 
 export const Plan: React.FC<Props> = ({
-  src, duree, zoom = [1, 1.04], focus = [0.5, 0.5], easing = Easing.inOut(Easing.sin), miroir, vivant = true, bouche = [], secousse, entree = true, coups = [], children,
+  src, video, duree, zoom = [1, 1.04], focus = [0.5, 0.5], easing = Easing.inOut(Easing.sin), miroir, vivant = true, bouche = [], secousse, entree = true, coups = [], children,
 }) => {
   const f = useCurrentFrame();
   const z = interpolate(f, [0, duree], zoom, { ...clamp, easing });
@@ -66,8 +68,12 @@ export const Plan: React.FC<Props> = ({
         }}
       >
         <AbsoluteFill style={{ scale: miroir ? "-1 1" : undefined }}>
-          {image(src)}
-          {bouche.map((b) => (
+          {video ? (
+            <Video src={staticFile(video)} muted style={{ position: "absolute", left: 0, top, width: WIDTH, height: h, objectFit: "cover" }} />
+          ) : (
+            image(src)
+          )}
+          {(video ? [] : bouche).map((b) => (
             <React.Fragment key={b.srcParle + b.debut}>
               {image(b.srcParle, {
                 opacity: actif === b ? 1 : 0,
