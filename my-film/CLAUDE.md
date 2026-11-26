@@ -13,13 +13,13 @@ Chaque film ou épisode commence par un fichier `HISTOIRE.md` dans son dossier. 
    - Ils sont **répartis** dans le film : un premier dans le premier tiers, le plus fort au **pic d'intensité** (règle 9), et le dernier en **cliffhanger** juste avant l'appel à l'action. Le vote porte sur la question qu'il ouvre.
    - Le séquencier marque chaque rebondissement avec 🔀 et chaque détail qui le prépare avec 🌱.
 4. **Dialogues.** L'histoire est racontée **par plusieurs personnages qui se parlent** (au moins trois personnages qui parlent par épisode). **Pas de narrateur, pas de voix off, pas de pensées en voix intérieure** : tout ce que le public doit comprendre passe par les dialogues, les actions et les images. Lire chaque réplique à voix haute (en comptant les syllabes et le rythme), puis **réécrire celles qui sonnent faux** : français parlé naturel, phrases courtes, pas de tournure écrite ni ambiguë. Chaque personnage a **sa propre façon de parler** (vocabulaire, longueur des phrases, tics de langage).
-5. **Mise en page.** Écrire le film en **format scénario** : en-tête de scène (INT./EXT. LIEU — MOMENT), action au présent, nom du personnage, puis réplique. **Une page représente environ une minute à l'écran.** Vérifier en minutant la lecture des sous-titres, les actions et les pauses.
+5. **Mise en page.** Écrire le film en **format scénario** : en-tête de scène (INT./EXT. LIEU — MOMENT), action au présent, nom du personnage, puis réplique. **Une page représente environ une minute à l'écran.** Vérifier en minutant les répliques, les actions et les pauses.
 
 ## FICHE DU FILM
 Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - **Titre**, **résumé** en 3 phrases, **ambiance** (heure, saison, météo, lieux).
 - **Palette du film** : 5 à 7 couleurs vives et appétissantes (voir ASPECT), dont **une couleur d'accent** pour le titre et les moments forts.
-- **Fiche de chaque personnage** : **quel fruit ou légume**, couleurs (fruit, reflets, ombres, yeux, vêtements), texture de la peau, ce qu'il porte sur la tête (queue, feuilles, chapeau), métier ou rôle et tenue, trait de caractère **en lien avec son fruit**, expression typique, **façon de parler**, **couleur de son nom** dans les sous-titres et **voix** (timbre, âge, débit, accent : description utilisée pour la générer).
+- **Fiche de chaque personnage** : **quel fruit ou légume**, couleurs (fruit, reflets, ombres, yeux, vêtements), texture de la peau, ce qu'il porte sur la tête (queue, feuilles, chapeau), métier ou rôle et tenue, trait de caractère **en lien avec son fruit**, expression typique, **façon de parler**, et **voix** (timbre, âge, débit, accent : description utilisée pour la générer).
 - **Découpage** : liste des plans avec leur durée **en battements**, leur type (voir CAMÉRA ET MONTAGE) et les sons associés.
 
 ## RYTHME ET STRUCTURE
@@ -43,8 +43,8 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - Durée : **de 1 min à 1 min 30** (3 600 à 5 400 images).
 - **Pas de voix off pendant l'histoire** : seuls les personnages parlent, entre eux.
 - **Narrateur pour l'appel à l'action uniquement** : à la fin, pendant la carte de vote, une voix de narrateur énergique (toujours la même pour la chaîne) lit les choix, demande d'écrire la réponse en commentaire, de **liker** et de **s'abonner**. La carte affiche aussi les boutons « LIKE » et « ABONNE-TOI ». Le titre s'affiche alors plus vite (un quart de battement par lettre) pour laisser au narrateur le temps de parler.
-- **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA). Chaque réplique est aussi affichée en sous-titre.
-- **Images, animation et voix** : générées avec Higgsfield, principalement **Seedance 2.5** qui produit chaque scène avec ses voix et ses lèvres synchronisées (voir IA). Remotion fait le **montage** : enchaînement des plans sur les battements, sous-titres, voix, bruitages, effets, titre et vote. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
+- **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA).
+- **Images, animation et voix** : générées avec Higgsfield, principalement **Seedance 2.5** qui produit chaque scène avec ses voix et ses lèvres synchronisées (voir IA). Remotion fait le **montage** : enchaînement des scènes, étalonnage, musique, titre, vote et narrateur. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
 
 ## ASPECT : un dessin animé 3D brillant
 Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou dessin en code quand c'est plus simple). Qu'un élément soit généré ou dessiné, il doit respecter :
@@ -68,11 +68,10 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 - Chaque personnage garde **exactement le même design** dans tous les plans (fixé dans sa fiche).
 - **Cadrage typique** : plusieurs personnages côte à côte, de trois quarts, en plan taille, en train de travailler ou de discuter.
 
-## TEXTE
-- **Police** : **Fredoka** (poids 500 et 700), fichiers locaux dans `public/fonts/`, chargés avec `@remotion/fonts`. Elle sert au titre, aux sous-titres et aux mots-chocs.
-- **Sous-titres de dialogue** : texte blanc dans une **bulle arrondie sombre semi-transparente**, en bas de l'image utile, **8 mots maximum**. Le **nom du personnage** qui parle s'affiche en petit, dans **sa couleur** (fixée dans sa fiche), au-dessus du texte. On sait ainsi toujours qui parle, même hors champ.
-- Le texte s'écrit **mot par mot**, calé sur la voix, puis reste affiché le temps d'être lu.
-- **Mot-choc** : pour le mot important d'une réplique, un **seul mot géant** en blanc, avec un contour sombre, au centre de l'écran. Il apparaît en ressort puis disparaît. À utiliser avec parcimonie.
+## TEXTE (le moins possible)
+- **Pas de sous-titres, pas de mots-chocs, pas d'afficheur ni d'interface de jeu** : l'histoire passe par l'image et les voix.
+- Seuls textes à l'écran : le **titre de fin** et la **carte de vote**.
+- **Polices** (fichiers locaux dans `public/fonts/`, chargés avec `@remotion/fonts`) : **Playfair Display** (titre, question du vote) et **Inter** (texte du vote). Style sobre et élégant, jamais « jouet ».
 
 ## ANIMATION
 - **Fluide à 60 images par seconde**, sans effet diaporama.
@@ -83,12 +82,13 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 - **Compression et étirement** très marqués : la tête-fruit s'écrase et rebondit sur les chocs, les surprises et les rires.
 - **Procédés à doser selon l'histoire** : zoom éclair sur une réaction, lignes de vitesse pendant l'action, éclaboussures de jus, étoiles et cœurs pour les émotions, goutte de sueur.
 
-## CAPTER L'ATTENTION (montage dynamique)
-- **Accroche en 2 secondes** : le premier plan est court (environ 4 battements) et bouge vite (zoom accéléré) ; on entre dans l'action tout de suite.
-- **Ça bouge tout le temps** : chaque plan entre avec un petit « snap » (il arrive légèrement zoomé puis se pose), la caméra donne un **coup de zoom** au début de chaque réplique, et jamais de plan figé.
-- **Un « whoosh » discret sur chaque coupe** ; un **boum grave** et un **flash bref** sur chaque rebondissement ; une **montée** sonore juste avant les grandes révélations et le pic.
-- **Plans courts** : les plans parlés durent la longueur de la réplique, pas plus ; une coupe toutes les 2 à 4 secondes en moyenne.
-- **Aucun blanc** entre les répliques (un demi-battement maximum), sauf la pause voulue juste avant une révélation (règle 8).
+## TON : UN VRAI FILM D'ANIMATION, PAS ENFANTIN
+- On vise le rendu d'un **long métrage d'animation 3D** : jeu d'acteur, lumière, cadrages et son de cinéma. Personnages et décors originaux : on ne copie jamais un studio ou un film existant.
+- **Aucun effet gadget** au montage : pas de flash, pas de lignes de vitesse, pas d'étincelles ajoutées, pas de « whoosh » ni de « boum » sur les coupes, pas de zoom « snap ». Le spectaculaire vient de la scène elle-même (décrit dans le prompt Seedance).
+- **Coupes franches** entre les scènes ; les scènes qui se suivent au même endroit sont des **prolongements** (raccord continu).
+- **Étalonnage léger** sur tout l'épisode : vignettage doux et grain de film discret (composant `Etalonnage`).
+- **Son** : d'abord le son des scènes (voix, ambiance, bruits réels). **Musique** de film discrète et mature (cordes, piano, nappes), jamais de boîte à musique ni de clochettes.
+- **Prompts Seedance** : langage de cinéma (« 3D animated feature film », objectif, lumière, mouvement de caméra lent), description visuelle courte, personnages décrits par leur apparence.
 
 ## CAMÉRA ET MONTAGE
 - Vocabulaire de plans : **plan d'ensemble** pour situer le lieu, **plan de groupe** (2 ou 3 personnages), **plan taille**, **gros plan** sur un visage, **insert** sur un objet (un plat, une main, un indice).
@@ -99,8 +99,8 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 
 ## TITRE DE FIN (les 12 dernières secondes, soit 24 battements)
 Le titre s'affiche **par-dessus l'image de départ retrouvée** (règle 11).
-1. Le **titre apparaît lettre par lettre**, une lettre par demi-battement ou par battement, en **grandes lettres blanches** (Fredoka 700) avec un léger contour sombre et un petit rebond par lettre.
-2. Il est **souligné d'un trait ondulé** dans la **couleur d'accent** du film.
+1. Le **titre apparaît lettre par lettre** en fondu (un quart de battement par lettre), en **grandes lettres blanches** (Playfair Display), sans rebond.
+2. Il est **souligné d'un fin trait ondulé** dans la **couleur d'accent** du film.
 3. Puis apparaît **une ligne blanche**, suivie d'**une courte ligne de couleur d'accent**.
 4. **Appel à l'action** (règle 12), lisible pendant au moins 4 s.
 5. Titre, lignes et appel à l'action **sortent en ease-in**. La dernière image est **identique à la première** du film.
@@ -142,7 +142,7 @@ Bibliothèque actuelle :
 - **Images de référence** : une fiche par personnage (déjà générées pour la série) + une image du décor de la scène. Elles sont passées dans `medias` et désignées dans le prompt (« image 2 », « image 3 »…).
 - **Prompt d'une scène** : style (« dessin animé 3D de qualité cinéma, animation expressive et fluide »), lieu et lumière, puis chaque plan dans l'ordre avec qui parle, **la réplique en français entre guillemets** et le ton de la voix (âge, émotion, débit **dynamique**). Terminer par « pas de musique, pas de sous-titres, pas de texte ».
 - **Voix** : générées par Seedance avec la scène. Pour qu'un personnage garde **la même voix dans toutes les scènes**, lui donner un **échantillon de sa voix** en référence audio (`audio_references`). Voix de secours si besoin : **ElevenLabs v4** (bien plus naturel que Seed Audio). Jamais d'imitation d'une personne réelle.
-- **Remotion** fait l'habillage et le montage : enchaînement des scènes, sous-titres, afficheur, effets, bruitages d'appoint, titre de fin, narrateur et vote, boucle. Le son des scènes Seedance est **gardé** (voix + ambiance) ; les bruitages Remotion viennent en appoint, plus bas.
+- **Remotion** fait le montage sobre : enchaînement des scènes, étalonnage léger, musique, titre de fin, narrateur et vote, boucle. Le son des scènes Seedance est **gardé** (voix + ambiance).
 - **Rangement** : tout ce qui est généré est téléchargé dans `public/ia/<histoire>/` et versionné.
 - **Publication TikTok** : activer l'étiquette **« Contenu généré par IA »**.
 
@@ -156,12 +156,12 @@ Une série se range dans `src/series/<nom-de-la-serie>/`.
 - **Vote à la fin de chaque épisode.** Les deux choix proposés doivent tous deux mener vers la vraie fin. Le vote change le **chemin** : la scène d'ouverture de l'épisode suivant, qui accompagne le héros, quels indices on obtient, le ton. Il ne change pas la **destination**, fixée dans la bible.
 - **Journal des votes** dans la bible : pour chaque épisode, les deux choix, le choix gagnant (rempli par l'utilisatrice ou l'utilisateur) et ses conséquences à respecter dans la suite.
 - **Rappel au début des épisodes 2 et suivants** : pendant le premier plan, un petit encart en haut, du type « Épisode précédent : vous avez choisi B ». Il s'affiche **par-dessus** l'image de départ, pour ne pas casser la boucle.
-- **Habillage commun** à tous les épisodes : même titre de série, même générique de fin, mêmes personnages et décors. Seuls changent le numéro, le sous-titre de l'épisode et l'appel à l'action.
+- **Habillage commun** à tous les épisodes : même titre de série, même générique de fin, mêmes personnages et décors. Seuls changent le numéro, le nom de l'épisode et l'appel à l'action.
 - **Personnages, décors et voix récurrents créés une seule fois** (code dans `src/series/<nom>/commun/`, fichiers dans `public/ia/<nom>/`) et réutilisés tels quels par chaque épisode.
 
 ## Organisation technique
 - Un film seul = un dossier `src/films/<nom-du-film>/`. Un épisode de série = un dossier `src/series/<nom>/episode-NN/`. Chacun a sa propre `<Composition>` (1080 × 1920, 60 i/s) enregistrée dans `src/Root.tsx`. Les épisodes d'une même série sont rangés dans un `<Folder>` à son nom.
-- Ce qui sert à tous les films va dans `src/components/` et doit être réutilisé : bandes noires, **assembleur de personnages en calques** (corps, têtes, expressions, bouche synchronisée sur la voix), modelé et reflets, flou d'arrière-plan, bokeh et vapeur, sous-titres, mot-choc, titre de fin, lignes de vitesse, éclaboussures, composant `<Sfx>`.
+- Ce qui sert à tous les films va dans `src/components/` et doit être réutilisé : bandes noires, `Plan` (image ou clip Seedance avec son), `Etalonnage`, `TitreSobre` (titre de fin et vote).
 - Ce qui est propre à une histoire va dans le dossier du film, ou dans `commun/` pour une série.
 - Le rendu final se fait en MP4 dans `out/`.
 - Dans l'environnement cloud, rendre avec : `npx remotion render <Id> out/<nom>.mp4 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell` (sur un ordinateur personnel, `npx remotion render <Id>` suffit).
