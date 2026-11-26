@@ -26,8 +26,8 @@ Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut
 
 | | Apparence | Façon de parler | Nom en sous-titre | Voix |
 |---|---|---|---|---|
-| **LINA** | **Cerise** rouge vif et brillante. Sa queue verte porte une feuille qui retombe sur l'œil droit, comme une mèche. Yeux ambre, peau des bras rouge cerise. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Quand elle a peur, sa feuille se recroqueville et elle se mord la lèvre. | Rose cerise `#FF5A6E` | Voix d'adolescente, claire et un peu rauque quand elle a peur, débit rapide |
-| **L'AUTRE** | **Cerise jumelle**, d'un rouge bordeaux plus sombre et plus mat. Feuille et queue **en miroir**, du côté gauche. Pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | La **même voix que Lina**, plus posée et légèrement plus grave, avec un très léger écho ajouté dans Remotion |
+| **LINA** | **Cerise** rouge vif et brillante. Sa queue verte porte une feuille qui retombe sur l'œil gauche, comme une mèche. Yeux ambre, peau des bras rouge cerise. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet droit.** | Directe, des questions courtes. Quand elle a peur, sa feuille se recroqueville et elle se mord la lèvre. | Rose cerise `#FF5A6E` | Voix d'adolescente, claire et un peu rauque quand elle a peur, débit rapide |
+| **L'AUTRE** | **Cerise jumelle**, d'un rouge bordeaux plus sombre et plus mat. Feuille et queue **en miroir**, du côté droit. Pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet gauche.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | La **même voix que Lina**, plus posée et légèrement plus grave, avec un très léger écho ajouté dans Remotion |
 | **MADAME IRIS** | **Figue** violette ridée et un peu fendue, sa petite tige en guise de chignon. Lunettes rondes, gilet mauve, chaussons. Tricote une pelote turquoise. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. Adore les proverbes. | Mauve `#C98AC0` | Voix de vieille dame, grave, lente, chevrotante et chaleureuse |
 | **NOÉ** | **Mandarine** orange et ronde, avec une petite feuille toujours dressée sur le dessus. Pyjama bleu ciel à fusées, grosse lampe de poche. Peau granuleuse et brillante. | Parle vite, s'exclame, exagère. Quand il s'excite, un peu de jus gicle de sa peau. | Orange `#FF9F1C` | Voix de petit garçon, aiguë, rapide, essoufflée d'excitation |
 | **???** | On ne la voit pas : une voix derrière la porte du 15ᵉ. | Murmure. | Blanc | La voix de Lina, en murmure, étouffée dans Remotion comme à travers une porte |
@@ -225,6 +225,22 @@ Tout s'efface. L'image est celle du tout début.            b180
 ## Habillage de la série
 - Afficheur d'ascenseur rétro en haut à gauche, sur « 14 » pendant tout l'épisode. Il apparaît avec un *ding* et un léger ressort au battement 18.
 - Après le vote, l'épisode 2 se passera au 13ᵉ étage, quel que soit le choix (voir le journal des votes dans la bible).
+
+## Devis de production (à valider)
+Prix relevés avec l'estimateur Higgsfield : image 2k = **2 crédits**, réplique de voix = **0,4 crédit**.
+
+| Poste | Détail | Nombre | Crédits |
+|---|---|---|---|
+| Fiches de référence | Lina (face, trois quarts, profil), l'Autre, Iris, Noé | 4 | 8 |
+| Décors et plans larges | immeuble (aussi plan final), salon, couloir, palier d'ascenseur, intérieur d'ascenseur, porte de l'escalier, cage d'escalier, porte « 15 », lucarne | 9 | 18 |
+| Plans avec personnages | un plan par moment du séquencier (réveil, salon, Iris, chaise vide, Noé, silhouette, révélation, fils, Iris dans l'encadrement, porte 15…) | 18 | 36 |
+| Variantes pour l'animation | bouche ouverte, yeux fermés, réaction, pour chaque plan où un personnage parle | 16 | 32 |
+| Inserts | réveil 04:44, pelote, doigt sur le bouton, écran « 14 », main sur la poignée, poignets et fils | 6 | 12 |
+| Voix | essai des 4 voix, puis les 20 répliques | 24 | 10 |
+| Marge pour les ratés | environ 30 % des images, et une seconde prise pour certaines répliques | — | 34 |
+| **Total estimé** | | | **≈ 150** |
+
+**Plafond demandé : 200 crédits** (budget maximum : 500). Les fiches de référence, les décors de l'immeuble et les voix serviront aux épisodes suivants : les autres épisodes devraient coûter environ 80 à 120 crédits.
 
 ## Crédits Higgsfield (budget : 500 par épisode)
 Les personnages, décors et voix de la série sont créés une seule fois et serviront aux 14 épisodes.
