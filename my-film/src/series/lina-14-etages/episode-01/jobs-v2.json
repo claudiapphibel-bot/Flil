@@ -4,9 +4,10 @@
   "scene4": "f4668ef7-db67-47d1-b1a0-da9b48f2b13c",
   "scene6": "a0fe182a-54c6-4a45-9476-ad246514d432",
   "test_voix_reference": "acb8639f-8f7e-485b-840f-9573d9834207",
-  "scene3": "c4dc43c7-2bf5-4bc4-adab-7e70d6dfc998",
   "scene5": "7a619a08-31f0-4d2f-8ced-9842c385cf1a",
   "scene7": "e6c96261-7193-42f4-9791-93fc47933b85",
   "musique": "1c4380c8-0606-40e8-8c52-974b57ef197e",
-  "narrateur": "22f4da61-ca51-4bdb-91f3-86b15fef8a4d"
+  "narrateur": "22f4da61-ca51-4bdb-91f3-86b15fef8a4d",
+  "scene8": "4806ac7a-3384-4950-8982-6af8a6863e23",
+  "scene3_refusee_filtre": "c4dc43c7-2bf5-4bc4-adab-7e70d6dfc998"
 }
