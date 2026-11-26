@@ -3,13 +3,13 @@
 Statut : **histoire à valider, rien n'est animé.**
 
 ## 1. Pitch
-Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut comprendre où sont passés les autres. Mais derrière la porte de l'escalier l'attend une fille qui a son visage, et le même fil turquoise au poignet.
+Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut comprendre ce qui se passe. Mais chaque personne qu'elle croise en sait plus qu'elle, et derrière la porte de l'escalier l'attend une fille qui a son visage.
 
 ## Fiche du film
 - **Ambiance.** 4 h 44 du matin, fin d'automne, ciel violet sans lune, immeuble des années 80 avec couloirs carrelés, néons et moquette usée.
-- **Durée.** 80 s = **160 battements** (120 BPM, 1 battement = 30 images).
-- **Premier et dernier plan (règles 9 et 10).** La même image : l'immeuble en entier sur le ciel violet, avec une seule fenêtre allumée au 14ᵉ. Le film part de là et y revient, ce qui permet la boucle.
-- **Pic d'intensité unique (règle 8).** Battement 106 (53 s, aux deux tiers), quand les deux fils turquoise s'aimantent.
+- **Durée.** 90 s = **180 battements** (120 BPM, 1 battement = 30 images).
+- **Premier et dernier plan (règles 10 et 11).** La même image : l'immeuble en entier sur le ciel violet, avec une seule fenêtre allumée au 14ᵉ.
+- **Pic d'intensité unique (règle 9).** Battement 120 (60 s, aux deux tiers), quand les fils s'unissent et qu'Iris surgit.
 
 | Rôle | Couleur | Code |
 |---|---|---|
@@ -17,149 +17,209 @@ Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut
 | Murs du couloir | Violet du soir | `#4A3A66` |
 | Lumières intérieures | Rose fané | `#C98A9A` |
 | Peau, lumière chaude | Pêche | `#F2C4A0` |
-| Clairs, pull de Lina | Crème | `#F4E9D8` |
+| Clairs | Crème | `#F4E9D8` |
 | Néon du couloir | Ocre | `#E0A85A` |
 | **Accent** (le fil, le titre) | **Turquoise** | `#2EC4B6` |
 
-**Personnages**
-- **Lina.** Adolescente. Carré brun prune, avec une mèche anguleuse sur l'œil droit. Yeux ambre. Grand pull crème aux manches retroussées, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** Curieuse et courageuse ; elle se mord la lèvre quand elle a peur.
-- **L'Autre.** Le même visage que Lina, **en miroir** : la mèche tombe sur l'œil gauche. Pull bleu nuit, yeux d'un ambre plus pâle, presque gris. **Fil turquoise au poignet droit.** Calme, elle sourit à peine et semble savoir quelque chose.
+## Personnages (4 qui parlent, plus une voix mystère)
+
+| | Apparence | Façon de parler | Nom en sous-titre | Voix (babil) |
+|---|---|---|---|---|
+| **LINA** | Adolescente. Carré brun prune, mèche anguleuse sur l'œil droit, yeux ambre. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Se mord la lèvre quand elle a peur. | Pêche `#F2C4A0` | `voix-lina` : hauteur moyenne, claire |
+| **L'AUTRE** | Le visage de Lina **en miroir** : mèche sur l'œil gauche, pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | `voix-autre` : la voix de Lina inversée et légèrement désaccordée |
+| **MADAME IRIS** | Voisine du 1402, environ 80 ans. Chignon gris, lunettes rondes, gilet mauve, chaussons. Tricote **une pelote turquoise**. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. | Rose fané `#C98A9A` | `voix-iris` : grave, lente, chevrotante |
+| **NOÉ** | Garçon d'environ 9 ans, pyjama moutarde à fusées, grosse lampe de poche, épis dans les cheveux. | Parle vite, s'exclame, exagère. | Ocre `#E0A85A` | `voix-noe` : aiguë et rapide |
+| **???** | On ne la voit pas : une voix derrière la porte du 15ᵉ. | Murmure. | Blanc `???` | `voix-lina` étouffée, comme à travers une porte |
 
 ## 2. Séquencier (une ligne par scène, en battements)
-1. **b0–12** · EXT. Immeuble : la ville est éteinte, une seule fenêtre est allumée au 14ᵉ. Lent travelling avant.
-2. **b12–22** · Très gros plan : les yeux de Lina s'ouvrent d'un coup.
-3. **b22–34** · Elle se redresse sur le canapé. L'appartement est vide et le réveil affiche 04:44.
-4. **b34–46** · À la fenêtre, aucune lumière en ville. Son reflet cligne des yeux en retard.
-5. **b46–58** · Le couloir du 14ᵉ, avec son néon qui grésille. Elle avance pieds nus.
-6. **b58–66** · Montage (4 × 2 battements) : l'ascenseur reste bloqué sur « 14 ».
-7. **b66–78** · La porte de l'escalier et sa silhouette derrière le hublot. **Pause sur la poignée** (b74–78).
-8. **b78–90** · La porte s'ouvre en silence : l'Autre est là. Pose tenue.
-9. **b90–102** · Champ / contrechamp sur les deux regards en miroir. L'Autre parle.
-10. **b102–114** · **PIC** (b106) : les deux fils s'illuminent et s'aimantent.
-11. **b114–124** · L'escalier descend dans le noir, et une porte « 15 » apparaît en haut.
-12. **b124–136** · Lina lève les yeux vers la lucarne. La caméra traverse la vitre et recule jusqu'à l'image du début.
-13. **b136–160** · Le titre apparaît sur l'image de départ, puis le vote. Tout sort en ease-in et la dernière image est identique à la première.
+🔀 = rebondissement · 🌱 = détail qui le prépare
 
-## 3. Dialogues : version relue
-Chaque réplique a été lue à voix haute et minutée. Les **pensées** de Lina sont en *italique*, sans voix enregistrée.
+1. **b0–10** · EXT. Immeuble : la ville est éteinte, une seule fenêtre est allumée au 14ᵉ.
+2. **b10–18** · Très gros plan : les yeux de Lina s'ouvrent, un réveil rouge affiche 04:44.
+3. **b18–30** · Salon vide, Lina appelle sa mère. 🌱 Dans l'écran noir de la télé, son reflet cligne des yeux en retard.
+4. **b30–42** · 🔀 **1 : elle n'est pas seule.** Madame Iris tricote dans le couloir et lui dit « Encore debout ? ». Elle lui interdit l'escalier.
+5. **b42–44** · Insert 🌱 : la pelote turquoise d'Iris.
+6. **b44–52** · Lina se retourne : la chaise d'Iris est vide, et une aiguille à tricoter se balance encore.
+7. **b52–60** · Montage (4 × 2 battements) : l'ascenseur, l'écran bloqué sur « 14 », puis le *ding*.
+8. **b60–76** · 🔀 **2 : dans l'ascenseur, Noé.** Il monte depuis des heures, et tous les étages sont le 14ᵉ.
+9. **b76–88** · Noé montre la porte de l'escalier : « Elle t'attend depuis hier. » **Pause sur la poignée** (b84–88).
+10. **b88–100** · 🔀 **3 : l'Autre**, une fille qui a le visage de Lina (préparé par le reflet).
+11. **b100–112** · Champ / contrechamp entre les deux filles. Noé remarque que leurs poignets brillent.
+12. **b112–128** · 🔀 **4, le PIC (b120) :** les fils s'unissent. Le fil remonte jusqu'à la pelote d'Iris, qui surgit : c'est elle qui les a tricotés (préparé par la pelote et l'interdiction de l'escalier).
+13. **b128–144** · 🔀 **5, cliffhanger :** une porte « 15 » apparaît. On frappe trois coups, et une voix qui a la voix de Lina dit « Ouvre-moi. »
+14. **b144–156** · Lina lève les yeux vers la lucarne. La caméra traverse la vitre et recule jusqu'à l'image du début.
+15. **b156–180** · Le titre apparaît, puis le vote. Tout sort en ease-in et la dernière image est identique à la première.
 
-| Avant | Après | Pourquoi |
+## 3. Dialogues (relus à voix haute, minutés)
+Aucune voix off, aucune pensée : tout passe par les personnages.
+
+| b | Qui | Réplique |
 |---|---|---|
-| « Maman ? … Il y a quelqu'un ? » | « Maman ? » … « Y a quelqu'un ? » | Plus parlé, et coupé en deux pour laisser le silence répondre. |
-| *(rien)* | *Toute la ville… éteinte ?* | Pensée ajoutée : on entre dans sa tête. |
-| *(rien)* | *Quelqu'un attend.* | Pensée courte pour la pause avant la révélation. |
-| « Tu en as mis, du temps, Lina. » | « T'en as mis, du temps. » | Plus naturel. Son prénom revient plus loin, avec plus d'effet. |
-| « Il n'y a pas de 15ᵉ étage. » | « Y a pas de quinzième étage. » | Français parlé. Le chiffre en lettres se lit mieux. |
-| « Plus maintenant. » | « Maintenant, si, Lina. » | « Plus maintenant » voulait dire le contraire (« il n'y en a plus »). Corrigé. |
+| 20 | LINA | Maman ? |
+| 24 | LINA | Y a quelqu'un ? |
+| 32 | IRIS | Encore debout à 4 h 44, ma puce ? |
+| 37 | LINA | Comment ça, « encore » ? |
+| 40 | IRIS | Surtout, ne prends pas l'escalier. |
+| 46 | LINA | Madame Iris ? |
+| 62 | NOÉ | Enfin quelqu'un ! |
+| 65 | NOÉ | J'appuie sur tous les boutons depuis des heures ! |
+| 70 | NOÉ | Partout, c'est le 14 ! |
+| 73 | LINA | C'est pas possible. |
+| 77 | NOÉ | Elle, elle t'attend depuis hier. |
+| 81 | LINA | Qui ça, « elle » ? |
+| 92 | L'AUTRE | T'en as mis, du temps. |
+| 96 | LINA | Pourquoi t'as mon visage ? |
+| 101 | L'AUTRE | Tu poses toujours la même question. |
+| 106 | NOÉ | Euh… vos poignets… ils brillent. |
+| 122 | IRIS | Je vous avais dit de ne jamais vous croiser. |
+| 129 | IRIS | Venez avec moi. Vite. |
+| 138 | ??? | Lina… c'est moi. Ouvre-moi. |
+| 142 | NOÉ | Elle a… ta voix. |
 
-## 4. Scénario (environ 1 page 1/3, soit environ 80 s)
+**Corrections après lecture :**
+- « Il y a quelqu'un ? » devient « Y a quelqu'un ? », et « C'est impossible » devient « C'est pas possible ». Les deux sont plus parlés.
+- « Plus maintenant » a été supprimé : la phrase voulait dire le contraire de ce que la scène montre.
+- Les répliques de Noé finissent en exclamations et celles de l'Autre ne sont jamais des questions. Chaque personnage se reconnaît à sa façon de parler.
+
+## 4. Scénario (environ 1 page et demie, soit environ 90 s)
 
 ```
 1. EXT. IMMEUBLE — NUIT                                      b0
-Un immeuble de quatorze étages sur un ciel violet.
-Toute la ville est noire. Une seule fenêtre brille,
-tout en haut. Lente avancée vers elle.
+Quatorze étages sur un ciel violet. La ville est noire.
+Une seule fenêtre brille, tout en haut. Lente avancée.
 
-2. INT. SALON DE LINA — NUIT                                 b12
+2. INT. SALON DE LINA — NUIT                                 b10
 Très gros plan. Deux yeux ambre s'ouvrent d'un coup.
-Une lumière rouge danse dans les pupilles.
+Un réveil rouge s'y reflète : 04:44.
 
-3. INT. SALON DE LINA — CONTINU                              b22
+3. INT. SALON DE LINA — CONTINU                              b18
 LINA se redresse sur le canapé, cheveux en bataille.
-Le réveil affiche 04:44. Personne.
 
                     LINA
           Maman ?
-                                    (silence, 2 battements)
                     LINA
           Y a quelqu'un ?
 
-4. INT. SALON — FENÊTRE                                      b34
-Lina colle ses mains à la vitre. En bas, plus une lumière.
+Dans l'écran noir de la télé, son reflet cligne des yeux.
+Une image trop tard.                                        b28
 
-                    LINA (pensée)
-          Toute la ville… éteinte ?
+4. INT. COULOIR DU 14ᵉ — NUIT                                b30
+Néon ocre qui grésille. Devant la porte 1402, MADAME IRIS
+tricote sur une chaise, sans lever les yeux.
 
-Dans la vitre, son reflet cligne des yeux. Une image trop tard.
+                    IRIS
+          Encore debout à 4 h 44, ma puce ?
+                    LINA
+          Comment ça, « encore » ?
+                    IRIS
+          Surtout, ne prends pas l'escalier.
 
-5. INT. COULOIR DU 14ᵉ — NUIT                                b46
-Un néon ocre grésille. Un « 14 » peint au mur.
-Lina avance en chaussettes sur la moquette.
+5. INSERT — LA PELOTE                                        b42
+Une pelote turquoise. Le même bleu que le fil de Lina.
 
-6. INT. PALIER DE L'ASCENSEUR — MONTAGE                      b58
+6. INT. COULOIR — CONTINU                                    b44
+Lina se tourne vers l'ascenseur… se retourne.
+La chaise est vide. Une aiguille se balance encore.
+
+                    LINA
+          Madame Iris ?
+
+7. INT. PALIER DE L'ASCENSEUR — MONTAGE                      b52
 — Son doigt sur le bouton.        — L'écran : « 14 ».
-— Son doigt, plus fort.           — L'écran : « 14 ».
+— Son doigt, plus fort.           — « 14 ». Ding.
 
-7. INT. COULOIR — PORTE « ESCALIER »                         b66
-Lumière verte de la sortie de secours. Derrière le hublot,
-une silhouette immobile. Lina se mord la lèvre.
+8. INT. ASCENSEUR — CONTINU                                  b60
+Les portes s'ouvrent. NOÉ, en pyjama à fusées,
+accroupi, sa lampe braquée sur Lina.
 
-                    LINA (pensée)
-          Quelqu'un attend.
+                    NOÉ
+          Enfin quelqu'un !
+          J'appuie sur tous les boutons depuis des heures !
+          Partout, c'est le 14 !
+                    LINA
+          C'est pas possible.
 
-Gros plan : sa main se pose sur la poignée. Plus un bruit.  b74
+9. INT. COULOIR — PORTE « ESCALIER »                         b76
+Noé pointe sa lampe vers la porte. Lumière verte.
+Derrière le hublot : une silhouette immobile.
 
-8. INT. CAGE D'ESCALIER — CONTINU                            b78
-La porte s'ouvre. Sur le palier : une fille.
-Le visage de Lina. Un courant d'air monte d'en bas
-et soulève leurs cheveux, en miroir.
+                    NOÉ
+          Elle, elle t'attend depuis hier.
+                    LINA
+          Qui ça, « elle » ?
 
-9. INT. CAGE D'ESCALIER — CONTINU                            b90
-Les yeux de Lina. Les yeux de L'AUTRE. Le même regard.
-Une goutte de sueur glisse sur la tempe de Lina.
+Gros plan : sa main sur la poignée. Plus un bruit.         b84
+
+10. INT. CAGE D'ESCALIER — CONTINU                           b88
+La porte s'ouvre. Sur le palier : une fille. Le visage
+de Lina, en miroir. Un courant d'air soulève leurs cheveux.
 
                     L'AUTRE
           T'en as mis, du temps.
-
-10. INT. CAGE D'ESCALIER — CONTINU                          b102
-Les deux poignets se lèvent. Les fils turquoise s'allument,
-se tendent l'un vers l'autre.
-ÉCLAIR. Image d'impact. Lignes de vitesse.                 b106
-
-11. INT. CAGE D'ESCALIER — PLONGÉE                          b114
-En bas, les marches s'enfoncent : 13, 12, 11… puis le noir.
-En haut, une porte qui n'était pas là : « 15 ».
-
                     LINA
-          Y a pas de quinzième étage.
+          Pourquoi t'as mon visage ?
+
+11. INT. CAGE D'ESCALIER — CONTINU                          b100
+Champ. Contrechamp. Le même regard.
 
                     L'AUTRE
-          Maintenant, si, Lina.
+          Tu poses toujours la même question.
+                    NOÉ (hors champ)
+          Euh… vos poignets… ils brillent.
 
-12. INT. CAGE D'ESCALIER / EXT. IMMEUBLE                     b124
+12. INT. CAGE D'ESCALIER / COULOIR — CONTINU                b112
+Les fils turquoise se tendent l'un vers l'autre…
+ÉCLAIR. Image d'impact. Ils s'unissent.                    b120
+Un fil part en arrière, file dans le couloir…
+jusqu'à la pelote d'IRIS, debout dans l'encadrement.
+
+                    IRIS
+          Je vous avais dit de ne jamais vous croiser.
+
+13. INT. CAGE D'ESCALIER — CONTINU                          b128
+                    IRIS
+          Venez avec moi. Vite.
+
+Au-dessus d'eux, une porte qui n'existait pas : « 15 ».   b132
+TOC. TOC. TOC.                                   b134, 135, 136
+
+                    ??? (derrière la porte)
+          Lina… c'est moi. Ouvre-moi.
+                    NOÉ
+          Elle a… ta voix.
+
+14. INT. CAGE D'ESCALIER / EXT. IMMEUBLE                    b144
 Lina lève les yeux vers la lucarne. On traverse la vitre,
-on recule dans la nuit, jusqu'à retrouver l'immeuble entier
+on recule dans la nuit, jusqu'à l'immeuble entier
 et sa seule fenêtre allumée.
 
-13. EXT. IMMEUBLE — NUIT (même image qu'en 1)               b136
+15. EXT. IMMEUBLE — NUIT (même image qu'en 1)              b156
 Titre, lettre par lettre : LINA — LES 14 ÉTAGES.
 Trait ondulé turquoise. Ligne blanche. Petite ligne turquoise.
 « Épisode 1 ».
-Carte de vote :                                             b150
-     A — Descendre avec l'Autre
-     B — Ouvrir la porte du 15ᵉ
+Carte de vote :                                            b168
+     QUI DOIT-ELLE CROIRE ?
+     A — Ouvrir la porte du 15ᵉ
+     B — Suivre Madame Iris
      Écris A ou B en commentaire
-Tout s'efface. L'image est celle du tout début.             b160
+Tout s'efface. L'image est celle du tout début.            b180
 ```
 
-**Minutage de contrôle.** Chaque sous-titre reste affiché au moins 2 battements (1 s) plus 1 battement par tranche de 3 mots. Toutes les répliques tiennent dans leur scène. La carte de vote reste lisible 8 battements (4 s).
+**Minutage de contrôle.** Chaque sous-titre reste affiché au moins 2 battements (1 s) plus 1 battement par tranche de 3 mots, après la fin de son écriture lettre par lettre. Toutes les répliques tiennent dans leur scène. La carte de vote reste lisible 10 battements (5 s).
 
-## Repères de rythme (règles 5 à 7)
-- **Coupes franches** : b12, 22, 34, 46, 58, 60, 62, 64, 66, 78, 90, 94, 98, 102, 114, 124.
-- **Apparitions sur le battement** : réveil 04:44 (b24), « Maman ? » (b26), « Y a quelqu'un ? » (b30), reflet en retard (b42), porte « 15 » (b116), lettres du titre (une par demi-battement à partir de b136), vote (b150).
-- **Pause avant la révélation** : b74–78. Plan tenu sur la main et la poignée, ambiance baissée presque au silence.
-- **Révélation** (b78) : volontairement calme, avec le grincement de la porte et un seul battement de cœur.
-- **Pic unique** (b106) : `impact` + `flash` + `scintillement`, image d'impact et lignes de vitesse. C'est le seul moment de ce niveau.
+## Repères de rythme
+- **Coupes franches** : b10, 18, 30, 42, 44, 52, 54, 56, 58, 60, 76, 88, 100, 104, 108, 112, 128, 144.
+- **Pause avant la révélation** : b84–88. Plan tenu sur la main et la poignée, ambiance presque coupée.
+- **Révélation de l'Autre** (b88) : volontairement calme, avec le grincement de la porte et un seul battement de cœur.
+- **Pic unique** (b120) : `impact` + `flash` + `scintillement`, image d'impact et lignes de vitesse.
+- **Trois coups** sur b134, b135 et b136 ; la porte « 15 » apparaît sur b132 ; le vote arrive sur b168.
 
 ## Sons
 - Déjà disponibles : `ambiance-nuit`, `bourdon-lampe`, `tic-compteur`, `pas`, `battement`, `ombre-nappe`, `ombre-voix`, `impact`, `flash`, `whoosh`, `pop-repetition`, `titre-lettre`, `trait-ligne`, `titre-carillon`.
 - À créer (synthétisés par code) :
-  - `reveil` : sonnerie électronique des années 80 ;
-  - `ding-ascenseur` : double note de cloche un peu fausse ;
-  - `porte` : grincement suivi d'un claquement sourd ;
-  - `scintillement` : notes cristallines qui montent ;
-  - `vote` : jingle court de 3 notes.
+  - **voix** : `voix-lina`, `voix-autre`, `voix-iris`, `voix-noe` (babil d'une syllabe par voix) ;
+  - **effets** : `reveil`, `ding-ascenseur`, `porte` (grincement), `toc` (coup sourd contre une porte), `aiguilles` (cliquetis de tricot), `scintillement`, `vote`.
 
 ## Pistes pour l'épisode 2 (selon le vote)
-- **A, descendre.** Chaque étage est une version un peu différente de son appartement, et l'Autre semble y avoir vécu.
-- **B, le 15ᵉ.** Une pièce remplie de fils turquoise tendus, dont chacun mène à une autre Lina.
+- **A, ouvrir le 15ᵉ.** Derrière la porte, une troisième Lina, plus âgée, qui porte deux fils au poignet.
+- **B, suivre Iris.** Dans le 1402, des centaines de pelotes turquoise, chacune avec une étiquette : un prénom, et une date qui n'est pas encore arrivée.

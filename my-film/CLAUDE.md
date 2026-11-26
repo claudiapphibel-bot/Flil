@@ -8,36 +8,41 @@ Avant de commencer un film, charger la compétence `remotion-best-practices` (da
 Chaque film commence par un fichier `src/films/<nom>/HISTOIRE.md`. **On n'anime rien avant le feu vert de l'utilisatrice ou de l'utilisateur sur ce fichier.**
 1. **Pitch.** Résumer l'histoire en **une phrase** qui contient le personnage, son objectif et son obstacle.
 2. **Séquencier.** Lister les scènes dans l'ordre, **une ligne par scène**, avant d'écrire les dialogues.
-3. **Dialogues.** Lire chaque réplique à voix haute (en comptant les syllabes et le rythme), puis **réécrire celles qui sonnent faux** : français parlé naturel, phrases courtes, pas de tournure écrite ni ambiguë. Même travail pour les **pensées** du personnage. Rappel : il n'y a **aucune voix enregistrée**. Répliques et pensées passent uniquement par les sous-titres, les pensées en *italique*.
-4. **Mise en page.** Écrire le film en **format scénario** : en-tête de scène (INT./EXT. LIEU — MOMENT), action au présent, nom du personnage, puis réplique. **Une page représente environ une minute à l'écran.** Vérifier en minutant la lecture des sous-titres, les actions et les pauses.
+3. **Rebondissements.** Chaque épisode en contient **au moins trois** : des surprises qui changent ce que le héros (et le public) croyait savoir.
+   - Chaque rebondissement est **préparé** par un détail montré plus tôt (un objet, une phrase, un geste). Quand il arrive, il doit être surprenant mais logique.
+   - Ils sont **répartis** dans le film : un premier dans le premier tiers, le plus fort au **pic d'intensité** (règle 9), et le dernier en **cliffhanger** juste avant l'appel à l'action. Le vote porte sur la question qu'il ouvre.
+   - Le séquencier marque chaque rebondissement avec 🔀 et chaque détail qui le prépare avec 🌱.
+4. **Dialogues.** L'histoire est racontée **par plusieurs personnages qui se parlent** (au moins trois personnages qui parlent par épisode). **Pas de narrateur, pas de voix off, pas de pensées en voix intérieure** : tout ce que le public doit comprendre passe par les dialogues, les actions et les images. Lire chaque réplique à voix haute (en comptant les syllabes et le rythme), puis **réécrire celles qui sonnent faux** : français parlé naturel, phrases courtes, pas de tournure écrite ni ambiguë. Chaque personnage a **sa propre façon de parler** (vocabulaire, longueur des phrases, tics de langage).
+5. **Mise en page.** Écrire le film en **format scénario** : en-tête de scène (INT./EXT. LIEU — MOMENT), action au présent, nom du personnage, puis réplique. **Une page représente environ une minute à l'écran.** Vérifier en minutant la lecture des sous-titres, les actions et les pauses.
 
 ## FICHE DU FILM
 Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - **Titre**, **résumé** en 3 phrases, **ambiance** (heure, saison, météo, lieux).
 - **Palette du film** : 5 à 7 couleurs choisies dans l'esprit rétro (voir ASPECT), dont **une couleur d'accent** pour le titre et les moments forts.
-- **Fiche de chaque personnage** : couleurs (peau, cheveux, yeux, vêtements), ton d'ombre de chaque couleur, silhouette reconnaissable, trait de caractère, expression typique.
+- **Fiche de chaque personnage** : couleurs (peau, cheveux, yeux, vêtements), ton d'ombre de chaque couleur, silhouette reconnaissable, trait de caractère, expression typique, **façon de parler**, **couleur de son nom** dans les sous-titres et **voix** (son babil).
 - **Découpage** : liste des plans avec leur durée **en battements**, leur type (voir CAMÉRA ET MONTAGE) et les sons associés.
 
 ## RYTHME ET STRUCTURE
-5. **Repères de rythme : 120 battements par minute.** Un battement = 0,5 s = **30 images**. Une mesure de 4 battements = 2 s = 120 images. Le découpage s'écrit en battements.
-6. **Couper sur le battement.** Les coupes franches, les apparitions et les impacts importants tombent **exactement** sur une image multiple de 30. Dans le code, utiliser la constante `BEAT = 30` et écrire les temps en `n * BEAT`.
-7. **Pause avant la révélation.** Juste avant une révélation, **tenir le plan sur un seul détail** (au moins 2 battements) et **baisser l'ambiance sonore** pour créer l'attente.
-8. **Un seul pic d'intensité**, placé **vers les deux tiers** du film puis ajusté selon le récit. C'est le seul moment avec le maximum d'effets : image d'impact, lignes de vitesse, son le plus fort. Ailleurs, les effets restent plus mesurés.
-9. **Préparer la fin dès le découpage.** Penser **ensemble** le premier et le dernier plan.
-10. **Boucle.** Le dernier mouvement **ramène exactement à l'image de départ** : même cadrage, même position du sujet, même lumière. La dernière image doit pouvoir s'enchaîner sans saut sur la première quand TikTok relance la vidéo.
-11. **Appel à l'action avant le raccord.** L'appel à l'action (vote, question, « abonne-toi »…) est placé **juste avant le raccord** de la boucle. Lui laisser **le temps d'être lu** (au moins 4 s), puis enchaîner directement sur l'image de début.
+6. **Repères de rythme : 120 battements par minute.** Un battement = 0,5 s = **30 images**. Une mesure de 4 battements = 2 s = 120 images. Le découpage s'écrit en battements.
+7. **Couper sur le battement.** Les coupes franches, les apparitions et les impacts importants tombent **exactement** sur une image multiple de 30. Dans le code, utiliser la constante `BEAT = 30` et écrire les temps en `n * BEAT`.
+8. **Pause avant la révélation.** Juste avant une révélation, **tenir le plan sur un seul détail** (au moins 2 battements) et **baisser l'ambiance sonore** pour créer l'attente.
+9. **Un seul pic d'intensité**, placé **vers les deux tiers** du film puis ajusté selon le récit. C'est le seul moment avec le maximum d'effets : image d'impact, lignes de vitesse, son le plus fort. Ailleurs, les effets restent plus mesurés.
+10. **Préparer la fin dès le découpage.** Penser **ensemble** le premier et le dernier plan.
+11. **Boucle.** Le dernier mouvement **ramène exactement à l'image de départ** : même cadrage, même position du sujet, même lumière. La dernière image doit pouvoir s'enchaîner sans saut sur la première quand TikTok relance la vidéo.
+12. **Appel à l'action avant le raccord.** L'appel à l'action (vote, question, « abonne-toi »…) est placé **juste avant le raccord** de la boucle. Lui laisser **le temps d'être lu** (au moins 4 s), puis enchaîner directement sur l'image de début.
 
 ## MOUVEMENT (courbes d'accélération)
-12. **Entrée rapide, arrivée douce (ease-out).** Un élément qui entre arrive vite puis freine jusqu'à sa place : `Easing.out(Easing.cubic)`.
-13. **Départ doux, sortie rapide (ease-in).** Un élément qui sort démarre lentement puis accélère en quittant l'écran : `Easing.in(Easing.cubic)`.
-14. **Léger ressort pour l'interface.** Un bouton, un compteur ou une carte de vote **dépasse un peu sa position finale puis revient se poser** : `spring()` avec un amortissement modéré (par exemple `damping: 12`).
-15. **Varier la vitesse.** Jamais de déplacement à vitesse constante avec un départ et un arrêt brusques, car cela donne un effet robotique. Tout mouvement a une accélération et une décélération (`Easing.inOut`, `Easing.bezier` ou ressort), y compris les mouvements de caméra.
+13. **Entrée rapide, arrivée douce (ease-out).** Un élément qui entre arrive vite puis freine jusqu'à sa place : `Easing.out(Easing.cubic)`.
+14. **Départ doux, sortie rapide (ease-in).** Un élément qui sort démarre lentement puis accélère en quittant l'écran : `Easing.in(Easing.cubic)`.
+15. **Léger ressort pour l'interface.** Un bouton, un compteur ou une carte de vote **dépasse un peu sa position finale puis revient se poser** : `spring()` avec un amortissement modéré (par exemple `damping: 12`).
+16. **Varier la vitesse.** Jamais de déplacement à vitesse constante avec un départ et un arrêt brusques, car cela donne un effet robotique. Tout mouvement a une accélération et une décélération (`Easing.inOut`, `Easing.bezier` ou ressort), y compris les mouvements de caméra.
 
 ## FORMAT
 - Composition de **1080 × 1920** (vertical TikTok), **60 images par seconde**.
 - **Fines bandes noires en haut et en bas** (60 px chacune) : image utile de 1080 × 1800, rapport **6:10**.
 - Durée : **de 1 min à 1 min 30** (3 600 à 5 400 images).
-- **Pas de voix off, pas de doublage.**
+- **Pas de voix off ni de narrateur** : seuls les personnages parlent, entre eux.
+- **Voix des personnages** : pas de voix enregistrée ni générée par IA. Chaque réplique s'affiche en sous-titre et s'accompagne d'un **« babil » synthétisé par code**, comme les dialogues des jeux vidéo rétro : une petite syllabe sonore par lettre ou par syllabe, avec **un timbre et une hauteur propres à chaque personnage** (voir SON).
 - Tout est dessiné en code par Remotion (SVG, CSS, dégradés, filtres) : **aucune vidéo ni image générée par IA, aucune image ni vidéo d'archive.**
 
 ## ASPECT : le look « celluloïd »
@@ -65,7 +70,8 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
   - **Dela Gothic One** pour le **titre** et les **onomatopées** ;
   - **M PLUS Rounded 1c** (poids 500 et 800) pour les **sous-titres**.
 - **Sous-titres** : façon anime sous-titré des années 90, **blancs avec un contour noir épais**, **centrés en bas** de l'image utile, **8 mots maximum** par ligne, apparition et disparition en **fondu court**.
-- Les **paroles d'un personnage** sont des sous-titres ; on peut ajouter son nom en petit, dans sa couleur, avant la réplique.
+- **Chaque réplique affiche le nom du personnage qui parle**, en petit, dans **sa couleur** (fixée dans sa fiche), au-dessus du texte. On sait ainsi toujours qui parle, même hors champ.
+- Le texte s'écrit **lettre par lettre** au rythme du babil de la voix, puis reste affiché le temps d'être lu.
 - **Onomatopées** possibles sur les actions fortes (BAM, WHOOSH…), grandes, inclinées, de couleur d'accent avec contour sombre. Elles restent rares.
 
 ## ANIMATION
@@ -88,11 +94,11 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - Transitions autorisées : coupe franche, **fondu au blanc**, **fondu au noir**, **volet** (effacement latéral) façon fin de séquence TV.
 
 ## TITRE DE FIN (les 12 dernières secondes, soit 24 battements)
-Le titre s'affiche **par-dessus l'image de départ retrouvée** (règle 10), et non plus sur un fondu au noir.
+Le titre s'affiche **par-dessus l'image de départ retrouvée** (règle 11), et non plus sur un fondu au noir.
 1. Le **titre apparaît lettre par lettre**, une lettre par demi-battement ou par battement, en **grandes lettres blanches** (Dela Gothic One) avec un léger éclat lumineux.
 2. Il est **souligné d'un trait ondulé** dans la **couleur d'accent** du film.
 3. Puis apparaît **une ligne blanche**, suivie d'**une courte ligne de couleur d'accent**.
-4. **Appel à l'action** (règle 11), lisible pendant au moins 4 s.
+4. **Appel à l'action** (règle 12), lisible pendant au moins 4 s.
 5. Titre, lignes et appel à l'action **sortent en ease-in**. La dernière image est **identique à la première** du film.
 
 ## SON (effets sonores)
@@ -101,7 +107,8 @@ Le titre s'affiche **par-dessus l'image de départ retrouvée** (règle 10), et 
 - Quand une histoire demande un son qui manque (pluie, vagues, cloche, moteur, oiseaux, nappe musicale…), le **créer dans `scripts/generate-sfx.mjs`**, relancer `npm run sfx` et l'**ajouter au tableau** ci-dessous.
 - Dans un film, chaque son est placé avec `<Sfx at={image} name="..." volume={...} />` (un `<Audio>` de `@remotion/media` dans une `<Sequence>`).
 - Toujours une **nappe d'ambiance** adaptée au lieu (volume bas, environ 0,3), puis des effets **synchronisés à l'image près** sur les actions.
-- **Pas de voix, pas de musique avec paroles.**
+- **Pas de voix enregistrée ni générée par IA, pas de musique avec paroles.**
+- **Babil des personnages** : chaque personnage qui parle a son son `voix-<prénom>` (une syllabe courte synthétisée). Elle est jouée à chaque syllabe pendant que le sous-titre s'écrit, avec une légère variation de hauteur pour imiter l'intonation. Exemples : voix grave et lente pour un adulte âgé, aiguë et rapide pour un enfant, voix étrange ou inversée pour un personnage mystérieux.
 - Mixage : rien ne doit saturer. Quand plusieurs sons tombent sur la même image, baisser leurs volumes.
 
 Bibliothèque actuelle :
