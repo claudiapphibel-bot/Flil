@@ -254,6 +254,11 @@ Les personnages, décors et voix de la série sont créés une seule fois et ser
 | 8 variantes « bouche ouverte » | 16 | 77,2 |
 | 20 répliques | 8 | 85,2 |
 | **Total réel (solde Higgsfield : 1 815,58 → 1 734,68)** | **80,9** | |
+| Tests d'animation (Grok Imagine Lite, Hailuo) et de synchronisation labiale | ≈ 31 | |
+| Voix plus rapides (16 répliques), 3 prises combinées, narrateur | ≈ 8 | |
+| Animation des 22 plans (Grok Imagine Lite 720p) | ≈ 70 | |
+| Synchronisation labiale des 10 plans parlés (Sync Lipsync) | ≈ 130 | |
+| **Total de l'épisode 1 (solde : 1 815,58 → 1 495,73)** | **319,85** | plafond validé : 350 |
 
 Voix retenues (préréglages Higgsfield « Seed Audio ») : Lina = *Evie* ; l'Autre = *Evie* plus lente et plus grave ; Iris = *Vera* plus lente et plus grave ; Noé = *Pixie* plus aiguë et plus rapide. Fichiers dans `public/ia/lina-14-etages/voix/`.
 
