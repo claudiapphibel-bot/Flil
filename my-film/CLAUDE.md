@@ -44,7 +44,7 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - **Pas de voix off pendant l'histoire** : seuls les personnages parlent, entre eux.
 - **Narrateur pour l'appel à l'action uniquement** : à la fin, pendant la carte de vote, une voix de narrateur énergique (toujours la même pour la chaîne) lit les choix, demande d'écrire la réponse en commentaire, de **liker** et de **s'abonner**. La carte affiche aussi les boutons « LIKE » et « ABONNE-TOI ». Le titre s'affiche alors plus vite (un quart de battement par lettre) pour laisser au narrateur le temps de parler.
 - **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA). Chaque réplique est aussi affichée en sous-titre.
-- **Images et animation** : personnages, décors et **animation des plans** (mouvements naturels des personnages, synchronisation des lèvres) sont **générés avec Higgsfield** (voir IA). Remotion fait le **montage** : enchaînement des plans sur les battements, sous-titres, voix, bruitages, effets, titre et vote. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
+- **Images, animation et voix** : générées avec Higgsfield, principalement **Seedance 2.5** qui produit chaque scène avec ses voix et ses lèvres synchronisées (voir IA). Remotion fait le **montage** : enchaînement des plans sur les battements, sous-titres, voix, bruitages, effets, titre et vote. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
 
 ## ASPECT : un dessin animé 3D brillant
 Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou dessin en code quand c'est plus simple). Qu'un élément soit généré ou dessiné, il doit respecter :
@@ -135,21 +135,16 @@ Bibliothèque actuelle :
 | `titre-carillon` | Fin du titre, avant le retour à l'image de départ |
 
 ## IA (Higgsfield) : quand et comment
-Higgsfield sert à quatre choses : **images de personnages**, **images de décors**, **voix** et **animation des plans** (vidéo à partir de l'image du plan, puis synchronisation des lèvres sur la voix pour les plans où un personnage parle).
-- **Budget : 500 crédits maximum par épisode ou film.** Avant chaque lot de générations, estimer le coût. Tenir à jour un tableau « Crédits » dans `HISTOIRE.md` : quoi, combien de crédits, total cumulé. Si le budget risque d'être dépassé, s'arrêter et demander.
-- **Économiser** : générer d'abord une seule image test par personnage et la faire valider, puis les variantes. Réutiliser au maximum ce qui existe déjà (personnages et décors d'une série = générés une seule fois pour toute la série). Ne jamais régénérer « pour voir ».
-- **Rien n'est généré pour un film avant le feu vert sur son `HISTOIRE.md`**, sauf les images test de personnages si on me les demande.
-- **Personnages** :
-  - une **fiche de référence** par personnage (face, trois quarts, profil), qui sert ensuite de référence pour toutes les autres images, afin que le personnage reste identique ;
-  - pour l'animation, des **calques détourés** (fond retiré) : corps, et têtes avec plusieurs **expressions** et **trois positions de bouche** (fermée, entrouverte, ouverte), plus **yeux fermés** pour les clignements ;
-  - **Animation** : chaque plan est d'abord une image fixe validée, puis animé par Higgsfield (image → vidéo, **sans son**, au moins aussi long que le plan). Les plans parlés passent ensuite par la **synchronisation labiale** (Sync Lipsync) avec la réplique déjà générée. Toujours **tester un plan** et comparer les modèles avant de lancer tout un épisode.
-  - Les vidéos Higgsfield sont **muettes dans le montage** : le son vient uniquement de nos voix et de nos bruitages, pour garder le contrôle du mixage.
-- **Décors** : une image large par lieu, sans personnage, dans le style de la série ; si besoin, une version **floutée** pour l'arrière-plan et des éléments de premier plan détourés pour la profondeur.
-- **Débit des voix** : dialogues **dynamiques**, jamais traînants. Débit de base **accéléré** (`speech_rate` d'environ +15 à +30 selon le personnage, autour de +5 pour un personnage calme ou mystérieux), répliques courtes et enchaînées sans blanc inutile (un demi-battement entre deux répliques suffit).
-- **Voix** : une voix **inventée** par personnage, créée une fois puis réutilisée pour tous les épisodes. **Jamais d'imitation d'une personne réelle ou d'un personnage existant.** Français naturel, avec l'émotion de la scène.
-- **Cohérence du style** : même description de style dans tous les prompts (rendu 3D brillant, fruits juteux, éclairage chaud, voir ASPECT). Les prompts utilisés sont notés dans `HISTOIRE.md` ou dans la bible de la série.
-- **Rangement** : tout ce qui est généré est téléchargé dans `public/ia/<histoire>/` (`personnages/`, `decors/`, `voix/`) et versionné avec le projet.
-- **Publication TikTok** : comme la vidéo contient des images et des voix générées par IA, il faut **activer l'étiquette « Contenu généré par IA »** au moment de publier.
+**Méthode retenue (validée sur test) : Seedance 2.5 en mode « omni_reference »**, comme les mini-séries Higgsfield (« Short Drama »). Pour chaque scène de 6 à 12 s, Seedance génère **en une seule passe** l'animation, les **voix**, les **lèvres synchronisées** et le découpage en plans (plan large, gros plans), à partir des **images de référence** des personnages et du décor.
+- **Budget : environ 550 crédits par épisode** (Seedance 2.5 en 720p ≈ 7 crédits par seconde de film). Avant chaque lot : estimer le coût, puis tenir à jour le tableau « Crédits » dans `HISTOIRE.md`. Si le budget risque d'être dépassé, s'arrêter et demander.
+- **Rien n'est généré sans feu vert** sur `HISTOIRE.md` et sur le découpage en scènes Seedance.
+- **Économiser** : tester une scène avant tout l'épisode ; réutiliser les fiches de référence de la série ; ne jamais régénérer « pour voir ». Une scène ratée n'est refaite qu'après accord.
+- **Images de référence** : une fiche par personnage (déjà générées pour la série) + une image du décor de la scène. Elles sont passées dans `medias` et désignées dans le prompt (« image 2 », « image 3 »…).
+- **Prompt d'une scène** : style (« dessin animé 3D de qualité cinéma, animation expressive et fluide »), lieu et lumière, puis chaque plan dans l'ordre avec qui parle, **la réplique en français entre guillemets** et le ton de la voix (âge, émotion, débit **dynamique**). Terminer par « pas de musique, pas de sous-titres, pas de texte ».
+- **Voix** : générées par Seedance avec la scène. Pour qu'un personnage garde **la même voix dans toutes les scènes**, lui donner un **échantillon de sa voix** en référence audio (`audio_references`). Voix de secours si besoin : **ElevenLabs v4** (bien plus naturel que Seed Audio). Jamais d'imitation d'une personne réelle.
+- **Remotion** fait l'habillage et le montage : enchaînement des scènes, sous-titres, afficheur, effets, bruitages d'appoint, titre de fin, narrateur et vote, boucle. Le son des scènes Seedance est **gardé** (voix + ambiance) ; les bruitages Remotion viennent en appoint, plus bas.
+- **Rangement** : tout ce qui est généré est téléchargé dans `public/ia/<histoire>/` et versionné.
+- **Publication TikTok** : activer l'étiquette **« Contenu généré par IA »**.
 
 ## SÉRIES (histoires en plusieurs épisodes)
 Une série se range dans `src/series/<nom-de-la-serie>/`.
