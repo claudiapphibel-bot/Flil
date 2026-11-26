@@ -4,12 +4,34 @@ Claude est le réalisateur et l'animateur de cette chaîne. **Chaque film de ce 
 
 Avant de commencer un film, charger la compétence `remotion-best-practices` (dans `.agents/skills/`).
 
-## Avant chaque film : la fiche du film
-Rédiger d'abord, en tête du fichier principal du film, une courte fiche :
+## ÉCRITURE : dans cet ordre, avant toute animation
+Chaque film commence par un fichier `src/films/<nom>/HISTOIRE.md`. **On n'anime rien avant le feu vert de l'utilisatrice ou de l'utilisateur sur ce fichier.**
+1. **Pitch.** Résumer l'histoire en **une phrase** qui contient le personnage, son objectif et son obstacle.
+2. **Séquencier.** Lister les scènes dans l'ordre, **une ligne par scène**, avant d'écrire les dialogues.
+3. **Dialogues.** Lire chaque réplique à voix haute (en comptant les syllabes et le rythme), puis **réécrire celles qui sonnent faux** : français parlé naturel, phrases courtes, pas de tournure écrite ni ambiguë. Même travail pour les **pensées** du personnage. Rappel : il n'y a **aucune voix enregistrée**. Répliques et pensées passent uniquement par les sous-titres, les pensées en *italique*.
+4. **Mise en page.** Écrire le film en **format scénario** : en-tête de scène (INT./EXT. LIEU — MOMENT), action au présent, nom du personnage, puis réplique. **Une page représente environ une minute à l'écran.** Vérifier en minutant la lecture des sous-titres, les actions et les pauses.
+
+## FICHE DU FILM
+Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - **Titre**, **résumé** en 3 phrases, **ambiance** (heure, saison, météo, lieux).
 - **Palette du film** : 5 à 7 couleurs choisies dans l'esprit rétro (voir ASPECT), dont **une couleur d'accent** pour le titre et les moments forts.
 - **Fiche de chaque personnage** : couleurs (peau, cheveux, yeux, vêtements), ton d'ombre de chaque couleur, silhouette reconnaissable, trait de caractère, expression typique.
-- **Découpage** : liste des plans avec leur durée, leur type (voir CAMÉRA ET MONTAGE) et les sons associés.
+- **Découpage** : liste des plans avec leur durée **en battements**, leur type (voir CAMÉRA ET MONTAGE) et les sons associés.
+
+## RYTHME ET STRUCTURE
+5. **Repères de rythme : 120 battements par minute.** Un battement = 0,5 s = **30 images**. Une mesure de 4 battements = 2 s = 120 images. Le découpage s'écrit en battements.
+6. **Couper sur le battement.** Les coupes franches, les apparitions et les impacts importants tombent **exactement** sur une image multiple de 30. Dans le code, utiliser la constante `BEAT = 30` et écrire les temps en `n * BEAT`.
+7. **Pause avant la révélation.** Juste avant une révélation, **tenir le plan sur un seul détail** (au moins 2 battements) et **baisser l'ambiance sonore** pour créer l'attente.
+8. **Un seul pic d'intensité**, placé **vers les deux tiers** du film puis ajusté selon le récit. C'est le seul moment avec le maximum d'effets : image d'impact, lignes de vitesse, son le plus fort. Ailleurs, les effets restent plus mesurés.
+9. **Préparer la fin dès le découpage.** Penser **ensemble** le premier et le dernier plan.
+10. **Boucle.** Le dernier mouvement **ramène exactement à l'image de départ** : même cadrage, même position du sujet, même lumière. La dernière image doit pouvoir s'enchaîner sans saut sur la première quand TikTok relance la vidéo.
+11. **Appel à l'action avant le raccord.** L'appel à l'action (vote, question, « abonne-toi »…) est placé **juste avant le raccord** de la boucle. Lui laisser **le temps d'être lu** (au moins 4 s), puis enchaîner directement sur l'image de début.
+
+## MOUVEMENT (courbes d'accélération)
+12. **Entrée rapide, arrivée douce (ease-out).** Un élément qui entre arrive vite puis freine jusqu'à sa place : `Easing.out(Easing.cubic)`.
+13. **Départ doux, sortie rapide (ease-in).** Un élément qui sort démarre lentement puis accélère en quittant l'écran : `Easing.in(Easing.cubic)`.
+14. **Léger ressort pour l'interface.** Un bouton, un compteur ou une carte de vote **dépasse un peu sa position finale puis revient se poser** : `spring()` avec un amortissement modéré (par exemple `damping: 12`).
+15. **Varier la vitesse.** Jamais de déplacement à vitesse constante avec un départ et un arrêt brusques, car cela donne un effet robotique. Tout mouvement a une accélération et une décélération (`Easing.inOut`, `Easing.bezier` ou ressort), y compris les mouvements de caméra.
 
 ## FORMAT
 - Composition de **1080 × 1920** (vertical TikTok), **60 images par seconde**.
@@ -62,15 +84,16 @@ Rédiger d'abord, en tête du fichier principal du film, une courte fiche :
 ## CAMÉRA ET MONTAGE
 - Vocabulaire de plans : **plan d'ensemble** pour situer le lieu, **plan moyen**, **gros plan** sur le visage, **très gros plan** sur les yeux, **panoramique** lent sur un décor ou une pose tenue.
 - **Caméra fixe** par défaut ; **lents travellings avant** sur les moments forts ; **coupes franches** pour passer au gros plan.
-- Rythme : **plans calmes de 4 à 8 secondes**, **plans de montage rapides d'environ 1 seconde** pendant l'action.
+- Rythme : **plans calmes de 4 à 8 secondes** (8 à 16 battements), **plans de montage rapides d'environ 1 seconde** (2 battements) pendant l'action.
 - Transitions autorisées : coupe franche, **fondu au blanc**, **fondu au noir**, **volet** (effacement latéral) façon fin de séquence TV.
 
-## TITRE DE FIN (les 12 dernières secondes, soit 720 images)
-1. Fond aux couleurs du film (ou une pose tenue du héros, assombrie).
-2. Le **titre apparaît lettre par lettre** en **grandes lettres blanches** (Dela Gothic One) avec un léger éclat lumineux.
-3. Il est **souligné d'un trait ondulé** dans la **couleur d'accent** du film.
-4. Puis apparaît **une ligne blanche**, suivie d'**une courte ligne de couleur d'accent**.
-5. **Fondu au noir**, la patine VHS restant visible jusqu'à la fin.
+## TITRE DE FIN (les 12 dernières secondes, soit 24 battements)
+Le titre s'affiche **par-dessus l'image de départ retrouvée** (règle 10), et non plus sur un fondu au noir.
+1. Le **titre apparaît lettre par lettre**, une lettre par demi-battement ou par battement, en **grandes lettres blanches** (Dela Gothic One) avec un léger éclat lumineux.
+2. Il est **souligné d'un trait ondulé** dans la **couleur d'accent** du film.
+3. Puis apparaît **une ligne blanche**, suivie d'**une courte ligne de couleur d'accent**.
+4. **Appel à l'action** (règle 11), lisible pendant au moins 4 s.
+5. Titre, lignes et appel à l'action **sortent en ease-in**. La dernière image est **identique à la première** du film.
 
 ## SON (effets sonores)
 - **Tous les sons sont synthétisés par code** dans `scripts/generate-sfx.mjs` (oscillateurs, bruit, filtres, enveloppes). **Aucun échantillon externe, aucune musique ni banque de sons téléchargée, aucun son généré par IA.** Ils sont donc originaux et sans droits d'auteur tiers : aucun risque de blocage ou de mise en sourdine sur TikTok.
