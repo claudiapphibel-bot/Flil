@@ -43,7 +43,7 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - Durée : **de 1 min à 1 min 30** (3 600 à 5 400 images).
 - **Pas de voix off ni de narrateur** : seuls les personnages parlent, entre eux.
 - **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA). Chaque réplique est aussi affichée en sous-titre.
-- **Images** : personnages et décors peuvent être **générés avec Higgsfield** (voir IA). **Pas de vidéo générée par IA** : tout le mouvement (caméra, personnages, bouches, effets, texte) est fait par Remotion. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
+- **Images et animation** : personnages, décors et **animation des plans** (mouvements naturels des personnages, synchronisation des lèvres) sont **générés avec Higgsfield** (voir IA). Remotion fait le **montage** : enchaînement des plans sur les battements, sous-titres, voix, bruitages, effets, titre et vote. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
 
 ## ASPECT : un dessin animé 3D brillant
 Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou dessin en code quand c'est plus simple). Qu'un élément soit généré ou dessiné, il doit respecter :
@@ -127,14 +127,15 @@ Bibliothèque actuelle :
 | `titre-carillon` | Fin du titre, avant le retour à l'image de départ |
 
 ## IA (Higgsfield) : quand et comment
-Higgsfield sert **uniquement** à trois choses : **images de personnages**, **images de décors** et **voix**. **Jamais de vidéo générée par IA.**
+Higgsfield sert à quatre choses : **images de personnages**, **images de décors**, **voix** et **animation des plans** (vidéo à partir de l'image du plan, puis synchronisation des lèvres sur la voix pour les plans où un personnage parle).
 - **Budget : 500 crédits maximum par épisode ou film.** Avant chaque lot de générations, estimer le coût. Tenir à jour un tableau « Crédits » dans `HISTOIRE.md` : quoi, combien de crédits, total cumulé. Si le budget risque d'être dépassé, s'arrêter et demander.
 - **Économiser** : générer d'abord une seule image test par personnage et la faire valider, puis les variantes. Réutiliser au maximum ce qui existe déjà (personnages et décors d'une série = générés une seule fois pour toute la série). Ne jamais régénérer « pour voir ».
 - **Rien n'est généré pour un film avant le feu vert sur son `HISTOIRE.md`**, sauf les images test de personnages si on me les demande.
 - **Personnages** :
   - une **fiche de référence** par personnage (face, trois quarts, profil), qui sert ensuite de référence pour toutes les autres images, afin que le personnage reste identique ;
   - pour l'animation, des **calques détourés** (fond retiré) : corps, et têtes avec plusieurs **expressions** et **trois positions de bouche** (fermée, entrouverte, ouverte), plus **yeux fermés** pour les clignements ;
-  - Remotion assemble et anime ces calques : respiration, rebonds, compression et étirement, gestes simples, bouche synchronisée sur la voix.
+  - **Animation** : chaque plan est d'abord une image fixe validée, puis animé par Higgsfield (image → vidéo, **sans son**, au moins aussi long que le plan). Les plans parlés passent ensuite par la **synchronisation labiale** (Sync Lipsync) avec la réplique déjà générée. Toujours **tester un plan** et comparer les modèles avant de lancer tout un épisode.
+  - Les vidéos Higgsfield sont **muettes dans le montage** : le son vient uniquement de nos voix et de nos bruitages, pour garder le contrôle du mixage.
 - **Décors** : une image large par lieu, sans personnage, dans le style de la série ; si besoin, une version **floutée** pour l'arrière-plan et des éléments de premier plan détourés pour la profondeur.
 - **Voix** : une voix **inventée** par personnage, créée une fois puis réutilisée pour tous les épisodes. **Jamais d'imitation d'une personne réelle ou d'un personnage existant.** Français naturel, avec l'émotion de la scène.
 - **Cohérence du style** : même description de style dans tous les prompts (rendu 3D brillant, fruits juteux, éclairage chaud, voir ASPECT). Les prompts utilisés sont notés dans `HISTOIRE.md` ou dans la bible de la série.
