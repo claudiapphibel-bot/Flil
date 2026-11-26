@@ -231,7 +231,7 @@ Les personnages, décors et voix de la série sont créés une seule fois et ser
 
 | Quoi | Crédits | Total |
 |---|---|---|
-| *(rien de généré pour l'instant)* | 0 | 0 |
+| Image test de Lina (Nano Banana 2, 2k) → `public/ia/lina-14-etages/personnages/lina-test.png` | 2 | 2 |
 
 ## Pistes pour l'épisode 2 (selon le vote)
 Voir le journal des votes dans `../BIBLE.md` : **A** (ouvrir la 15) ou **B** (suivre Iris), dans les deux cas l'épisode 2 se passe au 13ᵉ étage.
