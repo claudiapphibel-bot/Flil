@@ -226,6 +226,74 @@ const sounds = {
     const n = noiseGen(9), hp = biquad("highpass");
     return fadeOut(render(0.35, (t) => hp(n(), 4000) * expDecay(t, 0.06)));
   },
+
+  // Réveil électronique des années 80 : bip-bip, bip-bip
+  reveil: () =>
+    render(1.6, (t) => {
+      const k = t % 0.8;
+      const on = k < 0.09 || (k > 0.16 && k < 0.25);
+      return on ? Math.sign(Math.sin(TAU * 2048 * t)) * 0.35 * Math.min(1, (0.8 - t % 0.8) * 50) : 0;
+    }),
+
+  // Ding d'ascenseur : deux notes de cloche, un peu fausses
+  "ding-ascenseur": () =>
+    fadeOut(render(2, (t) => {
+      const note = (t0, f) => (t < t0 ? 0 : (Math.sin(TAU * f * (t - t0)) + 0.3 * Math.sin(TAU * f * 2.76 * (t - t0))) * expDecay(t - t0, 0.5));
+      return note(0, 1046) + note(0.28, 830 * 0.985);
+    }), 0.2),
+
+  // Porte lourde : grincement puis claquement sourd
+  porte: () => {
+    const n = noiseGen(10), bp = biquad("bandpass", 12), lp = biquad("lowpass");
+    let ph = 0;
+    return fadeOut(render(1.6, (t) => {
+      const f = 380 + 160 * Math.sin(TAU * 1.3 * t) + 60 * Math.sin(TAU * 7 * t);
+      ph += f / SR;
+      const creak = t < 1.1 ? bp(saw(ph) + n() * 0.3, f * 2) * Math.sin(Math.PI * Math.min(1, t / 1.1)) : 0;
+      const slam = t > 1.15 ? lp(n(), 300) * expDecay(t - 1.15, 0.08) * 3 + Math.sin(TAU * 55 * (t - 1.15)) * expDecay(t - 1.15, 0.12) : 0;
+      return creak * 0.8 + slam;
+    }));
+  },
+
+  // Coup sourd frappé contre une porte
+  toc: () => {
+    const n = noiseGen(11), lp = biquad("lowpass");
+    let ph = 0;
+    return fadeOut(render(0.35, (t) => {
+      ph += (90 + 120 * expDecay(t, 0.01)) / SR;
+      return Math.sin(TAU * ph) * expDecay(t, 0.05) + lp(n(), 900) * expDecay(t, 0.015);
+    }));
+  },
+
+  // Cliquetis d'aiguilles à tricoter
+  aiguilles: () => {
+    const n = noiseGen(12), hp = biquad("highpass");
+    return render(2, (t) => {
+      const k = (t * 3.1) % 1;
+      const click = (x) => (k > x && k < x + 0.01 ? 1 : 0);
+      return hp(n(), 3000) * (click(0.1) + click(0.55)) * 0.7 + Math.sin(TAU * 2600 * t) * (click(0.1) + click(0.55)) * 0.2;
+    });
+  },
+
+  // Scintillement magique : notes cristallines qui montent
+  scintillement: () =>
+    fadeOut(render(2.2, (t) => {
+      let s = 0;
+      [0, 0.12, 0.24, 0.36, 0.48, 0.6, 0.72].forEach((t0, i) => {
+        if (t >= t0) s += Math.sin(TAU * 880 * Math.pow(1.122, i * 2) * (t - t0)) * expDecay(t - t0, 0.35) * 0.4;
+      });
+      return s;
+    }), 0.3),
+
+  // Jingle du vote : 3 notes qui montent
+  vote: () =>
+    fadeOut(render(1.4, (t) => {
+      let s = 0;
+      [[0, 523.25], [0.16, 659.25], [0.32, 783.99]].forEach(([t0, f]) => {
+        if (t >= t0) s += (Math.sin(TAU * f * (t - t0)) + 0.25 * Math.sin(TAU * f * 2 * (t - t0))) * expDecay(t - t0, 0.3);
+      });
+      return s;
+    }), 0.2),
 };
 
 mkdirSync(OUT, { recursive: true });

@@ -32,7 +32,7 @@ Lina descend l'immeuble **un étage par épisode**. Chaque étage est différent
 | **NOÉ** (9 ans) | **Mandarine** orange et ronde, avec une petite feuille toujours dressée sur le dessus. Pyjama bleu ciel à fusées, grosse lampe de poche. Peau granuleuse et brillante. | Parle vite, s'exclame, exagère. Quand il s'excite, un peu de jus gicle de sa peau. | Orange `#FF9F1C` | Voix de petit garçon, aiguë, rapide, essoufflée d'excitation |
 | **LA VOIX DU 15ᵉ** | Invisible, derrière une porte. | Murmure, appelle Lina par son prénom. | Blanc `???` | La voix de Lina, en murmure, étouffée dans Remotion comme à travers une porte |
 
-**Image de référence de Lina (validée)** : `public/ia/lina-14-etages/personnages/lina-test.png`. Toutes les images de Lina et de l'Autre partent de cette référence.
+**Image de référence de Lina (validée)** : `public/ia/lina-14-etages/personnages/lina-test.jpg`. Toutes les images de Lina et de l'Autre partent de cette référence.
 
 ## Les lieux et la palette
 - **L'immeuble.** Années 80, 14 étages, couloirs carrelés, néons ocre, moquette usée, ascenseur à afficheur orange, cage d'escalier à lumière verte de secours, lucarnes. La ville autour reste noire jusqu'à l'épisode 14.

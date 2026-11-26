@@ -1,6 +1,6 @@
 # Lina — Les 14 étages · Épisode 1 (14ᵉ étage) : « La porte de l'escalier »
 
-Statut : **histoire à valider, rien n'est animé.** Style : fruits humains (voir `CLAUDE.md`).
+Statut : **produit** (rendu : `out/lina-episode-01.mp4`, composition « Lina-Episode-01 »). Style : fruits humains (voir `CLAUDE.md`).
 Série de 14 épisodes : voir `../BIBLE.md` pour les personnages, les secrets et le journal des votes.
 
 ## 1. Pitch
@@ -247,7 +247,22 @@ Les personnages, décors et voix de la série sont créés une seule fois et ser
 
 | Quoi | Crédits | Total |
 |---|---|---|
-| Image test de Lina (Nano Banana 2, 2k) → `public/ia/lina-14-etages/personnages/lina-test.png` | 2 | 2 |
+| Image test de Lina (Nano Banana 2, 2k) → `public/ia/lina-14-etages/personnages/lina-test.jpg` | 2 | 2 |
+| Fiches de référence : l'Autre, Iris, Noé | 6 | 8 |
+| Essais de voix (8 répliques test, 4 personnages) | 3,2 | 11,2 |
+| 25 plans (décors, personnages, inserts) | 50 | 61,2 |
+| 8 variantes « bouche ouverte » | 16 | 77,2 |
+| 20 répliques | 8 | 85,2 |
+| **Total réel (solde Higgsfield : 1 815,58 → 1 734,68)** | **80,9** | |
+
+Voix retenues (préréglages Higgsfield « Seed Audio ») : Lina = *Evie* ; l'Autre = *Evie* plus lente et plus grave ; Iris = *Vera* plus lente et plus grave ; Noé = *Pixie* plus aiguë et plus rapide. Fichiers dans `public/ia/lina-14-etages/voix/`.
 
 ## Pistes pour l'épisode 2 (selon le vote)
 Voir le journal des votes dans `../BIBLE.md` : **A** (ouvrir la 15) ou **B** (suivre Iris), dans les deux cas l'épisode 2 se passe au 13ᵉ étage.
+
+
+## Ajustements au montage
+Les vraies voix sont plus longues que le minutage prévu. Pour garder 90 s, un pic aux deux tiers et le titre sur les 24 derniers battements :
+- **Répliques coupées** (générées mais non utilisées) : « Madame Iris ? », « C'est pas possible. », « Qui ça, elle ? », « Euh… vos poignets… ils brillent. », « Venez avec moi. Vite. », « Elle a… ta voix. ».
+- **Nouveau calage** (battements) : immeuble 0–8 · yeux 8–14 · salon 14–22 · télé 22–26 · couloir/Iris 26–53 · pelote 53–55 · chaise vide 55–59 · montage ascenseur 59–67 · Noé 67–85 · porte de l'escalier 85–95 · **pause sur la poignée 95–99** · révélation 99–105 · l'Autre / Lina 105–121 · **pic (fils) 123** · Iris 129–137 · porte 15 + voix 137–149 · lucarne 149–152 · retour à l'immeuble 152–156 · titre et vote 156–180.
+- Le pic tombe à 61,5 s (68 % du film). La dernière image est identique à la première (boucle vérifiée).
