@@ -7,17 +7,19 @@ const BEAT = 30;
 
 // Titre de fin (24 battements) : lettres une par demi-battement, trait ondulé,
 // ligne blanche, courte ligne d'accent, sous-titre, appel à l'action, puis sortie en ease-in.
-export type Vote = { question: string; a: string; b: string; consigne: string };
+export type Vote = { question: string; a: string; b: string; consigne: string; abonnement?: boolean };
 
-export const TitreFin: React.FC<{ titre: string; sousTitre: string; accent: string; vote: Vote }> = ({ titre, sousTitre, accent, vote }) => {
+// lettre = battements par lettre ; voteA = battement (dans le titre) où apparaît la carte de vote
+export const TitreFin: React.FC<{ titre: string; sousTitre: string; accent: string; vote: Vote; lettre?: number; voteA?: number }> = ({ titre, sousTitre, accent, vote, lettre = 0.5, voteA = 12 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const lettres = Array.from(titre);
-  const finLettres = lettres.length * (BEAT / 2);
+  const pas = lettre * BEAT;
+  const finLettres = lettres.length * pas;
   const trait = interpolate(f, [finLettres, finLettres + BEAT], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const ligneB = interpolate(f, [finLettres + BEAT, finLettres + 1.5 * BEAT], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const ligneA = interpolate(f, [finLettres + 1.5 * BEAT, finLettres + 2 * BEAT], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
-  const voteDebut = 12 * BEAT;
+  const voteDebut = voteA * BEAT;
   const sortie = interpolate(f, [22 * BEAT, 24 * BEAT - 1], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
   const carte = spring({ frame: f - voteDebut, fps, config: { damping: 12, stiffness: 160 } });
   const ligne = (i: number) => spring({ frame: f - voteDebut - 8 - i * 10, fps, config: { damping: 12 } });
@@ -28,8 +30,8 @@ export const TitreFin: React.FC<{ titre: string; sousTitre: string; accent: stri
       <div style={{ position: "absolute", top: 330, left: 0, right: 0, textAlign: "center", fontFamily: FREDOKA }}>
         <div style={{ fontWeight: 700, fontSize: 92, color: "#fff", letterSpacing: 2, WebkitTextStroke: "6px #14101e", paintOrder: "stroke", textShadow: "0 8px 30px rgba(0,0,0,0.7)" }}>
           {lettres.map((l, i) => {
-            const s = spring({ frame: f - i * (BEAT / 2), fps, config: { damping: 10, stiffness: 240 } });
-            return <span key={i} style={{ display: "inline-block", opacity: f >= i * (BEAT / 2) ? 1 : 0, scale: String(interpolate(s, [0, 1], [1.8, 1])), translate: `0 ${interpolate(s, [0, 1], [-30, 0])}px`, whiteSpace: "pre" }}>{l}</span>;
+            const s = spring({ frame: f - i * pas, fps, config: { damping: 10, stiffness: 240 } });
+            return <span key={i} style={{ display: "inline-block", opacity: f >= i * pas ? 1 : 0, scale: String(interpolate(s, [0, 1], [1.8, 1])), translate: `0 ${interpolate(s, [0, 1], [-30, 0])}px`, whiteSpace: "pre" }}>{l}</span>;
           })}
         </div>
         <svg width={largeur} height={28} style={{ display: "block", margin: "6px auto 0" }}>
@@ -52,6 +54,18 @@ export const TitreFin: React.FC<{ titre: string; sousTitre: string; accent: stri
           </div>
         ))}
         <div style={{ textAlign: "center", fontWeight: 500, fontSize: 38, marginTop: 20, opacity: ligne(2) }}>{vote.consigne}</div>
+        {vote.abonnement ? (
+          <div style={{ display: "flex", justifyContent: "center", gap: 28, marginTop: 24, opacity: ligne(3), scale: String(interpolate(ligne(3), [0, 1], [0.7, 1])) }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, background: "#ff3b5c", borderRadius: 40, padding: "12px 26px", fontWeight: 700, fontSize: 38 }}>
+              <svg width={40} height={36} viewBox="0 0 24 22"><path d="M12 21.6 10.3 20C4.2 14.5 0 10.7 0 6.2 0 2.7 2.7 0 6.2 0c2 0 3.9.9 5.8 2.4C13.9.9 15.8 0 17.8 0 21.3 0 24 2.7 24 6.2c0 4.5-4.2 8.3-10.3 13.8z" fill="#fff" /></svg>
+              LIKE
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, background: accent, color: "#0e0c1a", borderRadius: 40, padding: "12px 26px", fontWeight: 700, fontSize: 38 }}>
+              <svg width={34} height={38} viewBox="0 0 20 22"><path d="M10 22a2.5 2.5 0 0 0 2.5-2.5h-5A2.5 2.5 0 0 0 10 22zm7.5-6.5V10c0-3.6-2-6.3-5.5-7.1V2a2 2 0 0 0-4 0v.9C4.5 3.7 2.5 6.4 2.5 10v5.5L0 18v1h20v-1z" fill="#0e0c1a" /></svg>
+              ABONNE-TOI
+            </div>
+          </div>
+        ) : null}
       </div>
     </AbsoluteFill>
   );

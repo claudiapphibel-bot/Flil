@@ -41,7 +41,8 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - Composition de **1080 × 1920** (vertical TikTok), **60 images par seconde**.
 - **Fines bandes noires en haut et en bas** (60 px chacune) : image utile de 1080 × 1800, rapport **6:10**.
 - Durée : **de 1 min à 1 min 30** (3 600 à 5 400 images).
-- **Pas de voix off ni de narrateur** : seuls les personnages parlent, entre eux.
+- **Pas de voix off pendant l'histoire** : seuls les personnages parlent, entre eux.
+- **Narrateur pour l'appel à l'action uniquement** : à la fin, pendant la carte de vote, une voix de narrateur énergique (toujours la même pour la chaîne) lit les choix, demande d'écrire la réponse en commentaire, de **liker** et de **s'abonner**. La carte affiche aussi les boutons « LIKE » et « ABONNE-TOI ». Le titre s'affiche alors plus vite (un quart de battement par lettre) pour laisser au narrateur le temps de parler.
 - **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA). Chaque réplique est aussi affichée en sous-titre.
 - **Images et animation** : personnages, décors et **animation des plans** (mouvements naturels des personnages, synchronisation des lèvres) sont **générés avec Higgsfield** (voir IA). Remotion fait le **montage** : enchaînement des plans sur les battements, sous-titres, voix, bruitages, effets, titre et vote. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
 

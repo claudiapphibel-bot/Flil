@@ -159,7 +159,9 @@ export const Episode01: React.FC = () => {
           titre="LINA — LES 14 ÉTAGES"
           sousTitre="Épisode 1 · 14ᵉ étage"
           accent={ACCENT}
-          vote={{ question: "QUI DOIT-ELLE CROIRE ?", a: "Ouvrir la porte du 15ᵉ", b: "Suivre Madame Iris", consigne: "Écris A ou B en commentaire" }}
+          lettre={0.25}
+          voteA={1}
+          vote={{ question: "QUI DOIT-ELLE CROIRE ?", a: "Ouvrir la porte du 15ᵉ", b: "Suivre Madame Iris", consigne: "Écris A ou B en commentaire", abonnement: true }}
         />
       </Sequence>
       <Letterbox />
@@ -209,12 +211,15 @@ export const Episode01: React.FC = () => {
       <Son b={133} nom="toc" vol={0.9} />
       <Son b={144} nom="ambiance-nuit" vol={0.35} duree={30} />
       <Son b={146} nom="whoosh" vol={0.5} />
-      {Array.from("LINA — LES 14 ÉTAGES").map((l, i) => (l.trim() ? <Son key={i} b={150 + i / 2} nom="titre-lettre" vol={0.3} /> : null))}
-      <Son b={160} nom="trait-ligne" vol={0.5} />
-      <Son b={161} nom="titre-carillon" vol={0.45} />
-      <Son b={162} nom="vote" vol={0.55} />
-      <Son b={162.5} nom="pop-repetition" vol={0.35} />
-      <Son b={163} nom="pop-repetition" vol={0.35} />
+      {Array.from("LINA — LES 14 ÉTAGES").map((l, i) => (l.trim() ? <Son key={i} b={150 + i / 4} nom="titre-lettre" vol={0.2} /> : null))}
+      <Son b={155} nom="trait-ligne" vol={0.3} />
+      <Son b={156} nom="titre-carillon" vol={0.25} />
+      <Son b={151} nom="vote" vol={0.4} />
+      <Sequence from={151 * B - 12} layout="none" name="🎙 NARRATEUR (appel à l'action)">
+        <Audio src={staticFile("ia/lina-14-etages/voix/narrateur-vote.wav")} volume={1} />
+      </Sequence>
+      <Son b={152} nom="pop-repetition" vol={0.3} />
+      <Son b={152.5} nom="pop-repetition" vol={0.3} />
     </AbsoluteFill>
   );
 };

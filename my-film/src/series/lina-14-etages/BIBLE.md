@@ -34,7 +34,7 @@ Lina descend l'immeuble **un étage par épisode**. Chaque étage est différent
 
 **Image de référence de Lina (validée)** : `public/ia/lina-14-etages/personnages/lina-test.jpg`. Toutes les images de Lina et de l'Autre partent de cette référence.
 
-**Réglages des voix (Seed Audio)** : Lina = *Evie*, débit +15 à +20 ; l'Autre = *Evie*, débit +5, grave −2 ; Iris = *Vera*, débit +10 à +20, grave −2 ; Noé = *Pixie*, débit +20 à +30, aigu +3 ; voix du 15ᵉ = *Evie*, débit +5, étouffée au montage.
+**Réglages des voix (Seed Audio)** : narrateur de la chaîne (appel à l'action seulement) = *Dylan*, débit +15 ; Lina = *Evie*, débit +15 à +20 ; l'Autre = *Evie*, débit +5, grave −2 ; Iris = *Vera*, débit +10 à +20, grave −2 ; Noé = *Pixie*, débit +20 à +30, aigu +3 ; voix du 15ᵉ = *Evie*, débit +5, étouffée au montage.
 
 ## Les lieux et la palette
 - **L'immeuble.** Années 80, 14 étages, couloirs carrelés, néons ocre, moquette usée, ascenseur à afficheur orange, cage d'escalier à lumière verte de secours, lucarnes. La ville autour reste noire jusqu'à l'épisode 14.
