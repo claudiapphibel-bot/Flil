@@ -19,7 +19,7 @@ Chaque film ou épisode commence par un fichier `HISTOIRE.md` dans son dossier. 
 Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - **Titre**, **résumé** en 3 phrases, **ambiance** (heure, saison, météo, lieux).
 - **Palette du film** : 5 à 7 couleurs vives et appétissantes (voir ASPECT), dont **une couleur d'accent** pour le titre et les moments forts.
-- **Fiche de chaque personnage** : **quel fruit ou légume**, couleurs (fruit, reflets, ombres, yeux, vêtements), texture de la peau, ce qu'il porte sur la tête (queue, feuilles, chapeau), métier ou rôle et tenue, trait de caractère **en lien avec son fruit**, expression typique, **façon de parler**, **couleur de son nom** dans les sous-titres et **voix** (son babil).
+- **Fiche de chaque personnage** : **quel fruit ou légume**, couleurs (fruit, reflets, ombres, yeux, vêtements), texture de la peau, ce qu'il porte sur la tête (queue, feuilles, chapeau), métier ou rôle et tenue, trait de caractère **en lien avec son fruit**, expression typique, **façon de parler**, **couleur de son nom** dans les sous-titres et **voix** (timbre, âge, débit, accent : description utilisée pour la générer).
 - **Découpage** : liste des plans avec leur durée **en battements**, leur type (voir CAMÉRA ET MONTAGE) et les sons associés.
 
 ## RYTHME ET STRUCTURE
@@ -42,11 +42,11 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 - **Fines bandes noires en haut et en bas** (60 px chacune) : image utile de 1080 × 1800, rapport **6:10**.
 - Durée : **de 1 min à 1 min 30** (3 600 à 5 400 images).
 - **Pas de voix off ni de narrateur** : seuls les personnages parlent, entre eux.
-- **Voix des personnages** : pas de voix enregistrée ni générée par IA. Chaque réplique s'affiche en sous-titre et s'accompagne d'un **« babil » synthétisé par code**, comme les dialogues des jeux vidéo rétro : une petite syllabe sonore par lettre ou par syllabe, avec **un timbre et une hauteur propres à chaque personnage** (voir SON).
-- Tout est dessiné en code par Remotion (SVG, CSS, dégradés, filtres) : **aucune vidéo ni image générée par IA, aucune image ni vidéo d'archive.**
+- **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA). Chaque réplique est aussi affichée en sous-titre.
+- **Images** : personnages et décors peuvent être **générés avec Higgsfield** (voir IA). **Pas de vidéo générée par IA** : tout le mouvement (caméra, personnages, bouches, effets, texte) est fait par Remotion. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
 
 ## ASPECT : un dessin animé 3D brillant
-Tout est dessiné en code (SVG, dégradés, filtres), mais doit **donner l'impression du volume** comme un film d'animation 3D :
+Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou dessin en code quand c'est plus simple). Qu'un élément soit généré ou dessiné, il doit respecter :
 - **Modelé en dégradés** : chaque forme a une lumière principale (dégradé radial décentré vers la source), une **ombre propre** douce et un **liseré de lumière** (rim light) sur le bord opposé.
 - **Reflets spéculaires** : petites taches blanches brillantes sur les fruits, les yeux, le métal et les assiettes. Les fruits doivent paraître **frais et juteux**.
 - **Textures légères** : pores de l'avocat, points du fraisier, peau granuleuse du citron, duvet de la pêche, nervures des feuilles (motifs SVG discrets).
@@ -70,13 +70,13 @@ Tout est dessiné en code (SVG, dégradés, filtres), mais doit **donner l'impre
 ## TEXTE
 - **Police** : **Fredoka** (poids 500 et 700), fichiers locaux dans `public/fonts/`, chargés avec `@remotion/fonts`. Elle sert au titre, aux sous-titres et aux mots-chocs.
 - **Sous-titres de dialogue** : texte blanc dans une **bulle arrondie sombre semi-transparente**, en bas de l'image utile, **8 mots maximum**. Le **nom du personnage** qui parle s'affiche en petit, dans **sa couleur** (fixée dans sa fiche), au-dessus du texte. On sait ainsi toujours qui parle, même hors champ.
-- Le texte s'écrit **mot par mot** au rythme du babil de la voix, puis reste affiché le temps d'être lu.
+- Le texte s'écrit **mot par mot**, calé sur la voix, puis reste affiché le temps d'être lu.
 - **Mot-choc** : pour le mot important d'une réplique, un **seul mot géant** en blanc, avec un contour sombre, au centre de l'écran. Il apparaît en ressort puis disparaît. À utiliser avec parcimonie.
 
 ## ANIMATION
 - **Fluide à 60 images par seconde**, sans effet diaporama.
 - **Rien n'est jamais figé** : respiration, clignements, petits mouvements de tête, feuilles et vapeur qui bougent, lumières qui scintillent.
-- **Bouche synchronisée** : pendant une réplique, la bouche s'ouvre et se ferme à chaque syllabe du babil. Le personnage qui écoute réagit (sourcils, regard).
+- **Bouche synchronisée** : pendant une réplique, la bouche suit le volume de la voix (on alterne les images bouche fermée, entrouverte et ouverte selon l'intensité du son, mesurée avec `@remotion/media-utils`). Le personnage qui écoute réagit (sourcils, regard).
 - **Regards** : les personnages se regardent quand ils se parlent, et leurs yeux bougent par petites saccades.
 - **Poses-clés fortes** et lisibles, avec **anticipation** avant un geste et **amorti** après.
 - **Compression et étirement** très marqués : la tête-fruit s'écrase et rebondit sur les chocs, les surprises et les rires.
@@ -98,13 +98,13 @@ Le titre s'affiche **par-dessus l'image de départ retrouvée** (règle 11).
 5. Titre, lignes et appel à l'action **sortent en ease-in**. La dernière image est **identique à la première** du film.
 
 ## SON (effets sonores)
-- **Tous les sons sont synthétisés par code** dans `scripts/generate-sfx.mjs` (oscillateurs, bruit, filtres, enveloppes). **Aucun échantillon externe, aucune musique ni banque de sons téléchargée, aucun son généré par IA.** Ils sont donc originaux et sans droits d'auteur tiers : aucun risque de blocage ou de mise en sourdine sur TikTok.
+- **Tous les sons sont synthétisés par code** dans `scripts/generate-sfx.mjs` (oscillateurs, bruit, filtres, enveloppes). **Aucun échantillon externe, aucune musique ni banque de sons téléchargée.** Ils sont donc originaux et sans droits d'auteur tiers : aucun risque de blocage ou de mise en sourdine sur TikTok. Seules les **voix** viennent de Higgsfield.
 - Le générateur est **déterministe** : `npm run sfx` produit toujours les mêmes fichiers `.wav` dans `public/sfx/`.
 - Quand une histoire demande un son qui manque (grésillement de poêle, couteau qui hache, éclaboussure de jus, « squish » de fruit écrasé, clochette de commande, rire, pluie, nappe musicale…), le **créer dans `scripts/generate-sfx.mjs`**, relancer `npm run sfx` et l'**ajouter au tableau** ci-dessous.
 - Dans un film, chaque son est placé avec `<Sfx at={image} name="..." volume={...} />` (un `<Audio>` de `@remotion/media` dans une `<Sequence>`).
 - Toujours une **nappe d'ambiance** adaptée au lieu (volume bas, environ 0,3), puis des effets **synchronisés à l'image près** sur les actions.
-- **Pas de voix enregistrée ni générée par IA, pas de musique avec paroles.**
-- **Babil des personnages** : chaque personnage qui parle a son son `voix-<prénom>` (une syllabe courte synthétisée). Elle est jouée à chaque syllabe pendant que le sous-titre s'écrit, avec une légère variation de hauteur pour imiter l'intonation. La voix colle au fruit : grave et ronde pour une pastèque, aiguë et rapide pour une cerise, sèche et nasillarde pour un citron, étrange ou inversée pour un personnage mystérieux.
+- **Pas de musique avec paroles.**
+- **Voix** : une réplique = un fichier audio dans `public/ia/<histoire>/voix/`, placé avec `<Audio>` exactement au battement prévu. Les effets sonores passent **sous** les voix (baisser l'ambiance d'environ 30 % pendant qu'un personnage parle).
 - Mixage : rien ne doit saturer. Quand plusieurs sons tombent sur la même image, baisser leurs volumes.
 
 Bibliothèque actuelle :
@@ -126,6 +126,21 @@ Bibliothèque actuelle :
 | `trait-ligne` | Trait ondulé et lignes du titre de fin |
 | `titre-carillon` | Fin du titre, avant le retour à l'image de départ |
 
+## IA (Higgsfield) : quand et comment
+Higgsfield sert **uniquement** à trois choses : **images de personnages**, **images de décors** et **voix**. **Jamais de vidéo générée par IA.**
+- **Budget : 500 crédits maximum par épisode ou film.** Avant chaque lot de générations, estimer le coût. Tenir à jour un tableau « Crédits » dans `HISTOIRE.md` : quoi, combien de crédits, total cumulé. Si le budget risque d'être dépassé, s'arrêter et demander.
+- **Économiser** : générer d'abord une seule image test par personnage et la faire valider, puis les variantes. Réutiliser au maximum ce qui existe déjà (personnages et décors d'une série = générés une seule fois pour toute la série). Ne jamais régénérer « pour voir ».
+- **Rien n'est généré pour un film avant le feu vert sur son `HISTOIRE.md`**, sauf les images test de personnages si on me les demande.
+- **Personnages** :
+  - une **fiche de référence** par personnage (face, trois quarts, profil), qui sert ensuite de référence pour toutes les autres images, afin que le personnage reste identique ;
+  - pour l'animation, des **calques détourés** (fond retiré) : corps, et têtes avec plusieurs **expressions** et **trois positions de bouche** (fermée, entrouverte, ouverte), plus **yeux fermés** pour les clignements ;
+  - Remotion assemble et anime ces calques : respiration, rebonds, compression et étirement, gestes simples, bouche synchronisée sur la voix.
+- **Décors** : une image large par lieu, sans personnage, dans le style de la série ; si besoin, une version **floutée** pour l'arrière-plan et des éléments de premier plan détourés pour la profondeur.
+- **Voix** : une voix **inventée** par personnage, créée une fois puis réutilisée pour tous les épisodes. **Jamais d'imitation d'une personne réelle ou d'un personnage existant.** Français naturel, avec l'émotion de la scène.
+- **Cohérence du style** : même description de style dans tous les prompts (rendu 3D brillant, fruits juteux, éclairage chaud, voir ASPECT). Les prompts utilisés sont notés dans `HISTOIRE.md` ou dans la bible de la série.
+- **Rangement** : tout ce qui est généré est téléchargé dans `public/ia/<histoire>/` (`personnages/`, `decors/`, `voix/`) et versionné avec le projet.
+- **Publication TikTok** : comme la vidéo contient des images et des voix générées par IA, il faut **activer l'étiquette « Contenu généré par IA »** au moment de publier.
+
 ## SÉRIES (histoires en plusieurs épisodes)
 Une série se range dans `src/series/<nom-de-la-serie>/`.
 - **Bible de la série** : `BIBLE.md`. C'est la référence unique pour tout ce qui ne change pas d'un épisode à l'autre :
@@ -137,11 +152,11 @@ Une série se range dans `src/series/<nom-de-la-serie>/`.
 - **Journal des votes** dans la bible : pour chaque épisode, les deux choix, le choix gagnant (rempli par l'utilisatrice ou l'utilisateur) et ses conséquences à respecter dans la suite.
 - **Rappel au début des épisodes 2 et suivants** : pendant le premier plan, un petit encart en haut, du type « Épisode précédent : vous avez choisi B ». Il s'affiche **par-dessus** l'image de départ, pour ne pas casser la boucle.
 - **Habillage commun** à tous les épisodes : même titre de série, même générique de fin, mêmes personnages et décors. Seuls changent le numéro, le sous-titre de l'épisode et l'appel à l'action.
-- **Personnages et décors récurrents dessinés une seule fois**, dans `src/series/<nom>/commun/`, et réutilisés tels quels par chaque épisode.
+- **Personnages, décors et voix récurrents créés une seule fois** (code dans `src/series/<nom>/commun/`, fichiers dans `public/ia/<nom>/`) et réutilisés tels quels par chaque épisode.
 
 ## Organisation technique
 - Un film seul = un dossier `src/films/<nom-du-film>/`. Un épisode de série = un dossier `src/series/<nom>/episode-NN/`. Chacun a sa propre `<Composition>` (1080 × 1920, 60 i/s) enregistrée dans `src/Root.tsx`. Les épisodes d'une même série sont rangés dans un `<Folder>` à son nom.
-- Ce qui sert à tous les films va dans `src/components/` et doit être réutilisé : bandes noires, **fabrique de personnages-fruits** (corps, tenues, visage, bouche synchronisée), modelé et reflets, flou d'arrière-plan, bokeh et vapeur, sous-titres, mot-choc, titre de fin, lignes de vitesse, éclaboussures, composant `<Sfx>`.
+- Ce qui sert à tous les films va dans `src/components/` et doit être réutilisé : bandes noires, **assembleur de personnages en calques** (corps, têtes, expressions, bouche synchronisée sur la voix), modelé et reflets, flou d'arrière-plan, bokeh et vapeur, sous-titres, mot-choc, titre de fin, lignes de vitesse, éclaboussures, composant `<Sfx>`.
 - Ce qui est propre à une histoire va dans le dossier du film, ou dans `commun/` pour une série.
 - Le rendu final se fait en MP4 dans `out/`.
 - Dans l'environnement cloud, rendre avec : `npx remotion render <Id> out/<nom>.mp4 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell` (sur un ordinateur personnel, `npx remotion render <Id>` suffit).

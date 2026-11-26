@@ -24,13 +24,13 @@ Seule au 14ᵉ étage d'un immeuble où toute la ville s'est éteinte, Lina veut
 
 ## Personnages (4 qui parlent, plus une voix mystère)
 
-| | Apparence | Façon de parler | Nom en sous-titre | Voix (babil) |
+| | Apparence | Façon de parler | Nom en sous-titre | Voix |
 |---|---|---|---|---|
-| **LINA** | **Cerise** rouge vif et brillante. Sa queue verte porte une feuille qui retombe sur l'œil droit, comme une mèche. Yeux ambre, peau des bras rouge cerise. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Quand elle a peur, sa feuille se recroqueville et elle se mord la lèvre. | Rose cerise `#FF5A6E` | `voix-lina` : hauteur moyenne, claire |
-| **L'AUTRE** | **Cerise jumelle**, d'un rouge bordeaux plus sombre et plus mat. Feuille et queue **en miroir**, du côté gauche. Pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | `voix-autre` : la voix de Lina inversée et désaccordée |
-| **MADAME IRIS** | **Figue** violette ridée et un peu fendue, sa petite tige en guise de chignon. Lunettes rondes, gilet mauve, chaussons. Tricote une pelote turquoise. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. Adore les proverbes. | Mauve `#C98AC0` | `voix-iris` : grave, lente, chevrotante |
-| **NOÉ** | **Mandarine** orange et ronde, avec une petite feuille toujours dressée sur le dessus. Pyjama bleu ciel à fusées, grosse lampe de poche. Peau granuleuse et brillante. | Parle vite, s'exclame, exagère. Quand il s'excite, un peu de jus gicle de sa peau. | Orange `#FF9F1C` | `voix-noe` : aiguë et rapide |
-| **???** | On ne la voit pas : une voix derrière la porte du 15ᵉ. | Murmure. | Blanc | `voix-lina` étouffée, comme à travers une porte |
+| **LINA** | **Cerise** rouge vif et brillante. Sa queue verte porte une feuille qui retombe sur l'œil droit, comme une mèche. Yeux ambre, peau des bras rouge cerise. Grand pull crème, pantalon bleu nuit, chaussettes. **Fil turquoise au poignet gauche.** | Directe, des questions courtes. Quand elle a peur, sa feuille se recroqueville et elle se mord la lèvre. | Rose cerise `#FF5A6E` | Voix d'adolescente, claire et un peu rauque quand elle a peur, débit rapide |
+| **L'AUTRE** | **Cerise jumelle**, d'un rouge bordeaux plus sombre et plus mat. Feuille et queue **en miroir**, du côté gauche. Pull bleu nuit, yeux ambre pâle presque gris. **Fil au poignet droit.** | Calme, presque amusée. Répond par des énigmes et ne pose jamais de question. | Turquoise pâle `#8FE3DA` | La **même voix que Lina**, plus posée et légèrement plus grave, avec un très léger écho ajouté dans Remotion |
+| **MADAME IRIS** | **Figue** violette ridée et un peu fendue, sa petite tige en guise de chignon. Lunettes rondes, gilet mauve, chaussons. Tricote une pelote turquoise. | Lente et tendre (« ma puce »), mais ses phrases sont des ordres. Adore les proverbes. | Mauve `#C98AC0` | Voix de vieille dame, grave, lente, chevrotante et chaleureuse |
+| **NOÉ** | **Mandarine** orange et ronde, avec une petite feuille toujours dressée sur le dessus. Pyjama bleu ciel à fusées, grosse lampe de poche. Peau granuleuse et brillante. | Parle vite, s'exclame, exagère. Quand il s'excite, un peu de jus gicle de sa peau. | Orange `#FF9F1C` | Voix de petit garçon, aiguë, rapide, essoufflée d'excitation |
+| **???** | On ne la voit pas : une voix derrière la porte du 15ᵉ. | Murmure. | Blanc | La voix de Lina, en murmure, étouffée dans Remotion comme à travers une porte |
 
 ## 2. Séquencier (une ligne par scène, en battements)
 🔀 = rebondissement · 🌱 = détail qui le prépare
@@ -218,8 +218,8 @@ Tout s'efface. L'image est celle du tout début.            b180
 
 ## Sons
 - Déjà disponibles : `ambiance-nuit`, `bourdon-lampe`, `tic-compteur`, `pas`, `battement`, `ombre-nappe`, `ombre-voix`, `impact`, `flash`, `whoosh`, `pop-repetition`, `titre-lettre`, `trait-ligne`, `titre-carillon`.
-- À créer (synthétisés par code) :
-  - **voix** : `voix-lina`, `voix-autre`, `voix-iris`, `voix-noe` (babil d'une syllabe par voix) ;
+- **Voix** : générées avec Higgsfield (une voix par personnage, créée une fois pour toute la série), un fichier par réplique.
+- Effets à créer (synthétisés par code) :
   - **effets** : `reveil`, `ding-ascenseur`, `porte` (grincement), `toc` (coup sourd contre une porte), `aiguilles` (cliquetis de tricot), `scintillement`, `vote`.
 
 ## Habillage de la série
