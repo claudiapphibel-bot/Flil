@@ -66,7 +66,38 @@ Avant de commencer un film, charger la compétence `remotion-best-practices` (da
 3. Puis apparaît **une ligne blanche**, suivie d'**une courte ligne de couleur contrastante**.
 4. Enfin, **fondu au noir**.
 
+## SON (effets sonores)
+- **Tous les sons sont synthétisés par code** dans `scripts/generate-sfx.mjs` (oscillateurs, bruit, filtres, enveloppes). **Aucun échantillon externe, aucune musique ni banque de sons téléchargée, aucun son généré par IA.** Les sons sont donc originaux et sans droits d'auteur tiers : aucun risque de blocage ou de mise en sourdine sur TikTok.
+- Le générateur est **déterministe** : `npm run sfx` produit toujours les mêmes fichiers `.wav` dans `public/sfx/`.
+- Pour un nouveau son : l'ajouter dans `scripts/generate-sfx.mjs`, relancer `npm run sfx`, puis le documenter dans la liste ci-dessous.
+- Dans un film, chaque son est placé avec le composant `<Sfx at={image} name="..." volume={...} />` (un `<Audio>` de `@remotion/media` dans une `<Sequence>`).
+- Toujours une **nappe d'ambiance** en fond (volume bas, environ 0,3), puis des effets **synchronisés à l'image près** sur les actions.
+- **Pas de voix, pas de musique avec paroles.**
+- Mixage : les coups ne doivent pas saturer (garder les crêtes sous 0 dB : baisser les volumes quand plusieurs sons tombent sur la même image).
+
+Bibliothèque actuelle :
+
+| Son | Quand l'utiliser |
+|---|---|
+| `ambiance-nuit` | Fond de toutes les scènes de nuit (vent sourd + léger ronronnement de ville) |
+| `bourdon-lampe` | Scènes près d'un lampadaire, d'une lampe ou d'un néon |
+| `tic-compteur` | Changement du compteur de JOURS |
+| `pop-repetition` | Affichage d'un nouveau nombre de répétitions |
+| `whoosh` | Élan d'un geste rapide, transitions vives |
+| `impact` | Coups puissants (toujours avec `flash`, lignes de vitesse et flash blanc à l'image) |
+| `flash` | Éclair blanc d'un coup puissant |
+| `pas` | Pas de course (un toutes les 12 images environ en course) |
+| `battement` | Le personnage faiblit, doute, est épuisé |
+| `ombre-nappe` | Présence de l'ombre qui grandit (nappe grave) |
+| `ombre-voix` | Apparition d'une réplique de l'ombre |
+| `titre-lettre` | Chaque lettre du titre final |
+| `trait-ligne` | Trait ondulé et lignes du générique final |
+| `titre-carillon` | Fin du titre, avant le fondu au noir |
+
 ## Organisation technique
 - Un film = un dossier `src/films/<nom-du-film>/` avec sa propre `<Composition>` enregistrée dans `src/Root.tsx`.
 - Les éléments réutilisables (personnage, ombre, bandes noires, compteur de jours, texte du narrateur, séquence titre, ville en parallaxe, lueurs) vont dans `src/components/` et sont partagés par tous les films.
 - Le rendu final se fait en MP4 dans `out/`.
+- Police : les fichiers Comic Neue sont dans `public/fonts/` (chargés localement, pas besoin d'Internet au rendu).
+- Le film test (`src/films/test/`, composition « Test ») sert de référence pour le style et le découpage.
+- Dans l'environnement cloud, rendre avec : `npx remotion render <Id> out/<nom>.mp4 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell` (sur un ordinateur personnel, `npx remotion render <Id>` suffit).
