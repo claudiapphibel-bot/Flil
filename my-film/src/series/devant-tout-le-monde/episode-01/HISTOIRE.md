@@ -23,3 +23,27 @@ Au mariage de sa sœur, Inès, une femme-grenade de 34 ans, reconnaît au doigt 
 | 10–22 s | Seedance, 12 s (prolongement, même lieu) | ≈ 84 |
 | 22–30 s | Remotion : carte de vote + narrateur | ≈ 1 |
 | **Total** | | **≈ 134** |
+
+## Découpage plan par plan (méthode image vers vidéo)
+Règle des 180° : **Inès à gauche de l'image, regard vers la droite ; Maya à droite, regard vers la gauche.**
+
+| Plan | Temps | Image de départ (ChatGPT) | Ce qui bouge (formule) | Outil |
+|---|---|---|---|---|
+| P1 | 0–2,5 s | **E** · gros plan d'Inès, regard baissé | Gros plan. Inès, les yeux baissés vers la main de sa sœur, marque une pause, puis relève lentement le regard vers elle ; sa mâchoire se serre. Caméra fixe. Inès, voix basse et tendue : « Pourquoi t'as ma bague ? » | Seedance 4 s |
+| P2 | 2,5–5 s | **F** · Maya en plan taille, souriante, bague visible | Plan taille. Maya garde son sourire et lève légèrement la main gauche pour montrer la bague. Caméra fixe. Maya, légère : « C'était à sa grand-mère. » | Seedance 4 s |
+| P3 | 5–7 s | **G** · Inès en plan taille, main qui commence à se tendre | Plan taille. Inès tend la main, paume ouverte, sans sourire ; elle ne quitte pas sa sœur des yeux. Caméra fixe. Inès : « Regarde à l'intérieur. » | Seedance 4 s |
+| P4 | 7–8,5 s | **H** · main de Maya, doigts posés sur l'anneau | Très gros plan. Maya fait lentement glisser l'anneau jusqu'au bout du doigt. Caméra fixe. Muet (musique du mariage au loin). | Grok Lite 2 s |
+| P5 | 8,5–10,5 s | **D** · intérieur de la bague, « Inès, toujours. » | Image fixe, lent rapprochement dans Remotion. | Remotion |
+| P6 | 10,5–12 s | dernière image de P4 (raccord) | Très gros plan. Sans hésiter, Maya fait glisser la bague jusqu'à la base de son doigt. Caméra fixe. Muet. | Grok Lite 2 s |
+| P7 | 12–14 s | **E** (ou dernière image de P1) | Gros plan. Inès fixe sa sœur, les yeux plissés. Caméra fixe. Inès : « Tu le savais ? » | Seedance 4 s |
+| P8 | 14–17 s | **I** · gros plan de Maya, sans sourire | Gros plan. Le sourire de Maya s'efface ; elle soutient le regard. Caméra fixe. Maya : « C'est moi qui lui ai demandé celle-là. » | Seedance 4 s |
+| P9 | 17–22 s | **I** (ou dernière image de P8) | Gros plan. Pendant qu'Inès demande hors champ « Pourquoi ? », Maya baisse les yeux ; puis lent rapprochement pendant qu'elle avoue, à voix basse : « Il disait qu'il l'avait jetée. Je voulais voir s'il l'avait gardée. » Au loin, les invités applaudissent. | Seedance 5 s |
+| — | 22–30 s | image de départ de P1 (boucle) | Carte de vote + narrateur. | Remotion |
+
+Voix : P1 et P2 sont générés en premier ; leurs voix servent ensuite de référence pour P3, P7, P8 et P9.
+
+## Devis selon la façon de fabriquer
+| Façon | Détail | Crédits |
+|---|---|---|
+| **Plan par plan** (méthode complète) | 6 plans Seedance (25 s) + 2 plans Grok Lite (4 s) + narrateur | **≈ 180** |
+| **Mixte** | mêmes images de départ, mais les plans parlés groupés en 2 clips Seedance (P1–P3 : 8 s ; P7–P9 : 10 s) + 2 plans Grok Lite + narrateur | **≈ 131** |
