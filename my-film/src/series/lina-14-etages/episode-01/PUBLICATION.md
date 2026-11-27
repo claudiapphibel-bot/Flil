@@ -57,3 +57,21 @@ Tags YouTube (moins de 500 caractères) :
 ```
 lina les 14 étages, choix de minuit, histoire fruit, fruit IA, fruits humains, animation 3D, dessin animé, série animée, histoire interactive, tu choisis la suite, A ou B, histoire mystère, suspense, immeuble mystérieux, 4h44, cerise, fruit drama, ai animation, short animé, épisode 1
 ```
+
+## Instagram Reels
+
+Légende :
+```
+Il est 4 h 44. Lina se réveille… et cet immeuble n'a que 14 étages. 🍒
+Alors pourquoi une porte indique 15 ?
+
+Qui doit-elle croire ?
+A : ouvrir la porte du 15ᵉ
+B : suivre Madame Iris
+Réponds A ou B en commentaire : c'est toi qui choisis la suite.
+Épisode 2 demain à 19 h.
+
+#fruitIA #histoirefruit #animation #lina14etages #tuchoisis
+```
+
+Réglages : couverture importée depuis la pellicule (`couverture-ep01.png`) · pas de musique Instagram ajoutée · audio renommé « Choix de Minuit · Lina épisode 1 » · paramètres avancés : étiquette IA **activée**, sous-titres automatiques **activés** · programmé à **19 h** · commentaire « A ou B ? 🍒 » épinglé.
