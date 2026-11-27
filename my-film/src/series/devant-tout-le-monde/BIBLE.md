@@ -20,8 +20,8 @@ Drame intime et élégant, avec un peu d'humour quand ça s'y prête. **Jamais d
 ## Personnages
 | Personnage | Fruit et apparence | Caractère | Voix |
 |---|---|---|---|
-| **INÈS** (34 ans) | **Grenade** rouge rubis brillante, petite couronne sur le dessus. Robe d'invitée vert émeraude. | Directe, passionnée, ne lâche jamais une question. | Grave et posée, qui se serre sous l'émotion |
-| **MAYA** (30 ans), sa petite sœur | **Pêche** orange rosé au duvet velouté, tige et feuille sur le côté. Robe de mariée en dentelle à manches longues, voile court. | Souriante en façade, calculatrice en secret. | Douce, claire, qui baisse d'un ton quand elle avoue |
+| **INÈS** (34 ans) | **Grenade** rouge rubis brillante, petite couronne sur le dessus. Robe d'invitée vert émeraude, pochette dorée. Toujours **à gauche** de l'image. | Directe, passionnée, ne lâche jamais une question. | Grave et posée, qui se serre sous l'émotion |
+| **MAYA** (30 ans), sa petite sœur | **Pêche bien ronde et lisse (aucun pli sur la tête)**, orange rosé au duvet velouté, tige et feuille sur le côté, yeux verts. Robe de mariée en dentelle à manches longues, voile court. Toujours **à droite** de l'image. | Souriante en façade, calculatrice en secret. | Douce, claire, qui baisse d'un ton quand elle avoue |
 | **Le fiancé** (ex d'Inès) | À créer quand il apparaîtra. | | |
 
 ## Journal des épisodes et des votes

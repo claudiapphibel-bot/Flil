@@ -307,6 +307,25 @@ const sounds = {
     }), 0.1);
   },
 
+  // Applaudissements lointains (une salle de fête) : des dizaines de claps de bruit filtré, qui montent puis retombent
+  applaudissements: () => {
+    const r = makeRng(21), n = noiseGen(22), bp = biquad("bandpass", 1.1), lp = biquad("lowpass");
+    const duree = 5, env = new Float32Array(Math.round(duree * SR));
+    for (let c = 0; c < 45; c++) {
+      let t = r() * 0.8;
+      const pas = 0.17 + 0.1 * r();
+      while (t < duree) {
+        const i0 = Math.round(t * SR), a = 0.4 + 0.6 * r();
+        for (let k = 0; k < Math.round(0.012 * SR) && i0 + k < env.length; k++) env[i0 + k] += a * Math.exp(-k / (0.003 * SR));
+        t += pas * (0.85 + 0.3 * r());
+      }
+    }
+    return fadeOut(render(duree, (t, i) => {
+      const monte = Math.min(1, t / 1.2), descend = t > duree - 1.5 ? (duree - t) / 1.5 : 1;
+      return lp(bp(n(), 2000) * env[i], 3200) * monte * descend;
+    }), 0.3);
+  },
+
   // Jingle du vote : 3 notes qui montent
   vote: () =>
     fadeOut(render(1.4, (t) => {

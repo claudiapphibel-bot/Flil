@@ -15,7 +15,7 @@ const IMAGE_BOUCLE = DIR + "accroche-debut.jpg"; // image du clip A à 2,0 s
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 // Réglage du clip B (après vérification du clip : on coupe les temps morts)
-const CLIP_B = { debut: 0, duree: 10 };
+const CLIP_B = { debut: 0.6, duree: 9.3 }; // « Tu le savais ? » à 0,9 s ; fin de l'aveu à 9,6 s
 
 // Montage : [clip, début dans le clip (s), durée (s), son, vitesse]
 type Morceau = { nom: string; video?: string; image?: string; debut?: number; duree: number; son?: number; vitesse?: number; zoom?: [number, number] };
@@ -88,6 +88,10 @@ export const DTLM01: React.FC = () => (
 
     <Sequence from={0} durationInFrames={TOTAL_IMAGES_DTLM01} layout="none" name="♪ musique (le mariage, au loin)">
       <Audio src={staticFile("ia/lina-14-etages/v2/musique-cinema.mp3")} volume={volumeMusique} />
+    </Sequence>
+    {/* Au loin, les invités applaudissent : l'heure du discours (pendant l'aveu de Maya) */}
+    <Sequence from={P7 + Math.round((7.4 - CLIP_B.debut) * S)} durationInFrames={Math.round(3.2 * S)} layout="none" name="♪ applaudissements au loin">
+      <Audio src={staticFile("sfx/applaudissements.wav")} volume={(f) => interpolate(f, [0, 60, 150, 192], [0, 0.22, 0.22, 0], clamp)} />
     </Sequence>
     <Sequence from={FIN_HISTOIRE + 6} layout="none" name="🎙 narrateur">
       <Audio src={staticFile(DIR + "narrateur.mp3")} volume={1} />

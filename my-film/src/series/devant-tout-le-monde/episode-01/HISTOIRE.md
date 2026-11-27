@@ -1,6 +1,6 @@
 # Devant tout le monde · Épisode 1 : « Pourquoi t'as ma bague ? »
 
-Statut : **images en attente** (faites par l'utilisatrice avec ChatGPT Images). Scénario proposé par l'utilisatrice, adapté aux règles de la chaîne.
+Statut : **produit** (rendu : `out/dtlm-episode-01.mp4`, 26 s, composition « DTLM-Episode-01 »). Images faites dans Higgsfield (choix de l'utilisatrice : « comme avant »). Scénario proposé par l'utilisatrice, adapté aux règles de la chaîne.
 
 ## Pitch
 Au mariage de sa sœur, Inès, une femme-grenade de 34 ans, reconnaît au doigt de Maya, une femme-pêche de 30 ans, la bague de fiançailles qu'elle avait rendue à son ex… et découvre que Maya en sait plus qu'elle.
@@ -47,3 +47,10 @@ Voix : P1 et P2 sont générés en premier ; leurs voix servent ensuite de réf�
 |---|---|---|
 | **Plan par plan** (méthode complète) | 6 plans Seedance (25 s) + 2 plans Grok Lite (4 s) + narrateur | **≈ 180** |
 | **Mixte** | mêmes images de départ, mais les plans parlés groupés en 2 clips Seedance (P1–P3 : 8 s ; P7–P9 : 10 s) + 2 plans Grok Lite + narrateur | **≈ 131** |
+
+## Production réalisée
+- Images (nano banana) : Inès, Maya (refaite une fois : le premier essai avait un pli au milieu du visage), décor du vestiaire, bague gravée « Inès, toujours. », images de départ E, F, G, H, I.
+- Clip A (Seedance 8 s, image de départ E) : P1 à P3. Clip B (Seedance 10 s, image de départ E, voix d'Inès et de Maya tirées du clip A) : P7 à P9.
+- P4 (Maya retire la bague) : Grok Imagine Video 1.5 Lite, 3 s. P6 (elle la remet) : le même plan passé à l'envers, accéléré ×1,6 (gratuit, raccord parfait).
+- Applaudissements lointains synthétisés en code (`applaudissements`), pendant l'aveu.
+- Crédits : solde 410,61 → 261,15, soit **≈ 149 crédits** (budget : 150).

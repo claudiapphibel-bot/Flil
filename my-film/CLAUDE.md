@@ -168,6 +168,7 @@ Bibliothèque actuelle :
 | `titre-lettre` | Chaque lettre du titre de fin |
 | `trait-ligne` | Trait ondulé et lignes du titre de fin |
 | `titre-carillon` | Fin du titre, avant le retour à l'image de départ |
+| `applaudissements` | Applaudissements lointains d'une salle de fête (mariage, discours) |
 
 ## IA (Higgsfield) : quand et comment
 **Méthode retenue (validée sur test) : Seedance 2.5 en mode « omni_reference »**, comme les mini-séries Higgsfield (« Short Drama »). Pour chaque scène de 6 à 12 s, Seedance génère **en une seule passe** l'animation, les **voix**, les **lèvres synchronisées** et le découpage en plans (plan large, gros plans), à partir des **images de référence** des personnages et du décor.
