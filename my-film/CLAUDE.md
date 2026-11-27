@@ -31,6 +31,16 @@ Dans `HISTOIRE.md`, après le pitch, rédiger une courte fiche :
 11. **Boucle.** Le dernier mouvement **ramène exactement à l'image de départ** : même cadrage, même position du sujet, même lumière. La dernière image doit pouvoir s'enchaîner sans saut sur la première quand TikTok relance la vidéo.
 12. **Appel à l'action avant le raccord.** L'appel à l'action (vote, question, « abonne-toi »…) est placé **juste avant le raccord** de la boucle. Lui laisser **le temps d'être lu** (au moins 4 s), puis enchaîner directement sur l'image de début.
 
+## ACCROCHE : LES 3 PREMIÈRES SECONDES (règle prioritaire)
+Constat sur l'épisode 2 : la plupart des spectateurs partaient à 0:01, devant un plan d'immeuble sombre et lent. Désormais :
+- **La toute première image est le moment le plus fort ou le plus intrigant de l'épisode** (pris dans une de ses scènes, sans tout dévoiler), **en mouvement**, avec **une voix de personnage dès la première seconde**.
+- **Phrase d'accroche très courte** (6 mots au plus), au centre de la zone sûre, lisible en une seconde.
+- **Jamais de plan d'ensemble lent, d'écran sombre ou d'image immobile au début.**
+- **Rien qui suppose d'avoir vu l'épisode précédent** dans les 3 premières secondes : le rappel du vote vient après 3 s (petit encart) ou dans la légende.
+- L'accroche dure 2 à 3 s, puis **coupe franche** vers le début de l'histoire.
+- **Boucle** : le titre et la carte de vote s'affichent sur cette **image d'ouverture**, pour que la dernière image soit identique à la première.
+- **Mesure** : dans les statistiques TikTok, viser **plus de 60 % de spectateurs encore là à 0:03**.
+
 ## MOUVEMENT (courbes d'accélération)
 13. **Entrée rapide, arrivée douce (ease-out).** Un élément qui entre arrive vite puis freine jusqu'à sa place : `Easing.out(Easing.cubic)`.
 14. **Départ doux, sortie rapide (ease-in).** Un élément qui sort démarre lentement puis accélère en quittant l'écran : `Easing.in(Easing.cubic)`.
@@ -71,7 +81,7 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 
 ## TEXTE (le moins possible)
 - **Pas de sous-titres, pas de mots-chocs, pas d'afficheur ni d'interface de jeu** : l'histoire passe par l'image et les voix.
-- Seuls textes à l'écran : **une phrase d'accroche** dans les 1,5 premières secondes (sobre, avec un mot-clé recherché sur TikTok), le **titre de fin** et la **carte de vote**.
+- Seuls textes à l'écran : **une phrase d'accroche** très courte dans la première seconde (voir ACCROCHE), le **titre de fin** et la **carte de vote**.
 - **Zone sûre TikTok** : l'interface de TikTok cache le bas de l'image (description) et le bord droit (boutons). Tout texte et tout élément important reste dans la zone **x 60–960 px, y 150–1450 px** (sur 1080 × 1920).
 - **Polices** (fichiers locaux dans `public/fonts/`, chargés avec `@remotion/fonts`) : **Playfair Display** (titre, question du vote) et **Inter** (texte du vote). Style sobre et élégant, jamais « jouet ».
 
@@ -158,7 +168,7 @@ Une série se range dans `src/series/<nom-de-la-serie>/`.
 - **Avant d'écrire un épisode**, relire la bible, le **plan des lieux** et le **journal des votes**. Ne jamais contredire un épisode déjà publié.
 - **Vote à la fin de chaque épisode.** Les deux choix proposés doivent tous deux mener vers la vraie fin. Le vote change le **chemin** : la scène d'ouverture de l'épisode suivant, qui accompagne le héros, quels indices on obtient, le ton. Il ne change pas la **destination**, fixée dans la bible.
 - **Journal des votes** dans la bible : pour chaque épisode, les deux choix, le choix gagnant (rempli par l'utilisatrice ou l'utilisateur) et ses conséquences à respecter dans la suite.
-- **Rappel au début des épisodes 2 et suivants** : pendant le premier plan, un petit encart en haut, du type « Épisode précédent : vous avez choisi B ». Il s'affiche **par-dessus** l'image de départ, pour ne pas casser la boucle.
+- **Rappel du vote (épisodes 2 et suivants)** : jamais dans les 3 premières secondes. Un petit encart après l'accroche, du type « Vous avez choisi B », et le rappel dans la légende.
 - **Habillage commun** à tous les épisodes : même titre de série, même générique de fin, mêmes personnages et décors. Seuls changent le numéro, le nom de l'épisode et l'appel à l'action.
 - **Personnages, décors et voix récurrents créés une seule fois** (code dans `src/series/<nom>/commun/`, fichiers dans `public/ia/<nom>/`) et réutilisés tels quels par chaque épisode.
 
