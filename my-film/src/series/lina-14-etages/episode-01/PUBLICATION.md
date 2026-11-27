@@ -52,3 +52,8 @@ B : suivre Madame Iris
 ```
 
 Réglages : visibilité **Publique** (ou **Planifier** à 19 h) · audience **« Non, pas conçue pour les enfants »** (sinon les commentaires, donc le vote, sont désactivés) · « Contenu modifié ou synthétique » : **Oui** · playlist « Saison 1 — Lina, les 14 étages » · commentaires : **tous autorisés** · miniature : image vers **0:57** (Lina face à l'Autre).
+
+Tags YouTube (moins de 500 caractères) :
+```
+lina les 14 étages, choix de minuit, histoire fruit, fruit IA, fruits humains, animation 3D, dessin animé, série animée, histoire interactive, tu choisis la suite, A ou B, histoire mystère, suspense, immeuble mystérieux, 4h44, cerise, fruit drama, ai animation, short animé, épisode 1
+```
