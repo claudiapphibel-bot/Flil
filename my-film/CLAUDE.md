@@ -175,7 +175,7 @@ Décisions validées, à appliquer à chaque épisode (source : plan de lancemen
   - **légende** avec mots-clés (« fruit IA », « histoire fruit », « tu choisis ») et 3 à 5 hashtags : `#fruitIA #histoirefruit #fruitdrama #lina14etages #tuchoisis` ;
   - **commentaire épinglé** « A ou B ? » ;
   - ajout à la **playlist** « Saison 1 — Lina, les 14 étages » ;
-  - republication sur **YouTube Shorts** et **Instagram Reels** (même nom de chaîne).
+  - republication sur **YouTube Shorts** et **Instagram Reels**. Noms : TikTok et Instagram « **Lune Noire** » (@lunenoire.studio) ; YouTube « **Choix de Minuit** » (@LeChoixdeMinuit).
 - **Profil** : compte **personnel** (pas professionnel). Nom affiché avec le nom de la série, photo = le personnage principal en gros plan dans le style actuel, bio avec « fruit » et l'heure de sortie. Vidéos épinglées : épisode 1, « Comment ça marche », meilleure vidéo. Les anciennes vidéos d'un autre style passent en privé.
 - **Ton** : du suspense et de l'humour, **jamais de sexualisation ni de stéréotypes** (origine, genre) : c'est ce qui attire les signalements. Jamais d'achat d'abonnés ou de likes.
 - **Suivi chaque semaine** : visionnage complet (cible ≥ 50 %), commentaires pour 1 000 vues (≥ 20), partages pour 1 000 vues (≥ 5), abonnés gagnés par vidéo, vidéos supprimées (0).

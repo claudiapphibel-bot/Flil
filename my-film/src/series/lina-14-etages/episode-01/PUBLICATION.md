@@ -74,4 +74,13 @@ Réponds A ou B en commentaire : c'est toi qui choisis la suite.
 #fruitIA #histoirefruit #animation #lina14etages #tuchoisis
 ```
 
-Réglages : couverture importée depuis la pellicule (`couverture-ep01.png`) · pas de musique Instagram ajoutée · audio renommé « Choix de Minuit · Lina épisode 1 » · paramètres avancés : étiquette IA **activée**, sous-titres automatiques **activés** · programmé à **19 h** · commentaire « A ou B ? 🍒 » épinglé.
+Réglages : couverture importée depuis la pellicule (`couverture-ep01.png`) · pas de musique Instagram ajoutée · audio renommé « Lune Noire · Lina épisode 1 » · paramètres avancés : étiquette IA **activée**, sous-titres automatiques **activés** · programmé à **19 h** · commentaire « A ou B ? 🍒 » épinglé.
+
+Nom du compte Instagram : le même que sur TikTok (« Lune Noire », @lunenoire.studio si libre).
+
+Bio Instagram :
+```
+Aucun fruit n'a été pressé au tournage 🍒
+Des histoires de fruits dont c'est toi qui choisis la suite.
+Nouvel épisode chaque soir à 19 h 👇
+```
