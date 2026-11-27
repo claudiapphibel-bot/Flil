@@ -1,6 +1,6 @@
 # Lina — Les 14 étages · Épisode 2 (13ᵉ étage) : « L'appartement d'avant »
 
-Statut : **à valider** (rien n'est généré). Vote de l'épisode 1 : **B — suivre Madame Iris**.
+Statut : **produit** (rendu : `out/lina-episode-02.mp4`, composition « Lina-Episode-02 »). Vote de l'épisode 1 : **B — suivre Madame Iris**.
 Références : `../BIBLE.md` (personnages, secrets, journal des votes) et `../PLAN-IMMEUBLE.md` (lieux, sens de déplacement).
 
 ## 1. Pitch
@@ -156,7 +156,7 @@ La main de Lina se lève vers le papier…
 COUPE SUR : l'immeuble, la fenêtre du 13ᵉ allumée.
 ```
 
-**Vote** — « Doit-elle lire ce qui est écrit ? » · **A** : Décoller le papier et lire · **B** : Ne pas lire, descendre au 12ᵉ.
+**Vote** — « Doit-elle lire le papier ? » · **A** : Décoller le papier et lire · **B** : Ne pas lire, descendre au 12ᵉ.
 **Narrateur** : « À toi de choisir ! A : décoller le papier et lire. B : ne pas lire, et descendre au douzième. Écris A ou B en commentaire, like, abonne-toi… et rendez-vous demain, dix-neuf heures ! »
 
 ## 5. Découpage (67 s, 120 BPM)
@@ -202,3 +202,10 @@ Raccord : ✂ coupe franche ; ⛓ prolongement de la scène précédente.
 2. Scène 2 en premier (test des fiches adultes et des voix).
 3. Scènes 1, 3 et 4 en parallèle, puis la scène 5 (prolongement de la 4).
 4. Montage Remotion, rendu, couverture, textes de publication.
+
+## Production réalisée
+- Images : fiches adultes de Lina, de l'Autre et de Noé (Noé refait une fois : le premier essai faisait trop jeune), décors escalier de service, couloir du 13ᵉ, salon et chambre du 1301. Immeuble avec la fenêtre allumée au 13ᵉ : retouché en code (gratuit) à partir de l'image de l'épisode 1.
+- Voix de référence : extraits de l'épisode 1 (Lina, Iris, l'Autre) ; nouvelle voix adulte de Noé tirée de la scène 2.
+- Scènes Seedance : 1, 2, 3, 4, 5 (la 5 prolonge la 4). Premier essai de la scène 3 en échec technique, non facturé, relancé.
+- Montage : 67 s, accroche « Elle habite au 14ᵉ. Alors pourquoi sa clé ouvre le 13ᵉ ? », encart « vous avez choisi B », vote « Doit-elle lire le papier ? », narrateur démarré 2 battements avant le titre (12,8 s).
+- Crédits : solde 938 → 569,07, soit **≈ 369 crédits** (9 images 18, narrateur 1, 5 scènes 350). Budget : 400.

@@ -55,7 +55,7 @@ export const Episode02: React.FC = () => {
       <Sequence from={0} durationInFrames={INTRO * B} name="Accroche · texte">
         <Accroche
           surLigne="Épisode précédent · vous avez choisi B"
-          ligne={"Elle habite au 14ᵉ.\nAlors pourquoi sa clé ouvre le 13ᵉ ?"}
+          ligne={"Elle habite au 14ᵉ.\nAlors pourquoi sa clé\nouvre le 13ᵉ ?"}
           sousLigne="C'est toi qui choisis la suite"
           accent={ACCENT}
           duree={INTRO * B}
@@ -68,7 +68,7 @@ export const Episode02: React.FC = () => {
           sousTitre="Épisode 2 · 13ᵉ étage"
           accent={ACCENT}
           voteA={1}
-          vote={{ question: "Doit-elle lire ce qui est écrit ?", a: "Décoller le papier et lire", b: "Ne pas lire, descendre au 12ᵉ", consigne: "Réponds A ou B en commentaire\nLike · abonne-toi", suite: "Épisode 3 · demain 19 h" }}
+          vote={{ question: "Doit-elle lire le papier ?", a: "Décoller le papier et lire", b: "Ne pas lire, descendre au 12ᵉ", consigne: "Réponds A ou B en commentaire\nLike · abonne-toi", suite: "Épisode 3 · demain 19 h" }}
         />
       </Sequence>
       <Letterbox />
