@@ -197,10 +197,10 @@ Une série se range dans `src/series/<nom-de-la-serie>/`.
 
 ## PUBLICATION ET CHAÎNE TIKTOK (@lunenoire.studio)
 Décisions validées, à appliquer à chaque épisode (source : plan de lancement marketing).
-- **Rythme** : **un épisode par jour**, à heure fixe : **19 h** (heure de Paris), plus des **bonus** (« Qui a raison ? », « Quel fruit es-tu ? », « Choisis ta porte », réponses en vidéo aux commentaires) faits **dans Remotion à partir des images et scènes existantes, sans crédit**.
-- **Vote** : toujours **deux choix, A ou B**. Le vote se ferme **18 h après la publication** ; l'épisode suivant sort le lendemain à la même heure et **annonce le résultat** en ouverture (par exemple « 62 % ont choisi B »).
+- **Rythme** : **une vidéo par jour**, à heure fixe : **19 h** (heure de Paris), **en alternant deux séries** : un jour **« Lina — Les 14 étages »** (feuilleton à suivre), le lendemain **« Les Voisins de l'immeuble »** (histoires complètes de 30 s, voir `src/series/voisins-immeuble/BIBLE.md`). Sans oublier plus des **bonus** (« Qui a raison ? », « Quel fruit es-tu ? », « Choisis ta porte », réponses en vidéo aux commentaires) faits **dans Remotion à partir des images et scènes existantes, sans crédit**.
+- **Vote** : toujours **deux choix, A ou B**. Pour Lina, le vote se ferme **le jour de son épisode suivant à 13 h** (environ 42 h après la publication), et cet épisode **annonce le résultat** (par exemple « Vous avez choisi B »). Pour les Voisins, le vote « Qui a raison ? » est une question d'opinion : le résultat est cité au début de l'épisode Voisins suivant.
 - **Production en deux temps** (pour tenir un épisode par jour) : seule la **scène d'ouverture** d'un épisode dépend du vote (≈ 10 s). Tout le reste de l'épisode est produit **à l'avance** ; la scène d'ouverture est produite **après la fermeture du vote**, dans les quelques heures avant la publication. Garder plusieurs jours d'épisodes « communs » d'avance.
-- **Budget** : ≈ **170 crédits par épisode** (≈ 22 s de Seedance 720p dans une vidéo de 30 s). L'utilisatrice recharge les crédits pour finir la saison ; prévenir avant chaque lot si le solde ne suffit pas.
+- **Budget** : ≈ **160 crédits par épisode de Lina** (≈ 22 s de Seedance) et ≈ **120 crédits par épisode des Voisins** (≈ 16 s de Seedance, décors réutilisés), soit environ 140 crédits par jour en moyenne. L'utilisatrice recharge les crédits pour finir la saison ; prévenir avant chaque lot si le solde ne suffit pas.
 - **À chaque publication** :
   - étiquette **« Contenu généré par IA »** activée ;
   - **sous-titres automatiques TikTok** activés (les vidéos n'ont pas de sous-titres incrustés) ;

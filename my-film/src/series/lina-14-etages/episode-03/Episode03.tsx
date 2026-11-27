@@ -82,7 +82,7 @@ export const Episode03: React.FC = () => {
           sousTitre="Épisode 3 · 12ᵉ étage"
           accent={ACCENT}
           voteA={1}
-          vote={{ question: "Team Noé ou l'Autre ?", a: "Fuir avec Noé", b: "Le miroir, avec l'Autre", consigne: "Réponds A ou B en commentaire\nLike · abonne-toi", suite: "Épisode 4 · demain 19 h" }}
+          vote={{ question: "Team Noé ou l'Autre ?", a: "Fuir avec Noé", b: "Le miroir, avec l'Autre", consigne: "Réponds A ou B en commentaire\nLike · abonne-toi", suite: "Épisode 4 · dimanche 19 h" }}
         />
       </Sequence>
       <Letterbox />
