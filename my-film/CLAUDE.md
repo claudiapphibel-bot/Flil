@@ -52,6 +52,16 @@ Tiré de l'observation des séries de fruits qui marchent sur TikTok (voir la re
 - **Une « intégrale » chaque semaine** : les épisodes de la semaine mis bout à bout (4 à 5 minutes) avec les scènes déjà payées, sans crédit, pour que les nouveaux venus rattrapent la série.
 - **Qualité, pour ne pas être classé « IA bas de gamme »** : mêmes personnages d'un épisode à l'autre, histoire originale, étiquette IA, rendu soigné. Jamais de sexisme, de honte infligée ni de violence gratuite, contrairement à beaucoup de séries de fruits.
 
+## DYNAMISME : TOUT VA PLUS VITE (règle prioritaire, dès l'épisode 3)
+L'animation, les voix, les plans et le montage doivent être **beaucoup plus dynamiques**, tout en restant « cinéma » (aucun effet gadget, voir TON).
+- **Jamais plus de 2 secondes sans action** : une réplique, un geste, un changement de plan ou un mouvement de caméra. Pas de silence long, sauf une pause d'environ 1 s juste avant une révélation.
+- **Plans** : **4 à 6 plans par scène de 10 s** (1 à 3 s chacun). Varier les cadrages : gros plan, plan large, contre-plongée, plongée, insert, plan par-dessus l'épaule.
+- **Caméra toujours en mouvement**, dans la scène Seedance : travelling avant ou arrière, caméra qui suit les personnages, caméra à l'épaule légère dans la tension, panoramique rapide d'un visage à l'autre.
+- **Animation et jeu d'acteur** : les personnages **bougent pendant qu'ils parlent** (ils marchent, se retournent, attrapent quelque chose, se rapprochent), expressions très marquées (sourcils, bouche, feuilles, jus), gestes amples, et celui qui écoute réagit visiblement.
+- **Voix** : **débit rapide et énergique**, émotions fortes (colère, peur, excitation, chuchotement tendu), répliques qui s'enchaînent sans blanc et se coupent parfois la parole, variations de volume (crier, chuchoter). Jamais de ton monotone. Seule Iris parle lentement, mais avec autorité.
+- **Prompts Seedance** : toujours ajouter « fast-paced, dynamic camera movement, energetic expressive acting, quick cuts between 4 to 6 shots, characters move while talking, lively fast dialogue with no pauses ».
+- **Montage** : couper les temps morts au début et à la fin de chaque scène Seedance (les fractions de seconde où rien ne bouge) ; enchaîner les scènes en coupe franche sur le battement. Ne pas accélérer la vidéo (les voix deviendraient aiguës).
+
 ## MOUVEMENT (courbes d'accélération)
 13. **Entrée rapide, arrivée douce (ease-out).** Un élément qui entre arrive vite puis freine jusqu'à sa place : `Easing.out(Easing.cubic)`.
 14. **Départ doux, sortie rapide (ease-in).** Un élément qui sort démarre lentement puis accélère en quittant l'écran : `Easing.in(Easing.cubic)`.
@@ -111,13 +121,13 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 - **Coupes franches** entre les scènes ; les scènes qui se suivent au même endroit sont des **prolongements** (raccord continu).
 - **Étalonnage léger** sur tout l'épisode : vignettage doux et grain de film discret (composant `Etalonnage`).
 - **Son** : d'abord le son des scènes (voix, ambiance, bruits réels). **Musique** de film discrète et mature (cordes, piano, nappes), jamais de boîte à musique ni de clochettes. **La musique est à peine audible** : volume 0,035 pendant les scènes parlées, 0,06 au maximum hors dialogues, 0,04 sous le narrateur. On doit toujours entendre les voix sans effort, même sur un haut-parleur de téléphone.
-- **Prompts Seedance** : langage de cinéma (« 3D animated feature film », objectif, lumière, mouvement de caméra lent), description visuelle courte, personnages décrits par leur apparence.
+- **Prompts Seedance** : langage de cinéma (« 3D animated feature film », objectif, lumière, **mouvements de caméra dynamiques**), description visuelle courte, personnages décrits par leur apparence, plus la phrase de dynamisme (voir DYNAMISME).
 
 ## CAMÉRA ET MONTAGE
 - Vocabulaire de plans : **plan d'ensemble** pour situer le lieu, **plan de groupe** (2 ou 3 personnages), **plan taille**, **gros plan** sur un visage, **insert** sur un objet (un plat, une main, un indice).
-- **Caméra fixe** par défaut ; **lents travellings avant** sur les moments forts ; **coupes franches** pour passer au gros plan ; léger **flottement** de caméra (quelques pixels) pour donner de la vie.
+- **Caméra en mouvement** par défaut (voir DYNAMISME) ; **coupes franches** pour passer au gros plan ; un plan fixe seulement pour la pause avant une révélation.
 - **Profondeur de champ** : l'arrière-plan reste flou ; sur un gros plan, il est encore plus flou.
-- Rythme : **plans calmes de 2 à 5 secondes** (4 à 10 battements), **plans de montage rapides d'environ 1 seconde** (2 battements) pendant l'action.
+- Rythme : **plans de 1 à 3 secondes** (2 à 6 battements) ; un plan plus long seulement pour la pause avant une révélation.
 - Transitions autorisées : coupe franche, **fondu au blanc**, **zoom-coupe** (zoom rapide qui enchaîne sur le plan suivant), **volet** (effacement latéral).
 
 ## TITRE DE FIN (les 12 dernières secondes, soit 24 battements)
