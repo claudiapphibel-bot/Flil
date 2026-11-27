@@ -8,11 +8,11 @@ Avant de commencer un film, charger la compétence `remotion-best-practices` (da
 Chaque film ou épisode commence par un fichier `HISTOIRE.md` dans son dossier. **On n'anime rien avant le feu vert de l'utilisatrice ou de l'utilisateur sur ce fichier.**
 1. **Pitch.** Résumer l'histoire en **une phrase** qui contient le personnage, son objectif et son obstacle.
 2. **Séquencier.** Lister les scènes dans l'ordre, **une ligne par scène**, avant d'écrire les dialogues.
-3. **Rebondissements.** Chaque épisode en contient **au moins trois** : des surprises qui changent ce que le héros (et le public) croyait savoir.
+3. **Rebondissements.** Chaque épisode (30 s) en contient **deux** : un au milieu et un en cliffhanger. Ce sont des surprises qui changent ce que le héros (et le public) croyait savoir.
    - Chaque rebondissement est **préparé** par un détail montré plus tôt (un objet, une phrase, un geste). Quand il arrive, il doit être surprenant mais logique.
    - Ils sont **répartis** dans le film : un premier dans le premier tiers, le plus fort au **pic d'intensité** (règle 9), et le dernier en **cliffhanger** juste avant l'appel à l'action. Le vote porte sur la question qu'il ouvre.
    - Le séquencier marque chaque rebondissement avec 🔀 et chaque détail qui le prépare avec 🌱.
-4. **Dialogues.** L'histoire est racontée **par plusieurs personnages qui se parlent** (au moins trois personnages qui parlent par épisode). **Pas de narrateur, pas de voix off, pas de pensées en voix intérieure** : tout ce que le public doit comprendre passe par les dialogues, les actions et les images. Lire chaque réplique à voix haute (en comptant les syllabes et le rythme), puis **réécrire celles qui sonnent faux** : français parlé naturel, phrases courtes, pas de tournure écrite ni ambiguë. Chaque personnage a **sa propre façon de parler** (vocabulaire, longueur des phrases, tics de langage).
+4. **Dialogues.** L'histoire est racontée **par plusieurs personnages qui se parlent** (deux ou trois personnages qui parlent par épisode, répliques très courtes). **Pas de narrateur, pas de voix off, pas de pensées en voix intérieure** : tout ce que le public doit comprendre passe par les dialogues, les actions et les images. Lire chaque réplique à voix haute (en comptant les syllabes et le rythme), puis **réécrire celles qui sonnent faux** : français parlé naturel, phrases courtes, pas de tournure écrite ni ambiguë. Chaque personnage a **sa propre façon de parler** (vocabulaire, longueur des phrases, tics de langage).
 5. **Mise en page.** Écrire le film en **format scénario** : en-tête de scène (INT./EXT. LIEU — MOMENT), action au présent, nom du personnage, puis réplique. **Une page représente environ une minute à l'écran.** Vérifier en minutant les répliques, les actions et les pauses.
 
 ## FICHE DU FILM
@@ -55,7 +55,7 @@ Tiré de l'observation des séries de fruits qui marchent sur TikTok (voir la re
 ## DYNAMISME : TOUT VA PLUS VITE (règle prioritaire, dès l'épisode 3)
 L'animation, les voix, les plans et le montage doivent être **beaucoup plus dynamiques**, tout en restant « cinéma » (aucun effet gadget, voir TON).
 - **Jamais plus de 2 secondes sans action** : une réplique, un geste, un changement de plan ou un mouvement de caméra. Pas de silence long, sauf une pause d'environ 1 s juste avant une révélation.
-- **Plans** : **4 à 6 plans par scène de 10 s** (1 à 3 s chacun). Varier les cadrages : gros plan, plan large, contre-plongée, plongée, insert, plan par-dessus l'épaule.
+- **Plans** : **4 à 6 plans par scène de 10 s** (1 à 3 s chacun), soit environ 10 plans par épisode. Varier les cadrages : gros plan, plan large, contre-plongée, plongée, insert, plan par-dessus l'épaule.
 - **Caméra toujours en mouvement**, dans la scène Seedance : travelling avant ou arrière, caméra qui suit les personnages, caméra à l'épaule légère dans la tension, panoramique rapide d'un visage à l'autre.
 - **Animation et jeu d'acteur** : les personnages **bougent pendant qu'ils parlent** (ils marchent, se retournent, attrapent quelque chose, se rapprochent), expressions très marquées (sourcils, bouche, feuilles, jus), gestes amples, et celui qui écoute réagit visiblement.
 - **Voix** : **débit rapide et énergique**, émotions fortes (colère, peur, excitation, chuchotement tendu), répliques qui s'enchaînent sans blanc et se coupent parfois la parole, variations de volume (crier, chuchoter). Jamais de ton monotone. Seule Iris parle lentement, mais avec autorité.
@@ -71,9 +71,13 @@ L'animation, les voix, les plans et le montage doivent être **beaucoup plus dyn
 ## FORMAT
 - Composition de **1080 × 1920** (vertical TikTok), **60 images par seconde**.
 - **Fines bandes noires en haut et en bas** (60 px chacune) : image utile de 1080 × 1800, rapport **6:10**.
-- Durée : **de 61 s à 75 s** (un peu plus d'une minute : nécessaire pour la rémunération TikTok, et assez court pour tenir le budget d'un épisode par jour).
+- Durée : **30 secondes maximum** (idéal 25 à 30 s), décidé après l'épisode 2 pour garder les spectateurs jusqu'au bout. Découpage type :
+  - **0–2 s** : accroche (voir ACCROCHE) ;
+  - **2–24 s** : l'histoire, **2 scènes Seedance d'environ 11 s** ;
+  - **24–30 s** : titre court, carte de vote et narrateur (6 s), sur l'image d'ouverture pour la boucle.
+  - Une vidéo de moins d'une minute n'entre pas dans le programme de rémunération de TikTok (Creator Rewards). Ce n'est pas un problème au début (il faut de toute façon 10 000 abonnés) ; l'**intégrale hebdomadaire** (plusieurs épisodes bout à bout) dépasse, elle, la minute.
 - **Pas de voix off pendant l'histoire** : seuls les personnages parlent, entre eux.
-- **Narrateur pour l'appel à l'action uniquement** : à la fin, pendant la carte de vote, une voix de narrateur énergique (toujours la même pour la chaîne) lit les choix, demande d'écrire la réponse en commentaire, de **liker** et de **s'abonner**. La carte affiche aussi les boutons « LIKE » et « ABONNE-TOI ». Le titre s'affiche alors plus vite (un quart de battement par lettre) pour laisser au narrateur le temps de parler.
+- **Narrateur pour l'appel à l'action uniquement** : à la fin, pendant la carte de vote, une voix de narrateur énergique (toujours la même pour la chaîne) lit les choix, demande d'écrire la réponse en commentaire, de **liker** et de **s'abonner**. La carte affiche aussi les boutons « LIKE » et « ABONNE-TOI ». Le narrateur est **court** (environ 5 s) : « A ou B ? Écris-le en commentaire et abonne-toi ! »
 - **Voix des personnages** : de **vraies voix parlées générées avec Higgsfield**, une voix fixe par personnage (voir IA).
 - **Images, animation et voix** : générées avec Higgsfield, principalement **Seedance 2.5** qui produit chaque scène avec ses voix et ses lèvres synchronisées (voir IA). Remotion fait le **montage** : enchaînement des scènes, étalonnage, musique, titre, vote et narrateur. **Aucune image ni vidéo d'archive**, aucune œuvre existante.
 
@@ -130,13 +134,11 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 - Rythme : **plans de 1 à 3 secondes** (2 à 6 battements) ; un plan plus long seulement pour la pause avant une révélation.
 - Transitions autorisées : coupe franche, **fondu au blanc**, **zoom-coupe** (zoom rapide qui enchaîne sur le plan suivant), **volet** (effacement latéral).
 
-## TITRE DE FIN (les 12 dernières secondes, soit 24 battements)
-Le titre s'affiche **par-dessus l'image de départ retrouvée** (règle 11).
-1. Le **titre apparaît lettre par lettre** en fondu (un quart de battement par lettre), en **grandes lettres blanches** (Playfair Display), sans rebond.
-2. Il est **souligné d'un fin trait ondulé** dans la **couleur d'accent** du film.
-3. Puis apparaît **une ligne blanche**, suivie d'**une courte ligne de couleur d'accent**.
-4. **Appel à l'action** (règle 12), lisible pendant au moins 4 s.
-5. Titre, lignes et appel à l'action **sortent en ease-in**. La dernière image est **identique à la première** du film.
+## TITRE DE FIN (les 6 dernières secondes, soit 12 battements)
+Le titre et le vote s'affichent **par-dessus l'image d'ouverture retrouvée** (règle 11 et ACCROCHE).
+1. Le **titre** (Playfair Display, lettres blanches) et son **fin trait ondulé** dans la couleur d'accent apparaissent en **fondu rapide** (un demi-battement), sans lettre par lettre : il n'y a plus le temps.
+2. La **carte de vote** arrive presque en même temps (au battement 1) et reste lisible **au moins 4 s** (règle 12), pendant que le narrateur parle (environ 5 s).
+3. Titre et carte **sortent en ease-in** sur le dernier battement. La dernière image est **identique à la première** du film.
 
 ## SON (effets sonores)
 - **Tous les sons sont synthétisés par code** dans `scripts/generate-sfx.mjs` (oscillateurs, bruit, filtres, enveloppes). **Aucun échantillon externe, aucune musique ni banque de sons téléchargée.** Ils sont donc originaux et sans droits d'auteur tiers : aucun risque de blocage ou de mise en sourdine sur TikTok. Seules les **voix** viennent de Higgsfield.
@@ -169,7 +171,7 @@ Bibliothèque actuelle :
 
 ## IA (Higgsfield) : quand et comment
 **Méthode retenue (validée sur test) : Seedance 2.5 en mode « omni_reference »**, comme les mini-séries Higgsfield (« Short Drama »). Pour chaque scène de 6 à 12 s, Seedance génère **en une seule passe** l'animation, les **voix**, les **lèvres synchronisées** et le découpage en plans (plan large, gros plans), à partir des **images de référence** des personnages et du décor.
-- **Budget : environ 400 crédits par épisode** (Seedance 2.5 en 720p ≈ 7 crédits par seconde de film, voir PUBLICATION). Avant chaque lot : estimer le coût, puis tenir à jour le tableau « Crédits » dans `HISTOIRE.md`. Si le budget risque d'être dépassé, s'arrêter et demander.
+- **Budget : environ 170 crédits par épisode** (22 s de Seedance 2.5 en 720p ≈ 155 crédits, plus les images et le narrateur, voir PUBLICATION). Avant chaque lot : estimer le coût, puis tenir à jour le tableau « Crédits » dans `HISTOIRE.md`. Si le budget risque d'être dépassé, s'arrêter et demander.
 - **Rien n'est généré sans feu vert** sur `HISTOIRE.md` et sur le découpage en scènes Seedance.
 - **Économiser** : tester une scène avant tout l'épisode ; réutiliser les fiches de référence de la série ; ne jamais régénérer « pour voir ». Une scène ratée n'est refaite qu'après accord.
 - **Images de référence** : une fiche par personnage (déjà générées pour la série) + une image du décor de la scène. Elles sont passées dans `medias` et désignées dans le prompt (« image 2 », « image 3 »…).
@@ -198,7 +200,7 @@ Décisions validées, à appliquer à chaque épisode (source : plan de lancemen
 - **Rythme** : **un épisode par jour**, à heure fixe : **19 h** (heure de Paris), plus des **bonus** (« Qui a raison ? », « Quel fruit es-tu ? », « Choisis ta porte », réponses en vidéo aux commentaires) faits **dans Remotion à partir des images et scènes existantes, sans crédit**.
 - **Vote** : toujours **deux choix, A ou B**. Le vote se ferme **18 h après la publication** ; l'épisode suivant sort le lendemain à la même heure et **annonce le résultat** en ouverture (par exemple « 62 % ont choisi B »).
 - **Production en deux temps** (pour tenir un épisode par jour) : seule la **scène d'ouverture** d'un épisode dépend du vote (≈ 10 s). Tout le reste de l'épisode est produit **à l'avance** ; la scène d'ouverture est produite **après la fermeture du vote**, dans les quelques heures avant la publication. Garder plusieurs jours d'épisodes « communs » d'avance.
-- **Budget** : ≈ **400 crédits par épisode** (≈ 65 s en Seedance 720p). L'utilisatrice recharge les crédits pour finir la saison ; prévenir avant chaque lot si le solde ne suffit pas.
+- **Budget** : ≈ **170 crédits par épisode** (≈ 22 s de Seedance 720p dans une vidéo de 30 s). L'utilisatrice recharge les crédits pour finir la saison ; prévenir avant chaque lot si le solde ne suffit pas.
 - **À chaque publication** :
   - étiquette **« Contenu généré par IA »** activée ;
   - **sous-titres automatiques TikTok** activés (les vidéos n'ont pas de sous-titres incrustés) ;
