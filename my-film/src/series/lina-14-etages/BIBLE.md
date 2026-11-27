@@ -72,7 +72,7 @@ La colonne « Étage » fixe le lieu. Les votes changent le chemin pour y arrive
 | Ép. | Choix A | Choix B | Gagnant | Conséquences à respecter |
 |---|---|---|---|---|
 | 1 | Ouvrir la porte du 15ᵉ | Suivre Madame Iris | **B** | **A** : la porte s'ouvre sur le 13ᵉ, pas sur le 15ᵉ (première preuve que la 15 « ment »). Iris est fâchée au début de l'épisode 2. **B** : Iris les fait descendre par un escalier de service. Lina se méfie de la voix. |
-| 2 | Décoller le papier et lire | Laisser le calendrier, descendre au 12ᵉ | *(en attente)* | **A** : sous le papier, un seul mot de l'écriture de Lina : « Départ ». Elle le met dans sa poche sans rien dire (révélation complète à l'épisode 7). **B** : Lina laisse le calendrier ; Noé arrache la page en cachette (il la lui rendra à l'épisode 7). |
+| 2 | Décoller le papier et lire | Ne pas lire, descendre au 12ᵉ | *(en attente)* | **A** : sous le papier, un seul mot de l'écriture de Lina : « Départ ». Elle le met dans sa poche sans rien dire (révélation complète à l'épisode 7). **B** : Lina laisse le calendrier ; Noé arrache la page en cachette (il la lui rendra à l'épisode 7). |
 | 3 | | | | |
 | 4 | | | | |
 | 5 | | | | |

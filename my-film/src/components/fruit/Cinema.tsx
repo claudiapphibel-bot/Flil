@@ -38,7 +38,7 @@ export const ZONE = { gauche: 60, largeur: 900, haut: 150, bas: 1450 } as const;
 
 // Phrase d'accroche (début d'épisode) : apparaît en fondu dès les premières images
 // (la toute première image reste identique à la dernière : la boucle n'est pas cassée).
-export const Accroche: React.FC<{ ligne: string; sousLigne?: string; accent: string; duree: number }> = ({ ligne, sousLigne, accent, duree }) => {
+export const Accroche: React.FC<{ ligne: string; sousLigne?: string; surLigne?: string; accent: string; duree: number }> = ({ ligne, sousLigne, surLigne, accent, duree }) => {
   const f = useCurrentFrame();
   const entree = interpolate(f, [2, 14], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const sortie = interpolate(f, [duree - 14, duree - 1], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
@@ -46,6 +46,9 @@ export const Accroche: React.FC<{ ligne: string; sousLigne?: string; accent: str
     <AbsoluteFill style={{ opacity: entree * (1 - sortie) }}>
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 32%)" }} />
       <div style={{ position: "absolute", top: 230, left: ZONE.gauche, width: ZONE.largeur, textAlign: "center", translate: `0 ${(1 - entree) * 16}px` }}>
+        {surLigne ? (
+          <div style={{ marginBottom: 22, fontFamily: TEXTE_FONT, fontWeight: 600, fontSize: 26, letterSpacing: 4, textTransform: "uppercase", color: "rgba(255,255,255,0.8)", textShadow: "0 2px 14px rgba(0,0,0,0.9)" }}>{surLigne}</div>
+        ) : null}
         <div style={{ fontFamily: TITRE_FONT, fontWeight: 600, fontStyle: "italic", fontSize: 62, lineHeight: 1.2, color: "#fff", textShadow: "0 4px 24px rgba(0,0,0,0.85)", whiteSpace: "pre-line" }}>{ligne}</div>
         {sousLigne ? (
           <div style={{ marginTop: 22, fontFamily: TEXTE_FONT, fontWeight: 600, fontSize: 28, letterSpacing: 5, textTransform: "uppercase", color: accent, textShadow: "0 2px 14px rgba(0,0,0,0.9)" }}>{sousLigne}</div>

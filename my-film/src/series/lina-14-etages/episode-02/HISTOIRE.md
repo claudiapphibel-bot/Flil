@@ -156,8 +156,8 @@ La main de Lina se lève vers le papier…
 COUPE SUR : l'immeuble, la fenêtre du 13ᵉ allumée.
 ```
 
-**Vote** — « Doit-elle lire ce qui est écrit ? » · **A** : Décoller le papier et lire · **B** : Laisser le calendrier, descendre au 12ᵉ.
-**Narrateur** : « À toi de choisir ! A : décoller le papier et lire. B : laisser le calendrier et descendre au douzième. Écris A ou B en commentaire, like, abonne-toi… et rendez-vous demain, dix-neuf heures ! »
+**Vote** — « Doit-elle lire ce qui est écrit ? » · **A** : Décoller le papier et lire · **B** : Ne pas lire, descendre au 12ᵉ.
+**Narrateur** : « À toi de choisir ! A : décoller le papier et lire. B : ne pas lire, et descendre au douzième. Écris A ou B en commentaire, like, abonne-toi… et rendez-vous demain, dix-neuf heures ! »
 
 ## 5. Découpage (67 s, 120 BPM)
 | Temps | Battements | Contenu | Fait par |
