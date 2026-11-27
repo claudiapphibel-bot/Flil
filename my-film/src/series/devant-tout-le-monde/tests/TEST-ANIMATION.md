@@ -11,3 +11,9 @@ Plan testé : gros plan d'Inès (image de départ E). Elle découvre la bague : 
 | 3 | Hailuo 2.3 (muet) | 6 s | 6 | f78f3234-a9a3-4398-80a2-f5856b82e070 |
 
 Pour Kling et Hailuo, les voix seraient ajoutées ensuite (voix enregistrée + synchronisation des lèvres).
+
+## Résultats (mon avis, avant celui de l'utilisatrice)
+- **Seedance** : réaction sage, peu de mouvement de la tête ; voix et lèvres françaises incluses.
+- **Kling 4.0** : vrai double regard de dessin animé, la tête s'étire vers le haut, les yeux s'écarquillent, puis visage furieux. Mouvements nets.
+- **Hailuo 2.3** : le plus exagéré (elle se penche, les yeux deviennent énormes, grimaces), le plus « cartoon », parfois un peu trop.
+Vidéo côte à côte : `public/ia/devant-tout-le-monde/tests/comparaison.mp4`.
