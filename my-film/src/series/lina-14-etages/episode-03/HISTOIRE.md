@@ -1,6 +1,6 @@
 # Lina — Les 14 étages · Épisode 3 (12ᵉ étage) : « Le fil »
 
-Statut : **à valider** (rien n'est généré). Vote de l'épisode 2 : **A — décoller le papier et lire**.
+Statut : **produit** (rendu : `out/lina-episode-03.mp4`, 29,5 s, composition « Lina-Episode-03 »). Vote de l'épisode 2 : **A — décoller le papier et lire**.
 Premières règles appliquées : 30 s maximum, ACCROCHE, CE QUI MARCHE SUR TIKTOK, DYNAMISME (voir `CLAUDE.md`), bible v2.
 
 ## 1. Pitch
@@ -125,3 +125,9 @@ Musique : thème de la série, très bas (règle SON). Son des scènes gardé.
 | Scènes Seedance 2.5, 720p | 10 s + 12 s = 22 s | ≈ 154 |
 | Narrateur ElevenLabs | | ≈ 1 |
 | **Total estimé** | | **≈ 159** (budget : 170) |
+
+## Production réalisée
+- Images : couloir des miroirs du 12ᵉ, papier « DÉPART ». Scènes Seedance : 1 (10 s) et 2 (12 s). Narrateur court (5,25 s).
+- Montage : accroche = gros plan du poignet (scène 1, de 4,25 s à 5,5 s, ralenti ×0,625, muet) + voix de l'Autre « S'il casse avant le hall, tu restes ici. » (scène 1, 7,35–9,15 s). La scène 1 est coupée à 9,5 s (le « Pour toujours » final était tronqué par Seedance). Vote « Team Noé ou l'Autre ? ».
+- Boucle : l'image de l'accroche, figée, sert de fond au titre et au vote (écart première/dernière image : 5/255, grain).
+- Crédits : solde 569,07 → 410,61, soit **≈ 158 crédits** (budget : 170).

@@ -17,6 +17,7 @@ type Props = {
   video?: string; // clip animé (Higgsfield) qui remplace l'image ; muet, le son vient du montage
   sonVideo?: number; // volume du son du clip (voix Seedance) ; absent = muet
   debutVideo?: number; // images à sauter au début du clip
+  vitesse?: number; // vitesse de lecture du clip (1 = normale ; seulement pour un clip muet)
   duree: number; // durée du plan en images
   zoom?: [number, number]; // zoom au début et à la fin du plan
   focus?: [number, number]; // point visé par le zoom (0–1)
@@ -39,7 +40,7 @@ const boucheOuverte = (voix: Voix, f: number) => {
 };
 
 export const Plan: React.FC<Props> = ({
-  src, video, sonVideo, debutVideo, duree, zoom = [1, 1.04], focus = [0.5, 0.5], easing = Easing.inOut(Easing.sin), miroir, vivant = true, bouche = [], secousse, entree = true, coups = [], children,
+  src, video, sonVideo, debutVideo, vitesse, duree, zoom = [1, 1.04], focus = [0.5, 0.5], easing = Easing.inOut(Easing.sin), miroir, vivant = true, bouche = [], secousse, entree = true, coups = [], children,
 }) => {
   const f = useCurrentFrame();
   const z = interpolate(f, [0, duree], zoom, { ...clamp, easing });
@@ -71,7 +72,7 @@ export const Plan: React.FC<Props> = ({
       >
         <AbsoluteFill style={{ scale: miroir ? "-1 1" : undefined }}>
           {video ? (
-            <Video src={staticFile(video)} muted={sonVideo === undefined} volume={sonVideo ?? 0} trimBefore={debutVideo} style={{ position: "absolute", left: 0, top, width: WIDTH, height: h, objectFit: "cover" }} />
+            <Video src={staticFile(video)} muted={sonVideo === undefined} volume={sonVideo ?? 0} trimBefore={debutVideo} playbackRate={vitesse} style={{ position: "absolute", left: 0, top, width: WIDTH, height: h, objectFit: "cover" }} />
           ) : (
             image(src)
           )}
