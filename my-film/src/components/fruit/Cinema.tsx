@@ -60,16 +60,19 @@ export const Accroche: React.FC<{ ligne: string; sousLigne?: string; surLigne?: 
 
 // Titre de fin sobre (24 battements) : lettres en fondu, trait fin ondulé, lignes, vote, sortie en ease-in.
 // Tout est placé dans la zone sûre TikTok ; la carte de vote est grande et lisible.
-export const TitreSobre: React.FC<{ titre: string; sousTitre: string; accent: string; vote: VoteSobre; voteA?: number }> = ({ titre, sousTitre, accent, vote, voteA = 1 }) => {
+// duree = 24 battements (format long) ou 12 battements (format 30 s : titre en fondu rapide, pas lettre par lettre).
+export const TitreSobre: React.FC<{ titre: string; sousTitre: string; accent: string; vote: VoteSobre; voteA?: number; duree?: number }> = ({ titre, sousTitre, accent, vote, voteA = 1, duree = 24 }) => {
   const f = useCurrentFrame();
   const lettres = Array.from(titre);
-  const pas = BEAT / 4;
+  const court = duree < 24;
+  const pas = court ? 0 : BEAT / 4;
   const finLettres = lettres.length * pas;
   const ease = { ...clamp, easing: Easing.out(Easing.cubic) };
-  const trait = interpolate(f, [finLettres, finLettres + BEAT], [0, 1], ease);
-  const ligneB = interpolate(f, [finLettres + BEAT, finLettres + 1.5 * BEAT], [0, 1], ease);
-  const ligneA = interpolate(f, [finLettres + 1.5 * BEAT, finLettres + 2 * BEAT], [0, 1], ease);
-  const sortie = interpolate(f, [22 * BEAT, 24 * BEAT - 1], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
+  const unite = court ? BEAT / 2 : BEAT;
+  const trait = interpolate(f, [finLettres + (court ? 10 : 0), finLettres + (court ? 10 : 0) + unite], [0, 1], ease);
+  const ligneB = interpolate(f, [finLettres + unite, finLettres + 1.5 * unite], [0, 1], ease);
+  const ligneA = interpolate(f, [finLettres + 1.5 * unite, finLettres + 2 * unite], [0, 1], ease);
+  const sortie = interpolate(f, [(duree - (court ? 1 : 2)) * BEAT, duree * BEAT - 1], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
   const carte = interpolate(f, [voteA * BEAT, voteA * BEAT + 24], [0, 1], ease);
   const ligne = (i: number) => interpolate(f, [voteA * BEAT + 12 + i * 12, voteA * BEAT + 30 + i * 12], [0, 1], ease);
   const largeur = 700;
