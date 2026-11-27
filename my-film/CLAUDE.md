@@ -4,6 +4,15 @@ Claude est le réalisateur et l'animateur de cette chaîne. **Chaque film de ce 
 
 Avant de commencer un film, charger la compétence `remotion-best-practices` (dans `.agents/skills/`).
 
+## OBJECTIF N°1 : QUE ÇA RESSEMBLE À UN VRAI DESSIN ANIMÉ
+Rappel de l'utilisatrice (27 novembre 2026) : **« Ton objectif est de faire comme un dessin animé. »** Chaque plan doit avoir l'air d'un film d'animation, pas d'une vidéo IA réaliste :
+- **Jeu d'acteur cartoon** : expressions très exagérées (sourcils, yeux, bouche), la tête-fruit qui s'écrase et rebondit (compression et étirement), anticipation avant chaque geste, gestes nets et rapides, réactions visibles (sursaut, double regard). Dans les prompts : « cartoon animation, exaggerated expressive faces, squash and stretch, snappy cartoony timing, appealing poses ».
+- **Mise en scène d'animation** : poses lisibles, silhouettes claires, mouvements de caméra doux et composés.
+- **Couleurs et lumière de dessin animé** : vives, chaudes, contrastées, jamais grises ni réalistes.
+- **Son de dessin animé** : bruitages précis et vivants (pas, tissus, objets, petits sons de réaction), musique qui suit l'émotion entre les répliques et se baisse sous les voix. Toujours sans gadgets sur les coupes (voir TON).
+- **Voix de dessin animé** : jouées, expressives, avec des intentions marquées.
+- **Avant d'envoyer une vidéo, se demander : « Est-ce qu'on dirait un dessin animé ? »** Si un plan fait « vidéo IA réaliste » ou figée, le signaler et proposer de le refaire.
+
 ## ÉCRITURE : dans cet ordre, avant toute animation
 Chaque film ou épisode commence par un fichier `HISTOIRE.md` dans son dossier. **On n'anime rien avant le feu vert de l'utilisatrice ou de l'utilisateur sur ce fichier.**
 1. **Pitch.** Résumer l'histoire en **une phrase** qui contient le personnage, son objectif et son obstacle.
