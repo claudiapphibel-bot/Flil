@@ -11,9 +11,12 @@
   "voix_ref": {
     "lina": "3eaba7c1-ca6b-4693-bbb2-164bbb5836d6",
     "iris": "53c031d5-8a84-4ebb-9957-0da1c5903148",
-    "autre": "5fc6449f-672b-42f8-a97a-2ac6b9dfe12c"
+    "autre": "5fc6449f-672b-42f8-a97a-2ac6b9dfe12c",
+    "noe": "2387f53d-f0b0-4196-adf0-3207e227d5ee"
   },
   "scene2": "788520b6-dd9e-4538-9b38-3174821fda6d",
   "scene1": "38b5a1f1-fcea-4609-9484-664b1193d708",
-  "narrateur": "9e7cd7cf-e77e-4a29-a127-3828575c9b9a"
+  "narrateur": "9e7cd7cf-e77e-4a29-a127-3828575c9b9a",
+  "scene3": "0f583eb5-3bb5-4d0c-83a7-95d8fd345c12",
+  "scene4": "de8cbae7-7fef-40f8-abad-de329be380d6"
 }
