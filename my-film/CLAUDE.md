@@ -41,6 +41,15 @@ Constat sur l'épisode 2 : la plupart des spectateurs partaient à 0:01, devant 
 - **Boucle** : le titre et la carte de vote s'affichent sur cette **image d'ouverture**, pour que la dernière image soit identique à la première.
 - **Mesure** : dans les statistiques TikTok, viser **plus de 60 % de spectateurs encore là à 0:03**.
 
+## CE QUI MARCHE SUR TIKTOK (appliqué dès l'épisode 3)
+Tiré de l'observation des séries de fruits qui marchent sur TikTok (voir la recherche de novembre 2026) :
+- **Du conflit à chaque épisode.** Au moins une vraie confrontation entre personnages : une accusation (« Tu m'as menti ! »), un mensonge démasqué, un refus, une dispute. Les émotions se voient (colère, peur, larmes, jus qui gicle). Le mystère reste, mais il avance par les conflits.
+- **Un vote « équipes ».** Dans la dernière scène, **chaque choix est défendu à voix haute par un personnage** (par exemple Noé pour A, l'Autre pour B). Les deux choix se valent : aucune réponse évidente. La carte de vote peut nommer les équipes (« A · avec Noé », « B · avec l'Autre »), et le commentaire épinglé pose la question « Team Noé ou Team l'Autre ? ».
+- **Chaque épisode se comprend seul.** Juste après l'accroche, une réplique de personnage situe l'histoire (qui est Lina, où elle est, ce qu'elle cherche), sans voix off.
+- **Un moment drôle par épisode**, souvent grâce à Noé (gag de fruit, réplique décalée), pour faire réagir et partager.
+- **Texte dès la première image** : beaucoup de gens regardent d'abord sans le son.
+- **Qualité, pour ne pas être classé « IA bas de gamme »** : mêmes personnages d'un épisode à l'autre, histoire originale, étiquette IA, rendu soigné. Jamais de sexisme, de honte infligée ni de violence gratuite, contrairement à beaucoup de séries de fruits.
+
 ## MOUVEMENT (courbes d'accélération)
 13. **Entrée rapide, arrivée douce (ease-out).** Un élément qui entre arrive vite puis freine jusqu'à sa place : `Easing.out(Easing.cubic)`.
 14. **Départ doux, sortie rapide (ease-in).** Un élément qui sort démarre lentement puis accélère en quittant l'écran : `Easing.in(Easing.cubic)`.
