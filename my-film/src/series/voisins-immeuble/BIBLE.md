@@ -1,5 +1,7 @@
 # Bible de la série · Les Voisins de l'immeuble
 
+> **Abandonnée** (27 novembre 2026) : l'utilisatrice a préféré le concept « Devant tout le monde ». Gardée comme réserve d'idées.
+
 Série annexe de **« Lina — Les 14 étages »**, publiée **un jour sur deux** en alternance avec elle (voir `CLAUDE.md`, PUBLICATION). Toutes les règles de la chaîne s'appliquent (30 s maximum, ACCROCHE, DYNAMISME, CE QUI MARCHE SUR TIKTOK, personnages adultes, aucun effet gadget).
 
 ## Le principe
