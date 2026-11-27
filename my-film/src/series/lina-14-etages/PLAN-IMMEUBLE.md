@@ -83,3 +83,9 @@ Numéros : l'étage x a les appartements x01 (Lina côté rue), x02 (en face), x
 | 5 | Chambre, mur du calendrier | Face au calendrier | Noé à gauche derrière elle, l'Autre à droite | Insert calendrier, gros plans |
 
 **Positions à la fin de l'épisode 2 (départ de l'épisode 3)** : Lina, Noé et l'Autre dans la chambre du 1301, devant le calendrier. Ils ressortiront par le couloir du 13ᵉ vers l'escalier (est).
+
+## 8. Blocage de l'épisode 3 (12ᵉ étage, vote A)
+- **Couloir des miroirs du 12ᵉ** : même plan, mais les deux murs sont couverts de miroirs du sol au plafond (cadres anciens dorés et argentés), couleur de l'étage **bleu argenté**, néons froids. Les reflets se répètent à l'infini.
+- Scène 1 : chambre du 1301 (13ᵉ), devant le calendrier (positions de fin de l'épisode 2). Scène 2 : couloir des miroirs, le groupe avance vers l'est (gauche → droite) ; Iris apparaît dans un miroir côté droit.
+
+**Positions à la fin de l'épisode 3** : Lina, Noé et l'Autre au milieu du couloir des miroirs du 12ᵉ ; le reflet de Noé figé dans le grand miroir de droite.
