@@ -108,7 +108,7 @@ Le rendu visé est celui d'un **film d'animation 3D** (images Higgsfield, ou des
 - **Aucun effet gadget** au montage : pas de flash, pas de lignes de vitesse, pas d'étincelles ajoutées, pas de « whoosh » ni de « boum » sur les coupes, pas de zoom « snap ». Le spectaculaire vient de la scène elle-même (décrit dans le prompt Seedance).
 - **Coupes franches** entre les scènes ; les scènes qui se suivent au même endroit sont des **prolongements** (raccord continu).
 - **Étalonnage léger** sur tout l'épisode : vignettage doux et grain de film discret (composant `Etalonnage`).
-- **Son** : d'abord le son des scènes (voix, ambiance, bruits réels). **Musique** de film discrète et mature (cordes, piano, nappes), jamais de boîte à musique ni de clochettes.
+- **Son** : d'abord le son des scènes (voix, ambiance, bruits réels). **Musique** de film discrète et mature (cordes, piano, nappes), jamais de boîte à musique ni de clochettes. **La musique est à peine audible** : volume 0,035 pendant les scènes parlées, 0,06 au maximum hors dialogues, 0,04 sous le narrateur. On doit toujours entendre les voix sans effort, même sur un haut-parleur de téléphone.
 - **Prompts Seedance** : langage de cinéma (« 3D animated feature film », objectif, lumière, mouvement de caméra lent), description visuelle courte, personnages décrits par leur apparence.
 
 ## CAMÉRA ET MONTAGE

@@ -1,6 +1,6 @@
 import React from "react";
 import { Audio } from "@remotion/media";
-import { AbsoluteFill, Easing, Sequence, staticFile } from "remotion";
+import { AbsoluteFill, Easing, Sequence, interpolate, staticFile } from "remotion";
 import { Letterbox } from "../../../components/Overlay";
 import { Plan } from "../../../components/fruit/Plan";
 import { Accroche, Etalonnage, TitreSobre } from "../../../components/fruit/Cinema";
@@ -35,6 +35,16 @@ const SCENES = LISTE.reduce<{ n: number; b: number; duree: number; prolonge?: bo
 const FIN_SCENES = SCENES[SCENES.length - 1].b + SCENES[SCENES.length - 1].duree * 2;
 const TITRE = FIN_SCENES + 4;
 export const TOTAL_BATTEMENTS_V2 = TITRE + 24;
+
+// Musique très discrète : 0,035 pendant les scènes (voix), 0,06 hors dialogues, 0,04 sous le narrateur.
+const volumeMusique = (f: number) =>
+  interpolate(
+    f,
+    [0, INTRO * B - 15, INTRO * B, FIN_SCENES * B, FIN_SCENES * B + 30, (TITRE - 2) * B, (TITRE - 2) * B + 15],
+    [0.06, 0.06, 0.035, 0.035, 0.06, 0.06, 0.04],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
+
 
 export const Episode01v2: React.FC = () => {
   const s4 = SCENES.find((s) => s.n === 4)!;
@@ -89,7 +99,7 @@ export const Episode01v2: React.FC = () => {
         <Audio src={staticFile("sfx/ambiance-nuit.wav")} volume={0.3} />
       </Sequence>
       <Sequence from={0} durationInFrames={TOTAL_BATTEMENTS_V2 * B} layout="none" name="♪ musique">
-        <Audio src={staticFile("ia/lina-14-etages/v2/musique-cinema.mp3")} volume={0.12} />
+        <Audio src={staticFile("ia/lina-14-etages/v2/musique-cinema.mp3")} volume={volumeMusique} />
       </Sequence>
       <Sequence from={TITRE * B} layout="none" name="🎙 narrateur">
         <Audio src={staticFile("ia/lina-14-etages/v2/narrateur-tiktok.mp3")} volume={1} />
