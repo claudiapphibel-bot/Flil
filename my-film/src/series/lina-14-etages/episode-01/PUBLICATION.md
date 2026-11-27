@@ -32,3 +32,23 @@ A ou B ? 🍒 Le vote se ferme demain à 13 h, la suite sort à 19 h.
 ## Vote
 - Fermeture : **18 h après la publication** (publication à 19 h → fermeture le lendemain à 13 h).
 - Résultat à noter dans le journal des votes de `BIBLE.md`, puis annoncé au début de l'épisode 2.
+
+## YouTube Shorts (chaîne « Choix de Minuit », @LeChoixdeMinuit)
+
+Titre :
+```
+Il est 4 h 44… et cet immeuble n'a que 14 étages 🍒 Lina, épisode 1 #shorts
+```
+
+Description :
+```
+Lina se réveille à 4 h 44 dans un immeuble de 14 étages… alors pourquoi une porte indique 15 ?
+Qui doit-elle croire ? Réponds A ou B en commentaire : c'est toi qui choisis la suite.
+A : ouvrir la porte du 15ᵉ
+B : suivre Madame Iris
+Épisode 2 demain à 19 h. Abonne-toi pour ne rien rater 🍒
+
+#fruitIA #histoirefruit #animation #lina14etages #tuchoisis
+```
+
+Réglages : visibilité **Publique** (ou **Planifier** à 19 h) · audience **« Non, pas conçue pour les enfants »** (sinon les commentaires, donc le vote, sont désactivés) · « Contenu modifié ou synthétique » : **Oui** · playlist « Saison 1 — Lina, les 14 étages » · commentaires : **tous autorisés** · miniature : image vers **0:57** (Lina face à l'Autre).
