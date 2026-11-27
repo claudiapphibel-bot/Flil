@@ -1,0 +1,24 @@
+{
+  "lina_adulte": "3a14a9b9-f6d9-4dc7-8fff-8459045e2b25",
+  "autre_adulte": "2ed88636-c791-4692-8310-807c1836d0a6",
+  "noe_adulte": "303bff6c-1896-4a06-a525-e67eb599b3bf",
+  "decor_escalier_service": "37f32ef9-f006-4011-aa58-61b617bf6a80",
+  "decor_couloir_13": "638f9c11-11fb-4c69-9642-b36ab1a8f4e1",
+  "decor_salon_1301": "92cb593a-5512-478a-8143-a4b2905063c6",
+  "decor_chambre_1301": "2ee4aaa4-2246-47f9-9c26-1b207a5fdefb",
+  "noe_adulte_essai1_trop_jeune": "b262bb52-0ad9-4bbc-bb63-9116417e10e2",
+  "immeuble_13_ia_non_utilise": "5b6fce55-f239-485d-bb26-8417f01d8f9c",
+  "voix_ref": {
+    "lina": "3eaba7c1-ca6b-4693-bbb2-164bbb5836d6",
+    "iris": "53c031d5-8a84-4ebb-9957-0da1c5903148",
+    "autre": "5fc6449f-672b-42f8-a97a-2ac6b9dfe12c",
+    "noe": "2387f53d-f0b0-4196-adf0-3207e227d5ee"
+  },
+  "scene2": "788520b6-dd9e-4538-9b38-3174821fda6d",
+  "scene1": "38b5a1f1-fcea-4609-9484-664b1193d708",
+  "narrateur": "9e7cd7cf-e77e-4a29-a127-3828575c9b9a",
+  "scene4": "de8cbae7-7fef-40f8-abad-de329be380d6",
+  "scene3_echec_technique": "0f583eb5-3bb5-4d0c-83a7-95d8fd345c12",
+  "scene3": "77b5b24c-adff-4a02-a39d-4eada88e756c",
+  "scene5": "2ba50be2-8ba3-4884-9bfc-d4faa822fdb7"
+}
