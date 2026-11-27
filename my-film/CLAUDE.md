@@ -48,6 +48,8 @@ Tiré de l'observation des séries de fruits qui marchent sur TikTok (voir la re
 - **Chaque épisode se comprend seul.** Juste après l'accroche, une réplique de personnage situe l'histoire (qui est Lina, où elle est, ce qu'elle cherche), sans voix off.
 - **Un moment drôle par épisode**, souvent grâce à Noé (gag de fruit, réplique décalée), pour faire réagir et partager.
 - **Texte dès la première image** : beaucoup de gens regardent d'abord sans le son.
+- **Citer un vrai commentaire** : juste après l'accroche de l'épisode suivant, le narrateur annonce le résultat du vote et lit un commentaire de spectateur (prénom ou pseudo, phrase courte, jamais méchante). Les gens commentent pour être cités.
+- **Une « intégrale » chaque semaine** : les épisodes de la semaine mis bout à bout (4 à 5 minutes) avec les scènes déjà payées, sans crédit, pour que les nouveaux venus rattrapent la série.
 - **Qualité, pour ne pas être classé « IA bas de gamme »** : mêmes personnages d'un épisode à l'autre, histoire originale, étiquette IA, rendu soigné. Jamais de sexisme, de honte infligée ni de violence gratuite, contrairement à beaucoup de séries de fruits.
 
 ## MOUVEMENT (courbes d'accélération)
