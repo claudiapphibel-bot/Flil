@@ -209,6 +209,7 @@ Décisions validées, à appliquer à chaque épisode (source : plan de lancemen
   - **commentaire épinglé** « A ou B ? » ;
   - ajout à la **playlist** « Saison 1 — Lina, les 14 étages » ;
   - republication sur **YouTube Shorts** et **Instagram Reels**. Noms : TikTok et Instagram « **Lune Noire** » (@lunenoire.studio) ; YouTube « **Choix de Minuit** » (@LeChoixdeMinuit).
+- **Envoi vers TikTok** : le compte est relié à Higgsfield, mais l'envoi (même en brouillon) demande un formulaire de validation qui ne s'affiche pas dans Claude Code. On publie donc **à la main depuis le téléphone** : la vidéo est envoyée dans la conversation, l'utilisatrice l'enregistre puis la publie.
 - **Profil** : compte **personnel** (pas professionnel). Nom affiché avec le nom de la série, photo = le personnage principal en gros plan dans le style actuel, bio avec « fruit » et l'heure de sortie. Vidéos épinglées : épisode 1, « Comment ça marche », meilleure vidéo. Les anciennes vidéos d'un autre style passent en privé.
 - **Ton** : du suspense et de l'humour, **jamais de sexualisation ni de stéréotypes** (origine, genre) : c'est ce qui attire les signalements. Jamais d'achat d'abonnés ou de likes.
 - **Suivi chaque semaine** : visionnage complet (cible ≥ 50 %), commentaires pour 1 000 vues (≥ 20), partages pour 1 000 vues (≥ 5), abonnés gagnés par vidéo, vidéos supprimées (0).
