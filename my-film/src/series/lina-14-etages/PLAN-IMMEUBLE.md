@@ -68,3 +68,18 @@ Numéros : l'étage x a les appartements x01 (Lina côté rue), x02 (en face), x
 ## 6. Points de cohérence (décidés)
 - **Épisode 5 « Le 1402 » au 10ᵉ étage** (validé) : au 10ᵉ, la porte qui devrait être le **1002 porte le numéro 1402**. L'appartement d'Iris « suit » Lina d'étage en étage. Dans le décor : même porte, même chaise devant, au même emplacement (côté nord, à 6 m de l'ascenseur).
 - **Noé au 302** : son épisode d'adieu (12, 3ᵉ étage) se passe donc **devant sa propre porte**, ce qui est cohérent.
+
+## 7. Blocage de l'épisode 2 (13ᵉ étage, vote B)
+- **Escalier de service** : derrière la cabine de l'ascenseur (ouest), étroit, béton, sans lampe ; seule lumière : la pelote turquoise d'Iris. Il relie les étages par une petite porte en métal avec le numéro peint.
+- **Couloir du 13ᵉ** : même plan que le 14ᵉ, mais « un an plus jeune » : peinture **vert sauge**, néons qui ne grésillent pas, une plante verte près de l'ascenseur. Pas de chaise devant le 1302.
+- **1301** (sud, à 8 m de l'ascenseur) : même plan que le 1401. Salon (fenêtre côté rue, canapé, télé cathodique, guirlande, plantes, **aucun carton**), puis la chambre au fond à droite (lit contre le mur, réveil rouge sur la table de nuit, **calendrier au mur** au-dessus du bureau).
+
+| Scène | Lieu | Lina | Autres | Caméra |
+|---|---|---|---|---|
+| 1 | Escalier de service | Descend derrière Iris, s'arrête, lève les yeux | Iris devant (pelote), Noé et l'Autre derrière | Plongée dans l'escalier, gros plans Lina / Iris |
+| 2 | Couloir du 13ᵉ | Entre par la gauche (ouest), avance vers l'est, s'arrête au 1301 | Noé (lampe) et l'Autre derrière elle | Plan large axe est, insert clé dans la serrure |
+| 3 | Salon du 1301 | Entre, regarde autour d'elle (gauche de l'image) | Noé au centre, l'Autre à droite | Plan d'ensemble, gros plans |
+| 4 | Chambre du 1301 | S'approche du lit (gauche → droite) | Noé sur le seuil, l'Autre à droite | Plan moyen, insert main, insert réveil |
+| 5 | Chambre, mur du calendrier | Face au calendrier | Noé à gauche derrière elle, l'Autre à droite | Insert calendrier, gros plans |
+
+**Positions à la fin de l'épisode 2 (départ de l'épisode 3)** : Lina, Noé et l'Autre dans la chambre du 1301, devant le calendrier. Ils ressortiront par le couloir du 13ᵉ vers l'escalier (est).
