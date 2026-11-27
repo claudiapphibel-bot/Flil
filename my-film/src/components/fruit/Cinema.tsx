@@ -61,7 +61,7 @@ export const Accroche: React.FC<{ ligne: string; sousLigne?: string; surLigne?: 
 // Titre de fin sobre (24 battements) : lettres en fondu, trait fin ondulé, lignes, vote, sortie en ease-in.
 // Tout est placé dans la zone sûre TikTok ; la carte de vote est grande et lisible.
 // duree = 24 battements (format long) ou 12 battements (format 30 s : titre en fondu rapide, pas lettre par lettre).
-export const TitreSobre: React.FC<{ titre: string; sousTitre: string; accent: string; vote: VoteSobre; voteA?: number; duree?: number }> = ({ titre, sousTitre, accent, vote, voteA = 1, duree = 24 }) => {
+export const TitreSobre: React.FC<{ titre: string; sousTitre: string; accent: string; vote: VoteSobre; voteA?: number; duree?: number; tailleTitre?: number }> = ({ titre, sousTitre, accent, vote, voteA = 1, duree = 24, tailleTitre = 74 }) => {
   const f = useCurrentFrame();
   const lettres = Array.from(titre);
   const court = duree < 24;
@@ -81,7 +81,7 @@ export const TitreSobre: React.FC<{ titre: string; sousTitre: string; accent: st
     <AbsoluteFill style={{ opacity: 1 - sortie }}>
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 30%, rgba(0,0,0,0.25) 42%, rgba(0,0,0,0.7) 75%)", opacity: carte }} />
       <div style={{ position: "absolute", top: 230, left: ZONE.gauche, width: ZONE.largeur, textAlign: "center" }}>
-        <div style={{ fontFamily: TITRE_FONT, fontWeight: 700, fontSize: 74, color: "#fff", letterSpacing: 2, textShadow: "0 6px 30px rgba(0,0,0,0.8)", whiteSpace: "nowrap" }}>
+        <div style={{ fontFamily: TITRE_FONT, fontWeight: 700, fontSize: tailleTitre, color: "#fff", letterSpacing: 2, textShadow: "0 6px 30px rgba(0,0,0,0.8)", whiteSpace: "nowrap" }}>
           {lettres.map((l, i) => (
             <span key={i} style={{ opacity: interpolate(f, [i * pas, i * pas + 12], [0, 1], clamp), whiteSpace: "pre" }}>{l}</span>
           ))}
@@ -98,7 +98,7 @@ export const TitreSobre: React.FC<{ titre: string; sousTitre: string; accent: st
         {[["A", vote.a], ["B", vote.b]].map(([k, t], i) => (
           <div key={k} style={{ display: "flex", alignItems: "center", gap: 28, margin: "22px 0", opacity: ligne(i) }}>
             <div style={{ flex: "0 0 auto", width: 88, height: 88, borderRadius: 44, border: `3px solid ${accent}`, color: "#fff", fontWeight: 600, fontSize: 44, display: "flex", justifyContent: "center", alignItems: "center" }}>{k}</div>
-            <div style={{ fontWeight: 600, fontSize: 46, lineHeight: 1.15 }}>{t}</div>
+            <div style={{ fontWeight: 600, fontSize: court ? 40 : 46, lineHeight: 1.15 }}>{t}</div>
           </div>
         ))}
         <div style={{ textAlign: "center", fontWeight: 400, fontSize: 32, lineHeight: 1.35, marginTop: 30, letterSpacing: 0.5, color: "rgba(255,255,255,0.85)", whiteSpace: "pre-line", opacity: ligne(2) }}>{vote.consigne}</div>

@@ -10,5 +10,11 @@
   "H_main_bague": "db8141d6-3db8-49f7-a81b-a67a23b1f932",
   "I_maya_gp": "a8b49bc8-1e36-4999-8f66-3c3b330c4166",
   "clipA_P1_P3": "e5340b7c-d9b4-4dba-980c-cad663d677a0",
-  "P4_bague_grok": "ed711077-cbdc-49a5-b30b-b7fe1728ee82"
+  "P4_bague_grok": "ed711077-cbdc-49a5-b30b-b7fe1728ee82",
+  "voix_ref": {
+    "ines": "1f11e487-5a62-4592-b914-21db96657ee3",
+    "maya": "9147faa0-055d-4ce9-bede-39dcbf9c1513"
+  },
+  "clipB_P7_P9": "fad33020-0330-4163-a5cb-c2063a22bf89",
+  "narrateur": "de379459-79ac-403a-8289-b6b306c60e55"
 }
